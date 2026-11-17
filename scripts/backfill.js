@@ -8,7 +8,7 @@
 // It never touches data/latest.json or data/index.json, so the live page and the hourly run are unaffected.
 // Odds are reconstructed from the last traded price of each party's "Yes" in each hour.
 // New-wallet flags are not computed here (they need one lookup per wallet); whales and swings are.
-// The trades endpoint only pages back so far; the script reports the earliest trade it reached.
+// Uses Polymarket's Data API v2 (cursor paging, no 10,000-row limit). The log reports the earliest trade reached.
 const fs = require("fs");
 const path = require("path");
 const L = require("../lib");
@@ -30,14 +30,15 @@ async function getJSON(url, tries = 4) {
 
 async function allTrades(conditionId, market) {
   const out = [];
-  for (let offset = 0; ; offset += 500) {
-    let batch;
-    try { batch = await getJSON(`${DATA}/trades?market=${conditionId}&limit=500&offset=${offset}&takerOnly=true`); }
-    catch (e) { if (e.status) { console.warn(`  ${market}: the API stopped paging at offset ${offset} (${e.message})`); break; } throw e; }
-    if (!Array.isArray(batch) || !batch.length) break;
-    for (const t of batch) out.push({ ...t, market, size: Number(t.size), price: Number(t.price), timestamp: Number(t.timestamp) });
-    if (batch.length < 500) break;
-    await sleep(250);
+  let cursor = null;
+  for (let page = 0; page < 1000; page++) {
+    const j = await getJSON(`${DATA}/v2/trades?condition=${conditionId}&limit=500&takerOnly=true` + (cursor ? `&cursor=${encodeURIComponent(cursor)}` : ""));
+    const batch = (j && j.data || []).map(L.fromV2);
+    if (!batch.length) break;
+    for (const t of batch) out.push({ ...t, market });
+    cursor = L.nextCursor(j);
+    if (!cursor) break;
+    await sleep(200);
   }
   return out;
 }

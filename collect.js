@@ -27,12 +27,14 @@ async function getJSON(url, tries = 4) {
 
 async function tradesFor(conditionId, market, sinceTs) {
   const all = [];
-  for (let offset = 0, page = 0; page < 20; page++, offset += 500) {
-    const batch = await getJSON(`${DATA}/trades?market=${conditionId}&limit=500&offset=${offset}&takerOnly=true`);
-    if (!Array.isArray(batch) || !batch.length) break;
-    for (const t of batch) all.push({ ...t, market, size: Number(t.size), price: Number(t.price), timestamp: Number(t.timestamp) });
-    if (Number(batch[batch.length - 1].timestamp) < sinceTs || batch.length < 500) break;
-    await sleep(250);
+  let cursor = null;
+  for (let page = 0; page < 40; page++) {
+    const j = await getJSON(`${DATA}/v2/trades?condition=${conditionId}&limit=500&takerOnly=true` + (cursor ? `&cursor=${encodeURIComponent(cursor)}` : ""));
+    const batch = (j && j.data || []).map(L.fromV2);
+    if (!batch.length) break;
+    for (const t of batch) all.push({ ...t, market });
+    cursor = L.nextCursor(j);
+    if (batch[batch.length - 1].timestamp < sinceTs || !cursor) break;
   }
   return all;
 }
@@ -91,8 +93,8 @@ async function main() {
       if (lookups >= 60) continue;   // keep each run polite to the API; the cache fills over a few runs
       lookups++;
       try {
-        const act = await getJSON(`${DATA}/activity?user=${mv.wallet}&limit=1&sortBy=TIMESTAMP&sortDirection=ASC`);
-        cache[mv.wallet] = Array.isArray(act) && act[0] ? Number(act[0].timestamp) : null;
+        const act = await getJSON(`${DATA}/v2/activity?user=${mv.wallet}&limit=1&sort_direction=ASC`);
+        cache[mv.wallet] = act && act.data && act.data[0] ? Number(act.data[0].timestamp) : null;
       } catch (e) { console.warn("activity lookup failed for", mv.wallet, e.message); continue; }
       await sleep(200);
     }

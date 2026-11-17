@@ -130,9 +130,11 @@ async function history(wallet) {
   const hours = new Array(24).fill(0);   // trades per UTC hour of day, across all markets
   const events = {};                     // eventSlug -> { usd, n, title }
   let first = Infinity, n = 0;
-  for (let off = 0; off < A.maxActivity; off += 500) {
-    const page = await get(`${API}/activity?user=${wallet}&limit=500&offset=${off}&sortBy=TIMESTAMP&sortDirection=DESC`);
-    if (!Array.isArray(page) || !page.length) break;
+  let cursor = null;
+  for (let read = 0; read < A.maxActivity; read += 500) {
+    const j = await get(`${API}/v2/activity?user=${wallet}&limit=500` + (cursor ? `&cursor=${encodeURIComponent(cursor)}` : ""));
+    const page = (j && j.data || []).map(L.fromV2);
+    if (!page.length) break;
     for (const it of page) {
       first = Math.min(first, it.timestamp);
       if (it.type !== "TRADE") continue;
@@ -152,13 +154,14 @@ async function history(wallet) {
         }
       }
     }
-    if (page.length < 500) break;
+    cursor = L.nextCursor(j);
+    if (!cursor) break;
     await sleep(150);
   }
   for (const k in events) { events[k].usd = r2(events[k].usd); if (events[k].br) { events[k].br.lula = r2(events[k].br.lula); events[k].br.flavio = r2(events[k].br.flavio); } }
   if (n >= A.maxActivity) { // history was cut short; ask for the very first item separately
-    const one = await get(`${API}/activity?user=${wallet}&limit=1&sortBy=TIMESTAMP&sortDirection=ASC`);
-    if (Array.isArray(one) && one[0]) first = Math.min(first, one[0].timestamp);
+    const one = await get(`${API}/v2/activity?user=${wallet}&limit=1&sort_direction=ASC`);
+    if (one && one.data && one.data[0]) first = Math.min(first, Number(one.data[0].timestamp));
   }
   return { at: Math.floor(Date.now() / 1000), first: first === Infinity ? null : first, n, hours, events, capped: n >= A.maxActivity };
 }

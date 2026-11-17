@@ -169,7 +169,19 @@ const betOn = k => (isAgainst(k) ? "against " : "on ") + labelOf(partyOf(k));
 const round2 = x => Math.round(x * 100) / 100;
 const fmtUsd = x => "$" + Math.round(x).toLocaleString("en-US");
 
+// Polymarket retired Data API v1 on 2 November 2026; v2 wraps rows in { data, pagination }, pages by
+// cursor and uses snake_case. This maps a v2 row back to the field names the rest of the code uses.
+function fromV2(r) {
+  return {
+    proxyWallet: r.proxy_wallet, side: r.side, outcome: r.outcome, size: Number(r.size), price: Number(r.price),
+    timestamp: Number(r.timestamp), transactionHash: r.transaction_hash || null, conditionId: r.condition_id,
+    title: r.title, slug: r.slug, eventSlug: r.event_slug, type: r.type, usdcSize: r.usdc_size != null ? Number(r.usdc_size) : undefined,
+  };
+}
+const nextCursor = j => (j && j.pagination && j.pagination.has_more && j.pagination.next_cursor) || null;
+
 module.exports = {
+  fromV2, nextCursor,
   CONFIG, CONTRACTS, usd, backedCandidate, partyOf, isAgainst, compactTrades, sideTotals, hourlyMovers,
   detectWhales, detectWhalesRolling, detectFresh, detectSwing, mergeAnomalies, labelOf, fmtUsd,
 };
