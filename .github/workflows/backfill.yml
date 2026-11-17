@@ -1,0 +1,36 @@
+name: Cash Out España backfill
+
+# Run once by hand (Actions → Cash Out España backfill → Run workflow) right after setting up the repository.
+# It writes one snapshot per past day since the market opened on 5 October 2026, so the daily analysis
+# covers the whole campaign, not just the days after collection began.
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cash-out
+  cancel-in-progress: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install --no-audit --no-fund
+      - name: Pull past trades into daily snapshots
+        run: node scripts/backfill.js
+      - name: Save
+        run: |
+          git config user.name "cash-out"
+          git config user.email "cash-out@users.noreply.github.com"
+          git add data/snapshots
+          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
+          git commit -m "backfill $(date -u +%Y-%m-%d)"
+          git pull --rebase
+          git push

@@ -1,0 +1,423 @@
+<title>Cash Out · España</title>
+<!-- Panel theme: "dark" or "light" -->
+<script>document.documentElement.dataset.theme = "light";</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+  /* The marbled image fills the window. A light reading panel docks right on desktop, at the bottom on phones.
+     One typeface throughout, Ubuntu Mono, at its regular weight; hierarchy comes from size and tone. */
+  :root {
+    --bath: #160a1c;
+    --paper: #f4f4f2;
+    --ink: #17111b;
+    --dim: #5b5360;          /* 7:1 on paper */
+    --rule: rgba(23, 17, 27, 0.16);
+    --psoe: #d61f2c;
+    --pp: #1d73c9;
+    --vox: #5a9e1e;
+    --against: #4d4752;
+    --pearl: #f1eadb;
+    --focus: #3b5bdb;
+    --mono: "Ubuntu Mono", ui-monospace, Menlo, monospace;
+    --speck-edge: transparent;
+  }
+  /* Dark panel: solid (not see-through, so the image never muddies the text), near-white text,
+     greys kept bright enough to read easily (about 10:1). */
+  :root[data-theme="dark"] {
+    --paper: #150e19;
+    --ink: #f6f3ee;
+    --dim: #c6bfca;
+    --rule: rgba(246, 243, 238, 0.22);
+    --focus: #8ea6ff;
+    --speck-edge: rgba(246, 243, 238, 0.55);
+  }
+  html, body { height: 100%; margin: 0; }
+  body { background: var(--bath); color: var(--ink); font-family: var(--mono); overflow: hidden; }
+  #bath { position: fixed; inset: 0; width: 100%; height: 100%; object-fit: cover; display: block; cursor: crosshair; }
+
+  #panel {
+    position: fixed; top: 16px; right: 16px; bottom: 16px;
+    width: min(24rem, calc(100% - 32px));
+    background: var(--paper);
+    overflow-y: auto; overscroll-behavior: contain; padding: 20px 20px 18px;
+    font-size: 15.5px; line-height: 1.45; font-variant-numeric: tabular-nums;
+    transition: transform 0.45s ease, opacity 0.45s ease;
+  }
+  #panel.off { transform: translateX(calc(100% + 24px)); opacity: 0; pointer-events: none; }
+  @media (max-width: 640px) {
+    #panel { top: auto; left: 16px; right: 16px; width: auto; max-height: 56%; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); padding: 16px; }
+    #panel.off { transform: translateY(calc(100% + 24px)); }
+    #odds .fig { font-size: 32px; }
+  }
+
+  .head { display: grid; gap: 14px; }
+  .head-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
+  h1 { margin: 0; font: 400 30px/1 var(--mono); letter-spacing: -0.01em; }
+  .sub { color: var(--dim); }
+
+  #odds { display: flex; justify-content: space-between; align-items: end; gap: 12px; }
+  #odds .fig { font-size: 38px; line-height: 1; display: block; letter-spacing: -0.02em; }
+  #odds > div:last-child { text-align: right; }
+  #odds .who { color: var(--dim); margin-top: 4px; display: block; }
+
+  .body { display: grid; gap: 18px; margin-top: 18px; }
+  section { display: grid; gap: 8px; border-top: 1px solid var(--rule); padding-top: 12px; }
+  section > h2 { margin: 0; font: 400 14px/1.3 var(--mono); color: var(--dim); }
+
+  .row { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; min-width: 0; }
+  .row > span:first-child { min-width: 0; overflow-wrap: anywhere; }
+  .row > span:last-child:not(:first-child) { white-space: nowrap; }
+  .fig { font-weight: 400; }
+  .muted { color: var(--dim); }
+  .small { font-size: 14px; }
+  .sw { display: inline-block; width: 10px; height: 10px; margin-right: 6px; vertical-align: 0; border-radius: 50%; }
+  .sw + .sw { margin-left: -3px; }
+  .ring { display: inline-block; width: 11px; height: 11px; margin-right: 7px; vertical-align: -1px; border-radius: 50%; background: var(--pearl); box-shadow: inset 0 0 0 2.5px var(--side, var(--ink)); }
+
+  .money { display: grid; gap: 8px; }
+  .money .count { display: block; font-size: 14px; color: var(--dim); margin-left: 16px; }
+
+  .event { display: grid; gap: 2px; }
+  .event + .event { margin-top: 6px; }
+  .event .note { color: var(--dim); }
+
+  .key { display: grid; grid-template-columns: 34px 1fr; gap: 7px 8px; align-items: baseline; }
+  .key > span:nth-child(odd) { white-space: nowrap; }
+
+  details summary { cursor: pointer; font: 400 14px var(--mono); color: var(--dim); list-style: none; display: flex; justify-content: space-between; }
+  details summary::-webkit-details-marker { display: none; }
+  details summary::after { content: "+"; }
+  details[open] summary::after { content: "–"; }
+  dl { margin: 10px 0 0; display: grid; gap: 1px; }
+  dd + dt { margin-top: 9px; }
+  dd { margin: 0; color: var(--dim); }
+
+  .foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; border-top: 1px solid var(--rule); padding-top: 12px; }
+  #status { color: var(--dim); font-size: 14px; }
+
+  button { font: 400 14px var(--mono); cursor: pointer; border-radius: 0; }
+  .lang { display: flex; gap: 0; flex: none; }
+  .lang button { color: var(--dim); background: none; border: 1px solid var(--rule); padding: 2px 8px; }
+  .lang button + button { border-left: 0; }
+  .lang button[aria-pressed="true"] { color: var(--paper); background: var(--ink); border-color: var(--ink); }
+  #close { color: var(--ink); background: none; border: 1px solid var(--rule); padding: 4px 12px; flex: none; }
+  #toggle { position: fixed; right: 16px; top: 16px; z-index: 2; color: var(--ink); background: var(--paper); border: 0; padding: 8px 14px; }
+  button:focus-visible, summary:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+  @media (prefers-reduced-motion: reduce) { #panel { transition: none; } }
+</style>
+
+<img id="bath" data-i18n-alt="alt" alt="A marbled image in red, blue, green, grey and white: each drop of colour is a bet on Spain&#39;s general election of 29 November 2026, placed on the Polymarket betting website in the last 24 hours">
+<button id="toggle" type="button" hidden data-i18n="read">About this image</button>
+
+<aside id="panel" aria-live="polite">
+  <header class="head">
+    <div class="head-top">
+      <h1>Cash Out</h1>
+      <div class="lang" role="group" aria-label="Language / Idioma">
+        <button type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button type="button" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+    <div id="odds" aria-label="Odds"></div>
+    <div class="sub" data-i18n="sub">Spain, general election, 29 November 2026. An image made every hour from the money being bet on the election on Polymarket.</div>
+  </header>
+
+  <div class="body">
+    <section>
+      <h2 data-i18n="poured">Money bet in the last 24 hours</h2>
+      <div id="totals" class="money"></div>
+    </section>
+
+    <section>
+      <h2 data-i18n="under">Under your mouse</h2>
+      <div id="cursor" class="muted" data-i18n="hover">Move your mouse over the image to see whose bet each patch of colour is.</div>
+    </section>
+
+    <section>
+      <h2 data-i18n="interference">Unusual bets</h2>
+      <div id="events" style="display:grid;gap:10px"></div>
+    </section>
+
+    <section>
+      <h2 data-i18n="reading">How to read the image</h2>
+      <div class="key">
+        <span><span class="sw" style="background:var(--psoe)"></span></span><span data-i18n="k_psoe">Red: bets on PSOE</span>
+        <span><span class="sw" style="background:var(--pp)"></span></span><span data-i18n="k_pp">Blue: bets on PP</span>
+        <span><span class="sw" style="background:var(--vox)"></span></span><span data-i18n="k_vox">Green: bets on Vox</span>
+        <span><span class="sw" style="background:var(--against)"></span></span><span data-i18n="k_against">Grey: bets against a party</span>
+        <span><span class="ring" style="--side:var(--pp)"></span><span class="ring" style="--side:var(--vox);margin-left:-4px"></span></span><span data-i18n="k_pearl">White: unusual bets</span>
+        <span><span class="sw" style="background:#18091a;box-shadow:0 0 0 1px var(--speck-edge)"></span></span><span data-i18n="k_specks">Black dots: every transaction leaves one or two</span>
+      </div>
+      <div class="muted" data-i18n="how">Every bet is a drop of paint.</div>
+      <div class="muted" data-i18n="ground">The dark background of the image comes from pUSD.</div>
+    </section>
+
+    <section>
+      <details id="glossary">
+        <summary data-i18n="glossary">Glossary</summary>
+        <dl id="gl"></dl>
+      </details>
+    </section>
+
+    <div class="foot">
+      <div id="status" data-i18n="loading">loading…</div>
+      <button type="button" id="close" data-i18n="hide">Hide</button>
+    </div>
+  </div>
+</aside>
+
+<script src="engine.js"></script>
+<script>
+(() => {
+  const img = document.getElementById("bath");
+  const probe = document.createElement("canvas"), pctx = probe.getContext("2d", { willReadFrequently: true });
+  let snap = null, built = null, S = 0, probeReady = false;
+
+  // ---------- Spanish / English ----------
+  const I18N = {
+    es: {
+      alt: "Una imagen marmolada en rojo, azul, verde, gris y blanco: cada gota de color es una apuesta sobre las elecciones generales de España del 29 de noviembre de 2026, hecha en el sitio de apuestas Polymarket en las últimas 24 horas",
+      read: "Sobre la imagen", hide: "Ocultar", loading: "cargando…", glossary: "Glosario",
+      sub: "España, elecciones generales del 29 de noviembre de 2026. Una imagen hecha cada hora con el dinero que se apuesta en Polymarket sobre quién ganará más escaños.",
+      odds: "Las probabilidades", poured: "Dinero apostado en las últimas 24 horas", under: "Bajo el mouse",
+      hover: "Pasen el mouse sobre la imagen para ver de quién es la apuesta en cada mancha de color.",
+      interference: "Apuestas fuera de lo común", reading: "Cómo leer la imagen",
+      k_psoe: "Rojo: apuestas al PSOE",
+      k_pp: "Azul: apuestas al PP",
+      k_vox: "Verde: apuestas a Vox",
+      k_against: "Gris: apuestas en contra de un partido. Conservan un rastro apagado del color de ese partido",
+      k_pearl: "Blanco: apuestas fuera de lo común, de US$ 1.000 o más, hechas por ballenas (billeteras que apuestan US$ 5.000 o más en menos de una hora) o por billeteras nuevas. Arremolinan los colores a su alrededor. El borde muestra a qué partido apostaron",
+      k_specks: "Puntos negros: cada transacción deja uno o dos",
+      how: "Cada apuesta es una gota de tinta. Cada billetera tiene una dirección, y los dígitos de esa dirección deciden dónde cae la tinta y su tono exacto: la misma billetera siempre pinta igual. Las apuestas más grandes hacen gotas más grandes. Cada hora la tinta se arrastra por la imagen, como en el papel marmolado, y cada partido la arrastra en su propia dirección, con la fuerza de sus probabilidades: el PSOE en vertical, el PP en horizontal, Vox en diagonal. Las apuestas más recientes quedan arriba, en gotas redondas.",
+      ground: "El fondo oscuro de la imagen viene del pUSD, la moneda digital en la que se hace cada apuesta en Polymarket.",
+      gl: [
+        ["Polymarket", "Un sitio donde la gente apuesta sobre acontecimientos reales, de elecciones a guerras. Funciona con criptomonedas. España lo bloqueó en mayo de 2026 por operar sin licencia de juego, pero se puede seguir apostando desde cualquier billetera de criptomonedas."],
+        ["Probabilidades", "Qué tan probable es algo, según las apuestas. Si un partido está en 81%, quienes apuestan creen que tiene un 81% de probabilidad de ganar más escaños."],
+        ["Apostar en contra", "Comprar el «no» de un partido: ganar si ese partido no gana. En la imagen aparece en gris."],
+        ["Billetera", "La cuenta de quien apuesta. Toda billetera tiene una dirección pública, un código largo de letras y números, como 0x2f9d…deb3."],
+        ["Ballena", "Una billetera que apuesta US$ 5.000 o más a un mismo lado en menos de una hora."],
+        ["Billetera nueva", "Una billetera usada por primera vez menos de una semana antes de su apuesta. Cuando apuesta US$ 1.000 o más, aparece en blanco."],
+        ["Transacción", "El registro público de una apuesta. Cada una tiene su propio código único, llamado hash."],
+        ["pUSD", "La moneda digital de Polymarket, atada al dólar estadounidense. Todas las apuestas se hacen en ella."],
+      ],
+      count: (w, n) => `${w} billeteras, ${n} apuestas`,
+      forLbl: "a favor", againstLbl: "en contra",
+      none: "Ninguna en las últimas 24 horas. El blanco aparece cuando una ballena apuesta US$ 5.000 o más en menos de una hora, o cuando una billetera nueva apuesta US$ 1.000 o más. Cuando las probabilidades de un partido cambian tres puntos o más en una hora, toda la imagen se arremolina.",
+      whale: "ballena", fresh: "billetera nueva", swing: "giro en las probabilidades",
+      // PSOE and PP take the article ("al PP", "del PSOE"); Vox does not ("a Vox", "de Vox")
+      on: k => { const art = k.label === "PSOE" || k.label === "PP"; return k.against ? (art ? "en contra del " : "en contra de ") + k.label : (art ? "al " : "a ") + k.label; },
+      n_whale: (usd, on) => `${usd} apostados ${on} en menos de una hora`,
+      n_fresh: (usd, on, age) => age == null ? `una billetera con menos de una semana apostó ${usd} ${on}` : `una billetera usada por primera vez hace ${age} apostó ${usd} ${on}`,
+      n_swing: (pts, who, up) => `las probabilidades ${who === "Vox" ? "de Vox" : "del " + who} ${up ? "subieron" : "bajaron"} ${pts == null ? "bruscamente" : pts + " puntos"} en una hora`,
+      hoursAgo: h => `${h} horas`, daysAgo: d => `${d} días`,
+      final: t => `La votación terminó. La imagen se detuvo el ${t}.`,
+      marbled: t => `actualizado el ${t}`,
+      error: "No se pudo cargar la imagen más reciente. La página lo volverá a intentar en cinco minutos.",
+      bare: "Fondo vacío: aquí no hay ninguna apuesta.",
+      speck: "un punto negro dejado por una transacción", bet: (usd, on) => `${usd} ${on}`,
+      x_whale: "Blanco: una ballena.", x_fresh: "Blanco: una billetera nueva.",
+      sample: "Datos de prueba: esta imagen no es real.",
+      locale: "es", tz: "Europe/Madrid", dec: ",", money: x => "US$ " + Math.round(x).toLocaleString("es-ES", { useGrouping: "always" }),
+    },
+    en: {
+      alt: "A marbled image in red, blue, green, grey and white: each drop of colour is a bet on Spain's general election of 29 November 2026, placed on the Polymarket betting website in the last 24 hours",
+      read: "About this image", hide: "Hide", loading: "loading…", glossary: "Glossary",
+      sub: "Spain, general election, 29 November 2026. An image made every hour from the money being bet on Polymarket on which party will win the most seats.",
+      odds: "The odds", poured: "Money bet in the last 24 hours", under: "Under your mouse",
+      hover: "Move your mouse over the image to see whose bet each patch of colour is.",
+      interference: "Unusual bets", reading: "How to read the image",
+      k_psoe: "Red: bets on PSOE",
+      k_pp: "Blue: bets on PP",
+      k_vox: "Green: bets on Vox",
+      k_against: "Grey: bets against a party. They keep a dim trace of that party's colour",
+      k_pearl: "White: unusual bets of $1,000 or more, from whales (wallets that bet $5,000 or more within an hour) or from new wallets. They swirl the colours around them. Their edges show what they bet on",
+      k_specks: "Black dots: every transaction leaves one or two",
+      how: "Every bet is a drop of paint. Each wallet has an address, and the digits of that address decide where its paint falls and its exact shade, so the same wallet always paints the same way. Bigger bets make bigger drops. Every hour the paint is dragged across the image, the way marbled paper is made, and each party drags it in its own direction, as hard as its odds: PSOE vertically, PP horizontally, Vox on the diagonal. The newest bets stay on top as round drops.",
+      ground: "The dark background of the image comes from pUSD, the digital currency every bet on Polymarket is made in.",
+      gl: [
+        ["Polymarket", "A website where people bet on real-world events, from elections to wars. It runs on cryptocurrency. Spain blocked it in May 2026 for operating without a gambling licence, but anyone with a crypto wallet can still bet."],
+        ["Odds", "How likely something is, according to the bets. If a party's odds are 81%, bettors think there's an 81% chance it will win the most seats."],
+        ["Betting against", "Buying a party's \u201cno\u201d: winning if that party doesn't win. It shows up in grey."],
+        ["Wallet", "A bettor's account. Every wallet has a public address, a long code of letters and numbers, like 0x2f9d…deb3."],
+        ["Whale", "A wallet that bets $5,000 or more on one side within an hour."],
+        ["New wallet", "A wallet first used less than a week before its bet. When it bets $1,000 or more, it shows up in white."],
+        ["Transaction", "The public record of a bet. Each one has its own unique code, called a hash."],
+        ["pUSD", "Polymarket's digital currency, pegged to the US dollar. Every bet is placed in it."],
+      ],
+      count: (w, n) => `${w} wallets, ${n} bets`,
+      forLbl: "for", againstLbl: "against",
+      none: "None in the last 24 hours. White appears when a whale bets $5,000 or more within an hour, or when a new wallet bets $1,000 or more. When a party's odds jump by three points or more in an hour, the whole image gets swirled.",
+      whale: "whale", fresh: "new wallet", swing: "odds swing",
+      on: k => (k.against ? "against " : "on ") + k.label,
+      n_whale: (usd, on) => `${usd} bet ${on} within an hour`,
+      n_fresh: (usd, on, age) => age == null ? `a wallet less than a week old bet ${usd} ${on}` : `a wallet first used ${age} ago bet ${usd} ${on}`,
+      n_swing: (pts, who, up) => `${who}'s odds went ${up ? "up" : "down"} ${pts == null ? "sharply" : pts + " points"} within an hour`,
+      hoursAgo: h => `${h} hours`, daysAgo: d => `${d} days`,
+      final: t => `Voting is over. The image stopped at ${t}.`,
+      marbled: t => `updated ${t}`,
+      error: "Couldn't load the latest image. The page will try again in five minutes.",
+      bare: "Empty background: no bet here.",
+      speck: "a black dot left by a transaction", bet: (usd, on) => `${usd} ${on}`,
+      x_whale: "White: a whale.", x_fresh: "White: a new wallet.",
+      sample: "Test data: this image is not real.",
+      locale: "en-GB", tz: "Europe/Madrid", dec: ".", money: x => "$" + Math.round(x).toLocaleString("en-US"),
+    },
+  };
+  const pickLang = () => {
+    try { const s = localStorage.getItem("cashout-es-lang"); if (s === "en" || s === "es") return s; } catch (e) {}
+    return (navigator.language || "es").toLowerCase().startsWith("en") ? "en" : "es";
+  };
+  let lang = pickLang();
+  const T = () => I18N[lang];
+
+  const fmtUsd = x => T().money(x);
+  const short = a => a ? a.slice(0, 6) + "…" + a.slice(-4) : "";
+  const el = (tag, cls, text) => { const e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = text; return e; };
+  const swatch = color => { const s = el("span", "sw"); s.style.background = color; return s; };
+  const when = ts => new Date(ts * 1000).toLocaleString(T().locale, { day: "numeric", month: "short", hour: "2-digit", minute: "2-digit", timeZone: T().tz, timeZoneName: "short" });
+  const age = d => d < 1 ? T().hoursAgo(Math.max(1, Math.round(d * 24))) : T().daysAgo(d.toFixed(1).replace(".", T().dec));
+  // "vox" -> { party: "vox", against: false, label: "Vox" }; "-vox" -> against
+  const sideOf = k => {
+    const against = String(k).startsWith("-"), party = String(k).replace(/^-/, "");
+    const c = (snap.candidates || []).find(c => c.key === party);
+    return { party, against, label: c ? c.label : party };
+  };
+  const SIDE_COLOR = { psoe: "var(--psoe)", pp: "var(--pp)", vox: "var(--vox)" };
+
+  function applyStatic() {
+    document.documentElement.lang = lang;
+    for (const n of document.querySelectorAll("[data-i18n]")) n.textContent = T()[n.dataset.i18n];
+    for (const n of document.querySelectorAll("[data-i18n-alt]")) n.alt = T()[n.dataset.i18nAlt];
+    for (const b of document.querySelectorAll(".lang button")) b.setAttribute("aria-pressed", String(b.dataset.lang === lang));
+    const gl = document.getElementById("gl"); gl.textContent = "";
+    for (const [term, def] of T().gl) gl.append(el("dt", null, term), el("dd", null, def));
+  }
+  function noteFor(a) {
+    const k = sideOf(a.backs);
+    if (a.kind === "whale") return T().n_whale(fmtUsd(a.usd), T().on(k));
+    if (a.kind === "fresh") return T().n_fresh(fmtUsd(a.usd), T().on(k), a.ageDays == null ? null : age(a.ageDays));
+    if (a.kind === "swing") return T().n_swing(a.points == null ? null : String(a.points).replace(".", T().dec), k.label, !k.against);
+    return a.note || a.kind;
+  }
+
+  function fillPanel() {
+    const odds = document.getElementById("odds"); odds.textContent = "";
+    const pctTxt = p => (p < 0.01 && p > 0 ? "<1" : (p * 100).toFixed(1).replace(".", T().dec)) + "%";
+    for (const c of snap.candidates) {
+      const d = el("div");
+      d.append(el("span", "fig", pctTxt(c.price)));
+      const who = el("span", "who"); who.append(swatch(SIDE_COLOR[c.key] || "var(--ink)"), c.label);
+      d.append(who); odds.append(d);
+    }
+
+    const tot = document.getElementById("totals"); tot.textContent = "";
+    for (const c of snap.candidates) {
+      for (const against of [false, true]) {
+        const t = (snap.totals || {})[(against ? "-" : "") + c.key]; if (!t || !t.trades) continue;
+        const r = el("div", "row"), left = el("span");
+        left.append(swatch(against ? "var(--against)" : SIDE_COLOR[c.key]));
+        left.append(`${c.label} · ${against ? T().againstLbl : T().forLbl}`);
+        left.append(el("span", "count", T().count(t.wallets, t.trades)));
+        r.append(left, el("span", "fig", fmtUsd(t.usd)));
+        tot.append(r);
+      }
+    }
+
+    const ev = document.getElementById("events"); ev.textContent = "";
+    const list = (snap.anomalies || []).slice().reverse();
+    if (!list.length) ev.append(el("div", "muted", T().none));
+    for (const a of list) {
+      const d = el("div", "event " + a.kind);
+      const head = el("div", "row"), left = el("span");
+      if (a.kind !== "swing") {
+        const k = sideOf(a.backs), r = el("span", "ring");
+        r.style.setProperty("--side", k.against ? "var(--against)" : SIDE_COLOR[k.party] || "var(--ink)");
+        left.append(r);
+      }
+      left.append(a.kind === "fresh" ? T().fresh : a.kind === "whale" ? T().whale : T().swing);
+      if (a.wallet) left.append(el("span", "muted small", "  " + short(a.wallet)));
+      head.append(left, el("span", "muted small", when(a.ts)));
+      const note = noteFor(a);
+      d.append(head, el("div", "note", note.charAt(0).toUpperCase() + note.slice(1) + "."));
+      ev.append(d);
+    }
+    document.getElementById("status").textContent = (snap.sample ? T().sample + " " : "") + (snap.final
+      ? T().final(when(snap.ts))
+      : T().marbled(when(snap.ts)));
+  }
+
+  function showFrame(src) {
+    probeReady = false;
+    img.onload = () => {
+      S = img.naturalWidth;
+      probe.width = S; probe.height = img.naturalHeight;
+      try { pctx.drawImage(img, 0, 0); probeReady = true; } catch (e) { probeReady = false; }
+    };
+    img.src = src;
+  }
+
+  // pointer -> frame pixel (the frame is square and shown with object-fit: cover)
+  function framePoint(e) {
+    const k = Math.max(innerWidth / img.naturalWidth, innerHeight / img.naturalHeight);
+    const offX = (innerWidth - img.naturalWidth * k) / 2, offY = (innerHeight - img.naturalHeight * k) / 2;
+    return [(e.clientX - offX) / k, (e.clientY - offY) / k];
+  }
+  img.addEventListener("mousemove", e => {
+    if (!snap || !built || !S) return;
+    const [x, y] = framePoint(e);
+    const hit = CashOutEngine.inspect(snap, S, img.naturalHeight, x, y, { built });
+    const box = document.getElementById("cursor"); box.textContent = ""; box.className = "";
+    if (!hit) { box.className = "muted"; box.textContent = T().bare; return; }
+    let color = "transparent";
+    if (probeReady) { const p = pctx.getImageData(Math.max(0, Math.min(S - 1, x | 0)), Math.max(0, Math.min(probe.height - 1, y | 0)), 1, 1).data; color = `rgb(${p[0]},${p[1]},${p[2]})`; }
+    const r1 = el("div");
+    r1.append(swatch(color), el("span", "addr", short(hit.wallet)));
+    const what = hit.kind === "speck" ? T().speck : T().bet(fmtUsd(hit.usd), T().on(sideOf(hit.side)));
+    box.append(r1, el("div", null, what));
+    const extra = hit.kind === "whale" ? T().x_whale : hit.kind === "fresh" ? T().x_fresh : "";
+    box.append(el("div", "muted small", `${when(hit.ts)}${extra ? ". " + extra : ""}`));
+  });
+
+  for (const b of document.querySelectorAll(".lang button")) b.addEventListener("click", () => {
+    lang = b.dataset.lang;
+    try { localStorage.setItem("cashout-es-lang", lang); } catch (e) {}
+    applyStatic();
+    if (snap) fillPanel();
+    const box = document.getElementById("cursor"); box.className = "muted"; box.textContent = T().hover;
+  });
+  applyStatic();
+
+  const panel = document.getElementById("panel"), toggle = document.getElementById("toggle");
+  document.getElementById("close").addEventListener("click", () => { panel.classList.add("off"); toggle.hidden = false; });
+  toggle.addEventListener("click", () => { panel.classList.remove("off"); toggle.hidden = true; });
+  img.addEventListener("dblclick", () => {
+    const d = document.documentElement;
+    if (!document.fullscreenElement && d.requestFullscreen) d.requestFullscreen().catch(() => {});
+    else if (document.exitFullscreen) document.exitFullscreen().catch(() => {});
+  });
+
+  async function load() {
+    let next, frame;
+    if (window.CASHOUT_SNAPSHOT) { next = window.CASHOUT_SNAPSHOT; frame = window.CASHOUT_FRAME; }
+    else {
+      try {
+        const r = await fetch("data/latest.json?ts=" + Date.now(), { cache: "no-store" });
+        if (!r.ok) throw new Error(r.status);
+        next = await r.json();
+        frame = "frames/" + next.id + ".jpg";
+      } catch (e) {
+        document.getElementById("status").textContent = T().error;
+        return;
+      }
+    }
+    if (snap && next.id === snap.id) return;
+    snap = next;
+    built = CashOutEngine.build(snap);
+    fillPanel();
+    showFrame(frame);
+  }
+  load();
+  if (!window.CASHOUT_SNAPSHOT) setInterval(load, 5 * 60 * 1000);
+})();
+</script>
