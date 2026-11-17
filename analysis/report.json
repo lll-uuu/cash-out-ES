@@ -1,0 +1,1958 @@
+{
+ "generatedAt": 1794943716,
+ "hoursRecorded": 44,
+ "from": "2026-10-05T19Z",
+ "to": "2026-11-17T18Z",
+ "thresholds": {
+  "bigWalletUsd": 5000,
+  "baselineSample": 150,
+  "maxActivity": 3000,
+  "refreshDays": 60,
+  "minGroup": 3,
+  "beforeSwingHours": 2,
+  "whaleUsd": 5000,
+  "freshWalletDays": 7
+ },
+ "groups": [
+  {
+   "label": "Todas las billeteras",
+   "wallets": 853,
+   "usd": 251882.68,
+   "pct": {
+    "psoe": 19.3,
+    "-psoe": 20.8,
+    "pp": 32.2,
+    "-pp": 17.5,
+    "vox": 1.2,
+    "-vox": 8.9
+   }
+  },
+  {
+   "label": "Grandes apostadores",
+   "wallets": 7,
+   "usd": 44603.83,
+   "pct": {
+    "psoe": 29.2,
+    "-psoe": 22.1,
+    "pp": 19.7,
+    "-pp": 29,
+    "vox": 0,
+    "-vox": 0
+   }
+  }
+ ],
+ "concentration": {
+  "bigWalletsPct": 0.8,
+  "bigUsdPct": 17.7
+ },
+ "hourOfDay": {
+  "big": [
+   0.2,
+   3.1,
+   0.1,
+   0,
+   0,
+   0.3,
+   0,
+   0.6,
+   5.5,
+   8.6,
+   13.2,
+   13.7,
+   2.2,
+   2.1,
+   2.5,
+   3,
+   0.6,
+   7.4,
+   9.4,
+   0.2,
+   16.5,
+   3.5,
+   6.9,
+   0.3
+  ],
+  "rest": [
+   2.6,
+   1.6,
+   0.5,
+   1.8,
+   1.7,
+   1.6,
+   0.3,
+   1.7,
+   4.3,
+   2.9,
+   4.7,
+   13.5,
+   6.9,
+   5.6,
+   2.8,
+   5.3,
+   3.1,
+   6.5,
+   7.9,
+   1.7,
+   4.5,
+   4.2,
+   6.2,
+   8.1
+  ]
+ },
+ "sides": [
+  {
+   "label": "Todos los grandes apostadores",
+   "stick": {
+    "psoe": {
+     "wallets": 0,
+     "usd": 0
+    },
+    "-psoe": {
+     "wallets": 0,
+     "usd": 0
+    },
+    "pp": {
+     "wallets": 0,
+     "usd": 0
+    },
+    "-pp": {
+     "wallets": 0,
+     "usd": 0
+    },
+    "vox": {
+     "wallets": 0,
+     "usd": 0
+    },
+    "-vox": {
+     "wallets": 0,
+     "usd": 0
+    }
+   },
+   "mixed": {
+    "wallets": 7,
+    "usd": 44603.83
+   },
+   "usd": {
+    "psoe": 13007.3,
+    "-psoe": 9861.05,
+    "pp": 8792.54,
+    "-pp": 12942.94,
+    "vox": 0,
+    "-vox": 0
+   },
+   "total": 44603.829999999994,
+   "pct": {
+    "psoe": 29.2,
+    "-psoe": 22.1,
+    "pp": 19.7,
+    "-pp": 29,
+    "vox": 0,
+    "-vox": 0
+   }
+  },
+  {
+   "label": "Demás billeteras",
+   "stick": {
+    "psoe": {
+     "wallets": 142,
+     "usd": 15437.66
+    },
+    "-psoe": {
+     "wallets": 73,
+     "usd": 5002.1
+    },
+    "pp": {
+     "wallets": 239,
+     "usd": 49266.96
+    },
+    "-pp": {
+     "wallets": 58,
+     "usd": 5019.65
+    },
+    "vox": {
+     "wallets": 18,
+     "usd": 1150.33
+    },
+    "-vox": {
+     "wallets": 16,
+     "usd": 680.55
+    }
+   },
+   "mixed": {
+    "wallets": 300,
+    "usd": 130721.6
+   },
+   "usd": {
+    "psoe": 35721.47,
+    "-psoe": 42533.22,
+    "pp": 72419.35,
+    "-pp": 31226.48,
+    "vox": 3041.81,
+    "-vox": 22336.52
+   },
+   "total": 207278.84999999998,
+   "pct": {
+    "psoe": 17.2,
+    "-psoe": 20.5,
+    "pp": 34.9,
+    "-pp": 15.1,
+    "vox": 1.5,
+    "-vox": 10.8
+   }
+  }
+ ],
+ "daily": [
+  {
+   "day": "2026-10-05",
+   "bigWallets": 1,
+   "bigUsd": 12.4,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 100,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 13.8,
+    "-psoe": 8.1,
+    "pp": 73.2,
+    "-pp": 4.9,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 14,
+    "pp": 83,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-06",
+   "bigWallets": 3,
+   "bigUsd": 3785.23,
+   "bigPct": {
+    "psoe": 41.3,
+    "-psoe": 31.8,
+    "pp": 16.7,
+    "-pp": 10.2,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 24.4,
+    "-psoe": 23.3,
+    "pp": 38.2,
+    "-pp": 14.1,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 18,
+    "pp": 82.2,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-07",
+   "bigWallets": 2,
+   "bigUsd": 2889.14,
+   "bigPct": {
+    "psoe": 15.5,
+    "-psoe": 12,
+    "pp": 58,
+    "-pp": 14.5,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 18.8,
+    "-psoe": 28.5,
+    "pp": 32.2,
+    "-pp": 20.5,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 21,
+    "pp": 81.8,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-08",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 0,
+    "-psoe": 38.6,
+    "pp": 61.2,
+    "-pp": 0.3,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 20,
+    "pp": 80,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-09",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 7.5,
+    "-psoe": 20.9,
+    "pp": 70.7,
+    "-pp": 0.9,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 19,
+    "pp": 82,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-10",
+   "bigWallets": 2,
+   "bigUsd": 296.93,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 30.2,
+    "pp": 69.8,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 5.7,
+    "-psoe": 15.7,
+    "pp": 76.7,
+    "-pp": 1.9,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 17,
+    "pp": 84,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-11",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 0.2,
+    "-psoe": 7.3,
+    "pp": 86.1,
+    "-pp": 6.4,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 17,
+    "pp": 84,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-12",
+   "bigWallets": 1,
+   "bigUsd": 184.92,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 100,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 9.7,
+    "-psoe": 59.9,
+    "pp": 28.1,
+    "-pp": 2.3,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 15,
+    "pp": 86,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-13",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 4.4,
+    "-psoe": 63.6,
+    "pp": 24.3,
+    "-pp": 7.7,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 14,
+    "pp": 86,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-14",
+   "bigWallets": 2,
+   "bigUsd": 228.35,
+   "bigPct": {
+    "psoe": 92.6,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 7.4,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 27.9,
+    "-psoe": 0.4,
+    "pp": 4.5,
+    "-pp": 67.2,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 15,
+    "pp": 84,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-15",
+   "bigWallets": 1,
+   "bigUsd": 161.67,
+   "bigPct": {
+    "psoe": 1,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 99,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 10.5,
+    "-psoe": 48.4,
+    "pp": 33.9,
+    "-pp": 7.2,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 14,
+    "pp": 84,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-16",
+   "bigWallets": 1,
+   "bigUsd": 80,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 100,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 41.2,
+    "-psoe": 27,
+    "pp": 0.4,
+    "-pp": 31.3,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 16,
+    "pp": 84,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-17",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 11.6,
+    "-psoe": 2.5,
+    "pp": 0.8,
+    "-pp": 85.1,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 17,
+    "pp": 85,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-18",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 10.9,
+    "-psoe": 32.2,
+    "pp": 51.8,
+    "-pp": 5.1,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 14,
+    "pp": 85,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-19",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 26.5,
+    "-psoe": 0.2,
+    "pp": 71.3,
+    "-pp": 2,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 16,
+    "pp": 85,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-20",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 5.4,
+    "-psoe": 34.5,
+    "pp": 14.9,
+    "-pp": 45.2,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 17,
+    "pp": 82,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-21",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 1.3,
+    "-psoe": 0,
+    "pp": 15.3,
+    "-pp": 83.3,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 17,
+    "pp": 83,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-22",
+   "bigWallets": 3,
+   "bigUsd": 979.83,
+   "bigPct": {
+    "psoe": 6.6,
+    "-psoe": 17.3,
+    "pp": 76.1,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 4.6,
+    "-psoe": 65,
+    "pp": 29.8,
+    "-pp": 0.6,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 14,
+    "pp": 84.9,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-23",
+   "bigWallets": 4,
+   "bigUsd": 2651.57,
+   "bigPct": {
+    "psoe": 80.5,
+    "-psoe": 12,
+    "pp": 7.6,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 22.8,
+    "-psoe": 41.7,
+    "pp": 11.2,
+    "-pp": 24.4,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 25,
+    "pp": 75,
+    "vox": 0
+   }
+  },
+  {
+   "day": "2026-10-24",
+   "bigWallets": 2,
+   "bigUsd": 75.8,
+   "bigPct": {
+    "psoe": 69.7,
+    "-psoe": 30.3,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 4.3,
+    "-psoe": 28.4,
+    "pp": 64.4,
+    "-pp": 0.6,
+    "vox": 0,
+    "-vox": 2.2
+   },
+   "odds": {
+    "psoe": 23,
+    "pp": 77,
+    "vox": 0.1
+   }
+  },
+  {
+   "day": "2026-10-25",
+   "bigWallets": 1,
+   "bigUsd": 1295.25,
+   "bigPct": {
+    "psoe": 20.9,
+    "-psoe": 0,
+    "pp": 79.1,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 10,
+    "-psoe": 79.5,
+    "pp": 10.1,
+    "-pp": 0.3,
+    "vox": 0,
+    "-vox": 0.1
+   },
+   "odds": {
+    "psoe": 19,
+    "pp": 78,
+    "vox": 0.1
+   }
+  },
+  {
+   "day": "2026-10-26",
+   "bigWallets": 2,
+   "bigUsd": 3069.88,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 27.6,
+    "pp": 72.4,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 45.4,
+    "-psoe": 13.8,
+    "pp": 5.3,
+    "-pp": 23.1,
+    "vox": 0.4,
+    "-vox": 12
+   },
+   "odds": {
+    "psoe": 20,
+    "pp": 81,
+    "vox": 1.7
+   }
+  },
+  {
+   "day": "2026-10-27",
+   "bigWallets": 1,
+   "bigUsd": 44.54,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 100,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 43.1,
+    "-psoe": 9.3,
+    "pp": 41.5,
+    "-pp": 0.9,
+    "vox": 0,
+    "-vox": 5.3
+   },
+   "odds": {
+    "psoe": 20,
+    "pp": 80,
+    "vox": 0.2
+   }
+  },
+  {
+   "day": "2026-10-28",
+   "bigWallets": 3,
+   "bigUsd": 1515.08,
+   "bigPct": {
+    "psoe": 4.5,
+    "-psoe": 90.8,
+    "pp": 3,
+    "-pp": 1.7,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 29.4,
+    "-psoe": 18.6,
+    "pp": 19.2,
+    "-pp": 16.3,
+    "vox": 1.4,
+    "-vox": 15.1
+   },
+   "odds": {
+    "psoe": 15,
+    "pp": 83,
+    "vox": 0.2
+   }
+  },
+  {
+   "day": "2026-10-29",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 12.9,
+    "-psoe": 16.8,
+    "pp": 13,
+    "-pp": 56.6,
+    "vox": 0.7,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 14.8,
+    "pp": 83,
+    "vox": 1.5
+   }
+  },
+  {
+   "day": "2026-10-30",
+   "bigWallets": 1,
+   "bigUsd": 868.87,
+   "bigPct": {
+    "psoe": 18.3,
+    "-psoe": 50.7,
+    "pp": 15.5,
+    "-pp": 15.5,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 7.3,
+    "-psoe": 12.5,
+    "pp": 72.3,
+    "-pp": 3.9,
+    "vox": 0,
+    "-vox": 4.1
+   },
+   "odds": {
+    "psoe": 15,
+    "pp": 85,
+    "vox": 0.2
+   }
+  },
+  {
+   "day": "2026-10-31",
+   "bigWallets": 2,
+   "bigUsd": 281.35,
+   "bigPct": {
+    "psoe": 98.3,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 1.7,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 18.3,
+    "-psoe": 19.8,
+    "pp": 7.2,
+    "-pp": 28.5,
+    "vox": 9.4,
+    "-vox": 16.8
+   },
+   "odds": {
+    "psoe": 15,
+    "pp": 84,
+    "vox": 0.2
+   }
+  },
+  {
+   "day": "2026-11-01",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 0.1,
+    "-psoe": 1.3,
+    "pp": 96,
+    "-pp": 2.7,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 16,
+    "pp": 86,
+    "vox": 0.2
+   }
+  },
+  {
+   "day": "2026-11-02",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 2.2,
+    "-psoe": 76.5,
+    "pp": 8.5,
+    "-pp": 12.7,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 12,
+    "pp": 85,
+    "vox": 0.2
+   }
+  },
+  {
+   "day": "2026-11-03",
+   "bigWallets": 2,
+   "bigUsd": 9.03,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 36.5,
+    "pp": 63.5,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 2.9,
+    "-psoe": 37.9,
+    "pp": 47.6,
+    "-pp": 11.6,
+    "vox": 0,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 11,
+    "pp": 87,
+    "vox": 0.2
+   }
+  },
+  {
+   "day": "2026-11-04",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 2.7,
+    "-psoe": 7.7,
+    "pp": 79.1,
+    "-pp": 9.9,
+    "vox": 0.7,
+    "-vox": 0
+   },
+   "odds": {
+    "psoe": 12,
+    "pp": 86.3,
+    "vox": 1.6
+   }
+  },
+  {
+   "day": "2026-11-05",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 1.8,
+    "-psoe": 8.9,
+    "pp": 68.7,
+    "-pp": 19,
+    "vox": 0.1,
+    "-vox": 1.4
+   },
+   "odds": {
+    "psoe": 9,
+    "pp": 90,
+    "vox": 0.6
+   }
+  },
+  {
+   "day": "2026-11-06",
+   "bigWallets": 1,
+   "bigUsd": 184.24,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 100,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 8.6,
+    "-psoe": 12.8,
+    "pp": 54.3,
+    "-pp": 7,
+    "vox": 0,
+    "-vox": 17.4
+   },
+   "odds": {
+    "psoe": 7,
+    "pp": 92.8,
+    "vox": 0.1
+   }
+  },
+  {
+   "day": "2026-11-07",
+   "bigWallets": 0,
+   "bigUsd": 0,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 18.8,
+    "-psoe": 20,
+    "pp": 10.8,
+    "-pp": 6.6,
+    "vox": 0.1,
+    "-vox": 43.7
+   },
+   "odds": {
+    "psoe": 11,
+    "pp": 90,
+    "vox": 0.1
+   }
+  },
+  {
+   "day": "2026-11-08",
+   "bigWallets": 1,
+   "bigUsd": 60.59,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 100,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 22.7,
+    "-psoe": 2.8,
+    "pp": 58.1,
+    "-pp": 4,
+    "vox": 0.3,
+    "-vox": 12.2
+   },
+   "odds": {
+    "psoe": 11,
+    "pp": 88,
+    "vox": 0.3
+   }
+  },
+  {
+   "day": "2026-11-09",
+   "bigWallets": 4,
+   "bigUsd": 5812.54,
+   "bigPct": {
+    "psoe": 31.3,
+    "-psoe": 40.8,
+    "pp": 25.6,
+    "-pp": 2.4,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 22.3,
+    "-psoe": 15.2,
+    "pp": 30.3,
+    "-pp": 25.8,
+    "vox": 0.1,
+    "-vox": 6.3
+   },
+   "odds": {
+    "psoe": 16,
+    "pp": 85,
+    "vox": 0.5
+   }
+  },
+  {
+   "day": "2026-11-10",
+   "bigWallets": 2,
+   "bigUsd": 5542.04,
+   "bigPct": {
+    "psoe": 52.9,
+    "-psoe": 0,
+    "pp": 2.3,
+    "-pp": 44.8,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 14.2,
+    "-psoe": 38.2,
+    "pp": 17.6,
+    "-pp": 16.4,
+    "vox": 1.3,
+    "-vox": 12.4
+   },
+   "odds": {
+    "psoe": 16,
+    "pp": 84,
+    "vox": 0.5
+   }
+  },
+  {
+   "day": "2026-11-11",
+   "bigWallets": 1,
+   "bigUsd": 2490.27,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 100,
+    "pp": 0,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 13.2,
+    "-psoe": 34.6,
+    "pp": 40.2,
+    "-pp": 3.7,
+    "vox": 0.5,
+    "-vox": 7.7
+   },
+   "odds": {
+    "psoe": 16,
+    "pp": 84,
+    "vox": 0.5
+   }
+  },
+  {
+   "day": "2026-11-12",
+   "bigWallets": 3,
+   "bigUsd": 4312.76,
+   "bigPct": {
+    "psoe": 58,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 42,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 22,
+    "-psoe": 5.6,
+    "pp": 15.9,
+    "-pp": 21.8,
+    "vox": 1.5,
+    "-vox": 33.2
+   },
+   "odds": {
+    "psoe": 19,
+    "pp": 81,
+    "vox": 0.7
+   }
+  },
+  {
+   "day": "2026-11-13",
+   "bigWallets": 1,
+   "bigUsd": 83.96,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 100,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 6.6,
+    "-psoe": 19.4,
+    "pp": 26.5,
+    "-pp": 14,
+    "vox": 0.2,
+    "-vox": 33.2
+   },
+   "odds": {
+    "psoe": 17,
+    "pp": 83,
+    "vox": 0.7
+   }
+  },
+  {
+   "day": "2026-11-14",
+   "bigWallets": 2,
+   "bigUsd": 2595.81,
+   "bigPct": {
+    "psoe": 4.8,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 95.2,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 11.7,
+    "-psoe": 22.6,
+    "pp": 35.9,
+    "-pp": 18.9,
+    "vox": 0.1,
+    "-vox": 10.8
+   },
+   "odds": {
+    "psoe": 18,
+    "pp": 82,
+    "vox": 0.4
+   }
+  },
+  {
+   "day": "2026-11-15",
+   "bigWallets": 1,
+   "bigUsd": 580.01,
+   "bigPct": {
+    "psoe": 65.5,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 34.5,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 26.9,
+    "-psoe": 3.8,
+    "pp": 34.3,
+    "-pp": 18.3,
+    "vox": 9.5,
+    "-vox": 7
+   },
+   "odds": {
+    "psoe": 19,
+    "pp": 80,
+    "vox": 0.4
+   }
+  },
+  {
+   "day": "2026-11-16",
+   "bigWallets": 3,
+   "bigUsd": 4509.38,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 0,
+    "-pp": 100,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 41.4,
+    "-psoe": 1.8,
+    "pp": 7.1,
+    "-pp": 17.4,
+    "vox": 0.1,
+    "-vox": 32.3
+   },
+   "odds": {
+    "psoe": 25,
+    "pp": 76,
+    "vox": 0.1
+   }
+  },
+  {
+   "day": "2026-11-17",
+   "bigWallets": 1,
+   "bigUsd": 2.39,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 0,
+    "pp": 100,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 6.5,
+    "-psoe": 6,
+    "pp": 57.3,
+    "-pp": 6.6,
+    "vox": 15.2,
+    "-vox": 8.4
+   },
+   "odds": {
+    "psoe": 24.5,
+    "pp": 75.5,
+    "vox": 0.8
+   }
+  }
+ ],
+ "brazil": [
+  {
+   "label": "Todas",
+   "withHistory": 157,
+   "inBrazil": 61,
+   "lula": 283071.22,
+   "flavio": 220525.61,
+   "inBrazilPct": 38.9,
+   "flavioPct": 43.8
+  },
+  {
+   "label": "Varios lados",
+   "withHistory": 39,
+   "inBrazil": 18,
+   "lula": 44552.97,
+   "flavio": 49378.24,
+   "inBrazilPct": 46.2,
+   "flavioPct": 52.6
+  },
+  {
+   "label": "Sobre todo en contra del PP",
+   "withHistory": 16,
+   "inBrazil": 9,
+   "lula": 191805.54,
+   "flavio": 139763.01,
+   "inBrazilPct": 56.3,
+   "flavioPct": 42.2
+  },
+  {
+   "label": "Bloque izquierdo (PSOE o contra el PP)",
+   "withHistory": 44,
+   "inBrazil": 20,
+   "lula": 231195.16,
+   "flavio": 164067.01,
+   "inBrazilPct": 45.5,
+   "flavioPct": 41.5
+  },
+  {
+   "label": "Sobre todo a favor del PP",
+   "withHistory": 48,
+   "inBrazil": 18,
+   "lula": 1230.88,
+   "flavio": 783.73,
+   "inBrazilPct": 37.5,
+   "flavioPct": 38.9
+  },
+  {
+   "label": "Bloque derecho (PP, Vox o contra el PSOE)",
+   "withHistory": 76,
+   "inBrazil": 24,
+   "lula": 23806.13,
+   "flavio": 23784.19,
+   "inBrazilPct": 31.6,
+   "flavioPct": 50
+  },
+  {
+   "label": "Sobre todo en contra de Vox",
+   "withHistory": 9,
+   "inBrazil": 1,
+   "lula": 0.3,
+   "flavio": 0,
+   "inBrazilPct": 11.1,
+   "flavioPct": 0
+  },
+  {
+   "label": "Sobre todo a favor del PSOE",
+   "withHistory": 22,
+   "inBrazil": 10,
+   "lula": 39113.48,
+   "flavio": 24044.52,
+   "inBrazilPct": 45.5,
+   "flavioPct": 38.1
+  },
+  {
+   "label": "Sobre todo en contra del PSOE",
+   "withHistory": 19,
+   "inBrazil": 5,
+   "lula": 6368.05,
+   "flavio": 6556.11,
+   "inBrazilPct": 26.3,
+   "flavioPct": 50.7
+  },
+  {
+   "label": "Sobre todo a favor de Vox",
+   "withHistory": 4,
+   "inBrazil": 0,
+   "lula": 0,
+   "flavio": 0,
+   "inBrazilPct": 0,
+   "flavioPct": 0
+  }
+ ],
+ "aheadOfSwings": {
+  "swings": 21,
+  "withBigMoneyAhead": 8,
+  "usdSameDirection": 208.34,
+  "usdOpposite": 2925.54
+ },
+ "timezones": {
+  "big": {
+   "estimated": 4,
+   "unclear": 3,
+   "regions": []
+  },
+  "baseline": {
+   "estimated": 86,
+   "unclear": 64,
+   "regions": [
+    {
+     "region": "UTC−1 a +3 (Europa, incluida España, y África)",
+     "wallets": 43,
+     "pct": 50
+    },
+    {
+     "region": "UTC−5 a −2 (este de EE. UU., Canadá, Brasil, resto de Sudamérica)",
+     "wallets": 15,
+     "pct": 17.4
+    },
+    {
+     "region": "UTC+4 a +6 (Golfo, Asia Central, India)",
+     "wallets": 9,
+     "pct": 10.5
+    },
+    {
+     "region": "UTC+7 a +10 (Sudeste y Este de Asia, Australia)",
+     "wallets": 9,
+     "pct": 10.5
+    },
+    {
+     "region": "UTC−8 a −6 (costa oeste y centro de EE. UU., México)",
+     "wallets": 5,
+     "pct": 5.8
+    },
+    {
+     "region": "otros husos",
+     "wallets": 5,
+     "pct": 5.8
+    }
+   ]
+  }
+ },
+ "walletAge": [
+  {
+   "age": "menos de 1 día",
+   "wallets": 3,
+   "pct": 42.9,
+   "usd": 17956.26
+  },
+  {
+   "age": "1 a 7 días",
+   "wallets": 0,
+   "pct": 0,
+   "usd": null
+  },
+  {
+   "age": "1 a 4 semanas",
+   "wallets": "<3",
+   "pct": "–",
+   "usd": null
+  },
+  {
+   "age": "1 a 6 meses",
+   "wallets": "<3",
+   "pct": "–",
+   "usd": null
+  },
+  {
+   "age": "más de 6 meses",
+   "wallets": "<3",
+   "pct": "–",
+   "usd": null
+  }
+ ],
+ "otherMarkets": {
+  "big": {
+   "withHistory": 7,
+   "onlyThisMarket": 0,
+   "onlyThisMarketPct": 0,
+   "areas": [
+    {
+     "area": "Otros",
+     "wallets": 7,
+     "walletsPct": 100,
+     "usd": 642647.67
+    },
+    {
+     "area": "Guerra y geopolítica",
+     "wallets": 7,
+     "walletsPct": 100,
+     "usd": 1937518.59
+    },
+    {
+     "area": "Política de EE. UU.",
+     "wallets": 6,
+     "walletsPct": 85.7,
+     "usd": 626704.82
+    },
+    {
+     "area": "España",
+     "wallets": 6,
+     "walletsPct": 85.7,
+     "usd": 311156.37
+    },
+    {
+     "area": "Otras elecciones europeas",
+     "wallets": 6,
+     "walletsPct": 85.7,
+     "usd": 35969.75
+    },
+    {
+     "area": "Brasil",
+     "wallets": 6,
+     "walletsPct": 85.7,
+     "usd": 429152.04
+    },
+    {
+     "area": "Otras elecciones",
+     "wallets": 5,
+     "walletsPct": 71.4,
+     "usd": 55436.6
+    },
+    {
+     "area": "Economía",
+     "wallets": 5,
+     "walletsPct": 71.4,
+     "usd": 53243.46
+    },
+    {
+     "area": "Deporte",
+     "wallets": 5,
+     "walletsPct": 71.4,
+     "usd": 193466.58
+    },
+    {
+     "area": "Cultura y tecnología",
+     "wallets": 5,
+     "walletsPct": 71.4,
+     "usd": 86698.62
+    },
+    {
+     "area": "Cripto",
+     "wallets": 5,
+     "walletsPct": 71.4,
+     "usd": 64754.43
+    }
+   ],
+   "events": [
+    {
+     "title": "Will Alberto Núñez Feijóo be the next Prime Minister of Spain?",
+     "area": "España",
+     "wallets": 4,
+     "usd": 106579.62
+    },
+    {
+     "title": "US x Iran ceasefire continues through November 7?",
+     "area": "Guerra y geopolítica",
+     "wallets": 3,
+     "usd": 298776.31
+    },
+    {
+     "title": "US announces end of Iranian blockade by November 2, 2026?",
+     "area": "Guerra y geopolítica",
+     "wallets": 3,
+     "usd": 161209.75
+    },
+    {
+     "title": "Will the U.S. invade Iran before 2027?",
+     "area": "Guerra y geopolítica",
+     "wallets": 3,
+     "usd": 122975.98
+    },
+    {
+     "title": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
+     "area": "Otros",
+     "wallets": 3,
+     "usd": 81220.59
+    },
+    {
+     "title": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
+     "area": "Guerra y geopolítica",
+     "wallets": 3,
+     "usd": 73328.32
+    },
+    {
+     "title": "Will Likud win 30-34 seats in the 2026 Israeli legislative election?",
+     "area": "Guerra y geopolítica",
+     "wallets": 3,
+     "usd": 46555.95
+    },
+    {
+     "title": "Will Likud win the most seats in the 2026 Israeli legislative election?",
+     "area": "Guerra y geopolítica",
+     "wallets": 3,
+     "usd": 39775.93
+    },
+    {
+     "title": "Will Delcy Rodríguez be the leader of Venezuela end of 2026?",
+     "area": "Guerra y geopolítica",
+     "wallets": 3,
+     "usd": 26025.51
+    },
+    {
+     "title": "Pedro Sánchez out as PM of Spain by January 31, 2027?",
+     "area": "España",
+     "wallets": 3,
+     "usd": 23818.5
+    },
+    {
+     "title": "Will Anthropic's market cap be between $2.0T and $2.25T at market close on IPO day?",
+     "area": "Guerra y geopolítica",
+     "wallets": 3,
+     "usd": 15015.07
+    },
+    {
+     "title": "Will Vox receive between 20% and 22% of the vote in the 2026 Spanish general election?",
+     "area": "España",
+     "wallets": 3,
+     "usd": 7963.19
+    },
+    {
+     "title": "Carles Puigdemont back in Spain in 2026?",
+     "area": "España",
+     "wallets": 3,
+     "usd": 7449.57
+    },
+    {
+     "title": "Will PSOE win 102-107 seats in the 2026 Spanish general election?",
+     "area": "España",
+     "wallets": 3,
+     "usd": 6845.27
+    },
+    {
+     "title": "Will Luiz Inácio Lula da Silva be the next leader out before 2027?",
+     "area": "Brasil",
+     "wallets": 3,
+     "usd": 6349.94
+    },
+    {
+     "title": "Spain General Election: PP + Vox get 50%+ of Vote?",
+     "area": "España",
+     "wallets": 3,
+     "usd": 3172.15
+    },
+    {
+     "title": "Will Vox win the most seats in Asturias in the 2026 Spanish general election?",
+     "area": "España",
+     "wallets": 3,
+     "usd": 1956.03
+    },
+    {
+     "title": "Will PSOE win the second-most seats in Madrid in the 2026 Spanish general election?",
+     "area": "España",
+     "wallets": 3,
+     "usd": 1764.14
+    },
+    {
+     "title": "Will PP win the most seats in Huelva in the 2026 Spanish general election?",
+     "area": "España",
+     "wallets": 3,
+     "usd": 1136.13
+    },
+    {
+     "title": "Will Erling Haaland be the #1 searched person on Google this year?",
+     "area": "Otros",
+     "wallets": 3,
+     "usd": 933.31
+    },
+    {
+     "title": "Spain General Election: PSOE gains seats?",
+     "area": "España",
+     "wallets": 3,
+     "usd": 894.51
+    },
+    {
+     "title": "Will PP win the most seats in Granada in the 2026 Spanish general election?",
+     "area": "España",
+     "wallets": 3,
+     "usd": 666.21
+    }
+   ]
+  },
+  "baseline": {
+   "withHistory": 150,
+   "onlyThisMarket": 2,
+   "onlyThisMarketPct": 1.3,
+   "areas": [
+    {
+     "area": "Otros",
+     "wallets": 140,
+     "walletsPct": 93.3,
+     "usd": 2512804.55
+    },
+    {
+     "area": "Guerra y geopolítica",
+     "wallets": 137,
+     "walletsPct": 91.3,
+     "usd": 1638548
+    },
+    {
+     "area": "Política de EE. UU.",
+     "wallets": 133,
+     "walletsPct": 88.7,
+     "usd": 1662681.15
+    },
+    {
+     "area": "España",
+     "wallets": 119,
+     "walletsPct": 79.3,
+     "usd": 166952.25
+    },
+    {
+     "area": "Deporte",
+     "wallets": 117,
+     "walletsPct": 78,
+     "usd": 1461965.44
+    },
+    {
+     "area": "Otras elecciones europeas",
+     "wallets": 113,
+     "walletsPct": 75.3,
+     "usd": 183967.69
+    },
+    {
+     "area": "Otras elecciones",
+     "wallets": 109,
+     "walletsPct": 72.7,
+     "usd": 377548.25
+    },
+    {
+     "area": "Cripto",
+     "wallets": 99,
+     "walletsPct": 66,
+     "usd": 1131016.97
+    },
+    {
+     "area": "Economía",
+     "wallets": 97,
+     "walletsPct": 64.7,
+     "usd": 696907.37
+    },
+    {
+     "area": "Cultura y tecnología",
+     "wallets": 97,
+     "walletsPct": 64.7,
+     "usd": 224848.13
+    },
+    {
+     "area": "Brasil",
+     "wallets": 96,
+     "walletsPct": 64,
+     "usd": 238453.64
+    }
+   ],
+   "events": [
+    {
+     "title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+     "area": "Brasil",
+     "wallets": 49,
+     "usd": 156746.54
+    },
+    {
+     "title": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
+     "area": "Guerra y geopolítica",
+     "wallets": 49,
+     "usd": 137365.35
+    },
+    {
+     "title": "Will Pedro Sánchez be the next Prime Minister of Spain?",
+     "area": "España",
+     "wallets": 48,
+     "usd": 39981.08
+    },
+    {
+     "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+     "area": "Otras elecciones",
+     "wallets": 45,
+     "usd": 39884.16
+    },
+    {
+     "title": "Will Chiang Wan-an win the next Taipei Mayor election?",
+     "area": "Política de EE. UU.",
+     "wallets": 42,
+     "usd": 47363.26
+    },
+    {
+     "title": "Will Jordan Bardella win the 2027 French presidential election?",
+     "area": "Otras elecciones europeas",
+     "wallets": 41,
+     "usd": 26599.43
+    },
+    {
+     "title": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
+     "area": "Economía",
+     "wallets": 39,
+     "usd": 154017.76
+    },
+    {
+     "title": "Will Luka Mesec win the 2026 Ljubljana mayoral election?",
+     "area": "Política de EE. UU.",
+     "wallets": 39,
+     "usd": 25742.45
+    },
+    {
+     "title": "Will Delcy Rodríguez be the leader of Venezuela end of 2026?",
+     "area": "Guerra y geopolítica",
+     "wallets": 37,
+     "usd": 33608.73
+    },
+    {
+     "title": "Will the Democrats win the Texas Senate race in 2026?",
+     "area": "Política de EE. UU.",
+     "wallets": 35,
+     "usd": 30377.7
+    },
+    {
+     "title": "Will Brian Schatz be the next Senate Majority Leader?",
+     "area": "Política de EE. UU.",
+     "wallets": 33,
+     "usd": 26687.38
+    },
+    {
+     "title": "Will France win the 2026 FIFA World Cup?",
+     "area": "Otras elecciones europeas",
+     "wallets": 33,
+     "usd": 11580.79
+    },
+    {
+     "title": "2026 Balance of Power: D Senate, D House",
+     "area": "Política de EE. UU.",
+     "wallets": 31,
+     "usd": 38835.14
+    },
+    {
+     "title": "Robert Pattinson announced as next James Bond?",
+     "area": "Otros",
+     "wallets": 31,
+     "usd": 24020.14
+    },
+    {
+     "title": "Will Mary Peltola win the Alaska Senate race in 2026?",
+     "area": "Política de EE. UU.",
+     "wallets": 30,
+     "usd": 100819.67
+    },
+    {
+     "title": "Will Alphabet be the largest company in the world by market cap on December 31?",
+     "area": "Otros",
+     "wallets": 30,
+     "usd": 14305.2
+    },
+    {
+     "title": "Will Pedro Sánchez be the next leader out before 2027?",
+     "area": "España",
+     "wallets": 29,
+     "usd": 18876.1
+    },
+    {
+     "title": "Israel x Iran ceasefire continues through November 30?",
+     "area": "Guerra y geopolítica",
+     "wallets": 28,
+     "usd": 101670.23
+    },
+    {
+     "title": "Will Anthropic IPO by November 20, 2026?",
+     "area": "Economía",
+     "wallets": 28,
+     "usd": 47648.97
+    },
+    {
+     "title": "US announces end of Iranian blockade by December 31, 2026?",
+     "area": "Guerra y geopolítica",
+     "wallets": 28,
+     "usd": 41324
+    },
+    {
+     "title": "Will OpenAI have the best AI model at the end of November 2026?",
+     "area": "Deporte",
+     "wallets": 28,
+     "usd": 18739.64
+    },
+    {
+     "title": "Will Ro Khanna win the 2028 Democratic presidential nomination?",
+     "area": "Política de EE. UU.",
+     "wallets": 28,
+     "usd": 17361.84
+    },
+    {
+     "title": "Will the Democrats win the Michigan Senate race in 2026?",
+     "area": "Política de EE. UU.",
+     "wallets": 27,
+     "usd": 26552.66
+    },
+    {
+     "title": "Will the Democrats win the Maine Senate race in 2026?",
+     "area": "Política de EE. UU.",
+     "wallets": 27,
+     "usd": 10115.99
+    },
+    {
+     "title": "US x Iran ceasefire continues through October 31?",
+     "area": "Guerra y geopolítica",
+     "wallets": 26,
+     "usd": 130439.54
+    }
+   ]
+  }
+ },
+ "funding": null
+}
