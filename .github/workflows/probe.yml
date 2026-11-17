@@ -1,0 +1,20 @@
+name: probe (temporary)
+on: workflow_dispatch
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    steps:
+      - run: |
+          C=0x989e60030a12b3b8c3014ca744df34fce5bc014a803f5a0c717557e11a0a04b8
+          D=https://data-api.polymarket.com
+          for u in "/v2/trades?condition=$C&limit=2" "/v2/trades?condition=$C&limit=2&takerOnly=true" "/v2/trades?condition=$C&limit=2&taker_only=true" "/v2/trades?condition=$C&limit=1000" ; do
+            echo "=== $u"; curl -s -w "\nHTTP %{http_code}\n" "$D$u" | head -c 2500; echo; done
+          W=$(curl -s "$D/v2/trades?condition=$C&limit=1" | python3 -c "import json,sys;r=json.load(sys.stdin)['data'][0];print(r.get('proxy_wallet') or r.get('proxyWallet'))")
+          echo "wallet $W"
+          for u in "/v2/activity?user=$W&limit=2" "/v2/activity?user=$W&limit=2&sort_direction=ASC" "/v2/activity?user=$W&limit=2&sortDirection=ASC" "/v2/activity?user=$W&limit=2&order=asc" "/v2/activity?user=$W&limit=2&sort=asc"; do
+            echo "=== $u"; curl -s -w "\nHTTP %{http_code}\n" "$D$u" | head -c 2500; echo; done
+          echo "=== cursor page 2"
+          N=$(curl -s "$D/v2/trades?condition=$C&limit=2" | python3 -c "import json,sys;print(json.load(sys.stdin)['pagination'].get('next_cursor'))")
+          curl -s -w "\nHTTP %{http_code}\n" "$D/v2/trades?condition=$C&limit=2&cursor=$N" | head -c 1500
+          echo "=== start/end"
+          curl -s -w "\nHTTP %{http_code}\n" "$D/v2/trades?condition=$C&limit=2&start=1760000000&end=1762000000" | head -c 1500
