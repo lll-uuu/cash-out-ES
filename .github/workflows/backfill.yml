@@ -32,5 +32,5 @@ jobs:
           git add data/snapshots
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -m "backfill $(date -u +%Y-%m-%d)"
-          git pull --rebase
+          git pull --rebase --autostash
           git push

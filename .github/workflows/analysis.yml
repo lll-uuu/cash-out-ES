@@ -33,5 +33,5 @@ jobs:
           git add analysis
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -m "analysis $(date -u +%Y-%m-%d)"
-          git pull --rebase
+          git pull --rebase --autostash
           git push

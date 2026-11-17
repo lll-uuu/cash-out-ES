@@ -36,5 +36,5 @@ jobs:
           git add data frames
           if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
           git commit -m "marble $(date -u +%Y-%m-%dT%HZ)"
-          git pull --rebase
+          git pull --rebase --autostash
           git push
