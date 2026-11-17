@@ -1,0 +1,379 @@
+{
+ "v": 3,
+ "id": "2026-10-18T23Z",
+ "ts": 1792364400,
+ "at": "2026-10-18T23:00:00.000Z",
+ "final": false,
+ "backfill": true,
+ "event": {
+  "slug": "spain-general-election-winner",
+  "id": "1138701",
+  "title": "Spain General Election Winner"
+ },
+ "palette": "espana",
+ "candidates": [
+  {
+   "key": "psoe",
+   "label": "PSOE",
+   "price": 0.14,
+   "conditionId": "0x989e60030a12b3b8c3014ca744df34fce5bc014a803f5a0c717557e11a0a04b8"
+  },
+  {
+   "key": "pp",
+   "label": "PP",
+   "price": 0.85,
+   "conditionId": "0x162e356bfab7ad18fe4e3029d5811d9a95fce95d93858b42924a3b9ffbcf1a93"
+  },
+  {
+   "key": "vox",
+   "label": "Vox",
+   "price": null,
+   "conditionId": "0x32efce5c16d89771617eb4e28a42db8845b7fceae965b18d64b72baf1775d2c4"
+  }
+ ],
+ "prices": {
+  "psoe": 0.14,
+  "pp": 0.85,
+  "vox": null
+ },
+ "priceHistory": [
+  [
+   497855,
+   {
+    "psoe": 0.17,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497856,
+   {
+    "psoe": 0.17,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497857,
+   {
+    "psoe": 0.17,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497858,
+   {
+    "psoe": 0.17,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497859,
+   {
+    "psoe": 0.17,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497860,
+   {
+    "psoe": 0.17,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497861,
+   {
+    "psoe": 0.17,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497862,
+   {
+    "psoe": 0.17,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497863,
+   {
+    "psoe": 0.17,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497864,
+   {
+    "psoe": 0.17,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497865,
+   {
+    "psoe": 0.17,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497866,
+   {
+    "psoe": 0.17,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497867,
+   {
+    "psoe": 0.17,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497868,
+   {
+    "psoe": 0.17,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497869,
+   {
+    "psoe": 0.14,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497870,
+   {
+    "psoe": 0.14,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497871,
+   {
+    "psoe": 0.14,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497872,
+   {
+    "psoe": 0.14,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497873,
+   {
+    "psoe": 0.14,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497874,
+   {
+    "psoe": 0.14,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497875,
+   {
+    "psoe": 0.14,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497876,
+   {
+    "psoe": 0.14,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497877,
+   {
+    "psoe": 0.14,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497878,
+   {
+    "psoe": 0.14,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497879,
+   {
+    "psoe": 0.14,
+    "pp": 0.85,
+    "vox": null
+   }
+  ]
+ ],
+ "totals": {
+  "psoe": {
+   "wallets": 3,
+   "usd": 106.17,
+   "trades": 3
+  },
+  "-psoe": {
+   "wallets": 4,
+   "usd": 314.21,
+   "trades": 4
+  },
+  "pp": {
+   "wallets": 2,
+   "usd": 505.49,
+   "trades": 2
+  },
+  "-pp": {
+   "wallets": 2,
+   "usd": 49.59,
+   "trades": 2
+  },
+  "vox": {
+   "wallets": 0,
+   "usd": 0,
+   "trades": 0
+  },
+  "-vox": {
+   "wallets": 0,
+   "usd": 0,
+   "trades": 0
+  }
+ },
+ "anomalies": [
+  {
+   "kind": "swing",
+   "wallet": null,
+   "backs": "-psoe",
+   "points": 3,
+   "usd": 0,
+   "ts": 1792328400,
+   "tx": null,
+   "note": "PSOE odds moved down 3.0 points in an hour"
+  }
+ ],
+ "newAnomalies": 0,
+ "contracts": {
+  "collateral": {
+   "name": "pUSD collateral token",
+   "address": "0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB"
+  },
+  "exchange": {
+   "name": "Neg Risk CTF Exchange",
+   "address": "0xe2222d279d744050d28e00520010520000310F59"
+  },
+  "ctf": {
+   "name": "Conditional Tokens",
+   "address": "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045"
+  }
+ },
+ "trades": [
+  [
+   1792302008,
+   "0x014a3d72ac3c1cb92806146aa6cec5f6f340b197",
+   8.45,
+   "-pp",
+   "0xda1c8ced92dbd3451edbbc721e6210e97b650801af06053d96f123a123b6e9f8"
+  ],
+  [
+   1792303550,
+   "0x014a3d72ac3c1cb92806146aa6cec5f6f340b197",
+   4.17,
+   "psoe",
+   "0x91a88f419905e51e3bbe9a36a33a239ea7a14bbbd906236facd178e512a7906e"
+  ],
+  [
+   1792314233,
+   "0x08dc1693b6dc3a345221153726df82c9e49361d9",
+   2,
+   "psoe",
+   "0x1193f81bcb8528897a9b1f64cf21511cecb5097d380559f7166cd012f85ef5f7"
+  ],
+  [
+   1792323093,
+   "0x9868dcc67a111a8d82706ec57c4e6bf5e449b0a4",
+   100,
+   "psoe",
+   "0xb78a04a6de633106c7b35105a07d60e06f6aabf1fb57c526a7d5b2d4fac3494d"
+  ],
+  [
+   1792323093,
+   "0x090af6fd2aeb04202abc97370aa86c1b81d90fa6",
+   41.14,
+   "-pp",
+   "0x96d883a6d67d29f18585cdb412774c0636e798b2d0cf55ca37060e9b77df87d2"
+  ],
+  [
+   1792330224,
+   "0xc50c05d454f0681ea57b254df8ad97bc210f3017",
+   115.71,
+   "-psoe",
+   "0xdfc25f055cae7e336664cbd3c3d9242555aae252511f31e94c4c90062cfcc85e"
+  ],
+  [
+   1792330224,
+   "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
+   169.68,
+   "-psoe",
+   "0x69395ff5b4e537d7b4a742fe07a2d490f908d2ad78dfae5ee129c9c032ddbae9"
+  ],
+  [
+   1792330227,
+   "0x268fdffd3948324b3e6623a420867e59b7b1bbd7",
+   20.42,
+   "-psoe",
+   "0x1fb25b61b7b9273ce23e391fd7ecee03824f99c1ab5af5d36c08089bd8d6ba3f"
+  ],
+  [
+   1792330322,
+   "0xe550368332fe401df6756659a3a0e8ad37466f6e",
+   8.4,
+   "-psoe",
+   "0xcbe8b2ebbac580bb9c758b06a1664df3190687edf6ca5a3ce990febdd4c55f04"
+  ],
+  [
+   1792345136,
+   "0x4c99cd71c06e2efdd9bb679f3a2a6bdf6bf46efb",
+   299.2,
+   "pp",
+   "0xe6221fe1b18d7c2075bfb8482ffcf6ef80f458c6a4a5db9a19cabac212c87ab8"
+  ],
+  [
+   1792349918,
+   "0xc699b3ce7a7b449c7364ce2c437fd131cf934fb8",
+   206.29,
+   "pp",
+   "0x1878bbf82174e73dc4b612b0daf32dfda2b30b6e81a7571bb1d17274a6b5ff16"
+  ]
+ ]
+}

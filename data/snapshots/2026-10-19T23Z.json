@@ -1,0 +1,382 @@
+{
+ "v": 3,
+ "id": "2026-10-19T23Z",
+ "ts": 1792450800,
+ "at": "2026-10-19T23:00:00.000Z",
+ "final": false,
+ "backfill": true,
+ "event": {
+  "slug": "spain-general-election-winner",
+  "id": "1138701",
+  "title": "Spain General Election Winner"
+ },
+ "palette": "espana",
+ "candidates": [
+  {
+   "key": "psoe",
+   "label": "PSOE",
+   "price": 0.16,
+   "conditionId": "0x989e60030a12b3b8c3014ca744df34fce5bc014a803f5a0c717557e11a0a04b8"
+  },
+  {
+   "key": "pp",
+   "label": "PP",
+   "price": 0.85,
+   "conditionId": "0x162e356bfab7ad18fe4e3029d5811d9a95fce95d93858b42924a3b9ffbcf1a93"
+  },
+  {
+   "key": "vox",
+   "label": "Vox",
+   "price": null,
+   "conditionId": "0x32efce5c16d89771617eb4e28a42db8845b7fceae965b18d64b72baf1775d2c4"
+  }
+ ],
+ "prices": {
+  "psoe": 0.16,
+  "pp": 0.85,
+  "vox": null
+ },
+ "priceHistory": [
+  [
+   497879,
+   {
+    "psoe": 0.14,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497880,
+   {
+    "psoe": 0.14,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497881,
+   {
+    "psoe": 0.14,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497882,
+   {
+    "psoe": 0.14,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497883,
+   {
+    "psoe": 0.14,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497884,
+   {
+    "psoe": 0.14,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497885,
+   {
+    "psoe": 0.14,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497886,
+   {
+    "psoe": 0.14,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497887,
+   {
+    "psoe": 0.14,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497888,
+   {
+    "psoe": 0.14,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497889,
+   {
+    "psoe": 0.15,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497890,
+   {
+    "psoe": 0.15,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497891,
+   {
+    "psoe": 0.15,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497892,
+   {
+    "psoe": 0.15,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497893,
+   {
+    "psoe": 0.15,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497894,
+   {
+    "psoe": 0.15,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497895,
+   {
+    "psoe": 0.16,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497896,
+   {
+    "psoe": 0.16,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497897,
+   {
+    "psoe": 0.16,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497898,
+   {
+    "psoe": 0.16,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497899,
+   {
+    "psoe": 0.16,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497900,
+   {
+    "psoe": 0.16,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497901,
+   {
+    "psoe": 0.16,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497902,
+   {
+    "psoe": 0.16,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497903,
+   {
+    "psoe": 0.16,
+    "pp": 0.85,
+    "vox": null
+   }
+  ]
+ ],
+ "totals": {
+  "psoe": {
+   "wallets": 6,
+   "usd": 169.7,
+   "trades": 7
+  },
+  "-psoe": {
+   "wallets": 1,
+   "usd": 1,
+   "trades": 1
+  },
+  "pp": {
+   "wallets": 3,
+   "usd": 456,
+   "trades": 3
+  },
+  "-pp": {
+   "wallets": 2,
+   "usd": 13.07,
+   "trades": 2
+  },
+  "vox": {
+   "wallets": 0,
+   "usd": 0,
+   "trades": 0
+  },
+  "-vox": {
+   "wallets": 0,
+   "usd": 0,
+   "trades": 0
+  }
+ },
+ "anomalies": [],
+ "newAnomalies": 0,
+ "contracts": {
+  "collateral": {
+   "name": "pUSD collateral token",
+   "address": "0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB"
+  },
+  "exchange": {
+   "name": "Neg Risk CTF Exchange",
+   "address": "0xe2222d279d744050d28e00520010520000310F59"
+  },
+  "ctf": {
+   "name": "Conditional Tokens",
+   "address": "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045"
+  }
+ },
+ "trades": [
+  [
+   1792373564,
+   "0xd6280c12247e5ca01e17f1097f25384e6ac7a698",
+   2.04,
+   "-pp",
+   "0xe27b98aa63782781a5acedc53338826bdffe0681be9f50c07e2e5e1a863ef423"
+  ],
+  [
+   1792382126,
+   "0x836c706670eb7996b85b511f23a27ae154acd0ba",
+   1,
+   "-psoe",
+   "0x15e781f4e25cec67adf2ff7fe172b492b4be7b1374630ec4a46e130caae8e563"
+  ],
+  [
+   1792401287,
+   "0xfa011919b3ce3222620052757ee0f0c66c41f0a7",
+   425,
+   "pp",
+   "0xe9e988dd4ea8827be82867f67d0f705a53fe25e853fe5489aebd64847f97c51d"
+  ],
+  [
+   1792403507,
+   "0xc50c05d454f0681ea57b254df8ad97bc210f3017",
+   10.98,
+   "psoe",
+   "0x7e85eb3a027ed938f78ce98e53e8e6b83da82e0b2dbce603d0b9ea226794644f"
+  ],
+  [
+   1792403507,
+   "0x4959175440b8f38229b32f2f036057f6893ea6f5",
+   2.24,
+   "psoe",
+   "0xed32edb9911be61059f70574d194469912b7a99320dd8295d7799489b53e437d"
+  ],
+  [
+   1792403507,
+   "0x625bda8a0829fe1e12ef0c3f02a1929b954722cf",
+   8.85,
+   "psoe",
+   "0x47fe2b32346ab71eacc5412b60e4957538a18188e2cc7ec15c19dc61110afb53"
+  ],
+  [
+   1792403507,
+   "0x7e9217bfb078a0a69dc674698d35002d8ff99670",
+   20,
+   "psoe",
+   "0xb450b02d510112f0848ca1ed486331f97d2094a50f38f5f0eeaf78e9e7cd327d"
+  ],
+  [
+   1792403508,
+   "0xeed8c2be411025120fb511ea2332dd0a1f6135f0",
+   11.03,
+   "-pp",
+   "0x6fbc167ecc80cefd4921afe21795739fea36f86b08b5e80597a3310bbacaf8ad"
+  ],
+  [
+   1792420338,
+   "0xca2cc6b247dcd6e470ce20dd7ca7c58ff8838ea9",
+   1,
+   "pp",
+   "0x33052eb4c65d3aff889b8dceeab1d2444565a58db7ef42cae666425d6463752c"
+  ],
+  [
+   1792422527,
+   "0x24fe0b16c9833c78cb50d56036a7e8b195f73419",
+   58.76,
+   "psoe",
+   "0xff1d8268583c500dc5db9b2c7e0c0064c798690d2e4a6cb72477e3ba41d6084d"
+  ],
+  [
+   1792422528,
+   "0xc50c05d454f0681ea57b254df8ad97bc210f3017",
+   11.02,
+   "psoe",
+   "0xae6d5b5dad8cadb0b2be842584213e352441f5a40e3f7d2bff2cf0342ed41978"
+  ],
+  [
+   1792422534,
+   "0x321e2890cc90f475b25011c76a296f2b6bf99292",
+   57.85,
+   "psoe",
+   "0xd210ffefa0c06e45cb08416bc67312f68039657f7aa9a1784981c584f269085d"
+  ],
+  [
+   1792431624,
+   "0x896f3e06289bc4d0a1e001ee4b41717ee0e30631",
+   30,
+   "pp",
+   "0xbbcee2a88571b7cbebce49117bbc106e4cdf50fbc658ee0d4625b68eacc7f281"
+  ]
+ ]
+}

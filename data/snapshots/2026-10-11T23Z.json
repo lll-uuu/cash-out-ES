@@ -1,0 +1,389 @@
+{
+ "v": 3,
+ "id": "2026-10-11T23Z",
+ "ts": 1791759600,
+ "at": "2026-10-11T23:00:00.000Z",
+ "final": false,
+ "backfill": true,
+ "event": {
+  "slug": "spain-general-election-winner",
+  "id": "1138701",
+  "title": "Spain General Election Winner"
+ },
+ "palette": "espana",
+ "candidates": [
+  {
+   "key": "psoe",
+   "label": "PSOE",
+   "price": 0.15,
+   "conditionId": "0x989e60030a12b3b8c3014ca744df34fce5bc014a803f5a0c717557e11a0a04b8"
+  },
+  {
+   "key": "pp",
+   "label": "PP",
+   "price": 0.85,
+   "conditionId": "0x162e356bfab7ad18fe4e3029d5811d9a95fce95d93858b42924a3b9ffbcf1a93"
+  },
+  {
+   "key": "vox",
+   "label": "Vox",
+   "price": null,
+   "conditionId": "0x32efce5c16d89771617eb4e28a42db8845b7fceae965b18d64b72baf1775d2c4"
+  }
+ ],
+ "prices": {
+  "psoe": 0.15,
+  "pp": 0.85,
+  "vox": null
+ },
+ "priceHistory": [
+  [
+   497687,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497688,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497689,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497690,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497691,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497692,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497693,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497694,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497695,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497696,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497697,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497698,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497699,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497700,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497701,
+   {
+    "psoe": 0.16,
+    "pp": 0.83,
+    "vox": null
+   }
+  ],
+  [
+   497702,
+   {
+    "psoe": 0.16,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497703,
+   {
+    "psoe": 0.17,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497704,
+   {
+    "psoe": 0.17,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497705,
+   {
+    "psoe": 0.17,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497706,
+   {
+    "psoe": 0.17,
+    "pp": 0.85,
+    "vox": null
+   }
+  ],
+  [
+   497707,
+   {
+    "psoe": 0.17,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497708,
+   {
+    "psoe": 0.17,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497709,
+   {
+    "psoe": 0.17,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497710,
+   {
+    "psoe": 0.15,
+    "pp": 0.84,
+    "vox": null
+   }
+  ],
+  [
+   497711,
+   {
+    "psoe": 0.15,
+    "pp": 0.85,
+    "vox": null
+   }
+  ]
+ ],
+ "totals": {
+  "psoe": {
+   "wallets": 2,
+   "usd": 52.81,
+   "trades": 2
+  },
+  "-psoe": {
+   "wallets": 4,
+   "usd": 357.66,
+   "trades": 4
+  },
+  "pp": {
+   "wallets": 5,
+   "usd": 937.82,
+   "trades": 5
+  },
+  "-pp": {
+   "wallets": 3,
+   "usd": 69.28,
+   "trades": 3
+  },
+  "vox": {
+   "wallets": 0,
+   "usd": 0,
+   "trades": 0
+  },
+  "-vox": {
+   "wallets": 0,
+   "usd": 0,
+   "trades": 0
+  }
+ },
+ "anomalies": [],
+ "newAnomalies": 0,
+ "contracts": {
+  "collateral": {
+   "name": "pUSD collateral token",
+   "address": "0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB"
+  },
+  "exchange": {
+   "name": "Neg Risk CTF Exchange",
+   "address": "0xe2222d279d744050d28e00520010520000310F59"
+  },
+  "ctf": {
+   "name": "Conditional Tokens",
+   "address": "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045"
+  }
+ },
+ "trades": [
+  [
+   1791677329,
+   "0xb1ce0561c9f8bc04d27d0d7dcb09e7a9f460ced2",
+   1,
+   "pp",
+   "0xec36e21c5323c828693609beb4e629b0d1fc15422ab4fd7a4985175df6ed9d50"
+  ],
+  [
+   1791724602,
+   "0xfa4b0aa2dafce7c1899d9988833b27b13fe9e34d",
+   9.68,
+   "-pp",
+   "0x0525eadc6ad02964100ebbdb0da492738c3402a3c30b5c3d64ee8994e4b0ed03"
+  ],
+  [
+   1791729660,
+   "0x7b56986b5ad655e5be7dbf47195dc26b88e65549",
+   349.32,
+   "pp",
+   "0x56c99e9ecb24dc00960b1de173f688a186e5f270aaed5526495ac51721ca4bf4"
+  ],
+  [
+   1791732277,
+   "0x045f365c01e8405a9d3f19d9167140cb7fef2136",
+   2.5,
+   "psoe",
+   "0x21ab186db4171eae2e7b40846bcccb37f682eaff15ff95e8d780754d58c13056"
+  ],
+  [
+   1791735294,
+   "0x8fd70508a862c8517346a886a7440912d5b66671",
+   496.5,
+   "pp",
+   "0xc7c1fc3ad1529056a0e3dd6a55a657cdefcda03fb42d81057a3ca729bbb2b9c3"
+  ],
+  [
+   1791735295,
+   "0x625bda8a0829fe1e12ef0c3f02a1929b954722cf",
+   51,
+   "pp",
+   "0x7b0fa1b07548f5774956107893656b004a4a45c30d122e044680dd388306f404"
+  ],
+  [
+   1791735441,
+   "0x804160663795c142a2ee7d0cfa55df56ddec498e",
+   40,
+   "pp",
+   "0xce6e5c6d0e626f42a35c68655a13fdf2db0e147f4c794306fa7897becb5502bc"
+  ],
+  [
+   1791747391,
+   "0x625bda8a0829fe1e12ef0c3f02a1929b954722cf",
+   9.6,
+   "-pp",
+   "0x0a7d0ce3ce6528cc18f4a4a1b0fbbffada3316fac6857929378f5924e9043e79"
+  ],
+  [
+   1791747393,
+   "0x930a2d7c7cc13373b64d68372ad0679c47755d2f",
+   50,
+   "-pp",
+   "0x4b6cb13a1ef4fd90c5a3e2b7e7fe01282e1b11c359722b7d23b9f906b7b4582c"
+  ],
+  [
+   1791756596,
+   "0x9163b65317deaab8b3b681c5a7a5c261d99b82ae",
+   120,
+   "-psoe",
+   "0xeaf6a4aa064f0d42dce554aa9f5e7760b85113cd9ff0286705081fb7155df806"
+  ],
+  [
+   1791756596,
+   "0x84bbac69eb8b6bdbaa3c9a63c0142d47737f1477",
+   51,
+   "-psoe",
+   "0x4f21f6a64e10812f9a4b42dd870e85f926534af5d967cb487de7ba2a1b276bd5"
+  ],
+  [
+   1791756596,
+   "0xeed8c2be411025120fb511ea2332dd0a1f6135f0",
+   59.64,
+   "-psoe",
+   "0x596dc9c88d01d9c7d261da8187b11a70e2d4db318c54a12cd0cb1388c3d4dd41"
+  ],
+  [
+   1791756608,
+   "0x8aaca4ecd04bbe3347e94f08c94cf54ec20c0e7a",
+   50.31,
+   "psoe",
+   "0x72b0d1feef25001c2c2ddcbb414b01d2ba2a26d40e965a03abea941750cb2179"
+  ],
+  [
+   1791756668,
+   "0xc50c05d454f0681ea57b254df8ad97bc210f3017",
+   127.02,
+   "-psoe",
+   "0x5b87c678e007f3e68350222296b5f43440283d4f241d7249fe186714881e3a4c"
+  ]
+ ]
+}

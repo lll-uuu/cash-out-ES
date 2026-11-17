@@ -1,0 +1,536 @@
+{
+ "v": 3,
+ "id": "2026-10-09T23Z",
+ "ts": 1791586800,
+ "at": "2026-10-09T23:00:00.000Z",
+ "final": false,
+ "backfill": true,
+ "event": {
+  "slug": "spain-general-election-winner",
+  "id": "1138701",
+  "title": "Spain General Election Winner"
+ },
+ "palette": "espana",
+ "candidates": [
+  {
+   "key": "psoe",
+   "label": "PSOE",
+   "price": 0.19,
+   "conditionId": "0x989e60030a12b3b8c3014ca744df34fce5bc014a803f5a0c717557e11a0a04b8"
+  },
+  {
+   "key": "pp",
+   "label": "PP",
+   "price": 0.82,
+   "conditionId": "0x162e356bfab7ad18fe4e3029d5811d9a95fce95d93858b42924a3b9ffbcf1a93"
+  },
+  {
+   "key": "vox",
+   "label": "Vox",
+   "price": null,
+   "conditionId": "0x32efce5c16d89771617eb4e28a42db8845b7fceae965b18d64b72baf1775d2c4"
+  }
+ ],
+ "prices": {
+  "psoe": 0.19,
+  "pp": 0.82,
+  "vox": null
+ },
+ "priceHistory": [
+  [
+   497639,
+   {
+    "psoe": 0.2,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497640,
+   {
+    "psoe": 0.2,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497641,
+   {
+    "psoe": 0.19,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497642,
+   {
+    "psoe": 0.19,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497643,
+   {
+    "psoe": 0.19,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497644,
+   {
+    "psoe": 0.19,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497645,
+   {
+    "psoe": 0.19,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497646,
+   {
+    "psoe": 0.19,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497647,
+   {
+    "psoe": 0.19,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497648,
+   {
+    "psoe": 0.19,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497649,
+   {
+    "psoe": 0.19,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497650,
+   {
+    "psoe": 0.19,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497651,
+   {
+    "psoe": 0.19,
+    "pp": 0.82,
+    "vox": null
+   }
+  ],
+  [
+   497652,
+   {
+    "psoe": 0.19,
+    "pp": 0.82,
+    "vox": null
+   }
+  ],
+  [
+   497653,
+   {
+    "psoe": 0.19,
+    "pp": 0.82,
+    "vox": null
+   }
+  ],
+  [
+   497654,
+   {
+    "psoe": 0.18,
+    "pp": 0.81,
+    "vox": null
+   }
+  ],
+  [
+   497655,
+   {
+    "psoe": 0.18,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497656,
+   {
+    "psoe": 0.18,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497657,
+   {
+    "psoe": 0.19,
+    "pp": 0.8,
+    "vox": null
+   }
+  ],
+  [
+   497658,
+   {
+    "psoe": 0.19,
+    "pp": 0.82,
+    "vox": null
+   }
+  ],
+  [
+   497659,
+   {
+    "psoe": 0.19,
+    "pp": 0.82,
+    "vox": null
+   }
+  ],
+  [
+   497660,
+   {
+    "psoe": 0.19,
+    "pp": 0.82,
+    "vox": null
+   }
+  ],
+  [
+   497661,
+   {
+    "psoe": 0.19,
+    "pp": 0.82,
+    "vox": null
+   }
+  ],
+  [
+   497662,
+   {
+    "psoe": 0.19,
+    "pp": 0.82,
+    "vox": null
+   }
+  ],
+  [
+   497663,
+   {
+    "psoe": 0.19,
+    "pp": 0.82,
+    "vox": null
+   }
+  ]
+ ],
+ "totals": {
+  "psoe": {
+   "wallets": 3,
+   "usd": 215.36,
+   "trades": 3
+  },
+  "-psoe": {
+   "wallets": 8,
+   "usd": 597.31,
+   "trades": 13
+  },
+  "pp": {
+   "wallets": 13,
+   "usd": 1972.53,
+   "trades": 16
+  },
+  "-pp": {
+   "wallets": 1,
+   "usd": 26.4,
+   "trades": 3
+  },
+  "vox": {
+   "wallets": 0,
+   "usd": 0,
+   "trades": 0
+  },
+  "-vox": {
+   "wallets": 0,
+   "usd": 0,
+   "trades": 0
+  }
+ },
+ "anomalies": [],
+ "newAnomalies": 0,
+ "contracts": {
+  "collateral": {
+   "name": "pUSD collateral token",
+   "address": "0xC011a7E12a19f7B1f670d46F03B03f3342E82DFB"
+  },
+  "exchange": {
+   "name": "Neg Risk CTF Exchange",
+   "address": "0xe2222d279d744050d28e00520010520000310F59"
+  },
+  "ctf": {
+   "name": "Conditional Tokens",
+   "address": "0x4D97DCd97eC945f40cF65F87097ACe5EA0476045"
+  }
+ },
+ "trades": [
+  [
+   1791510585,
+   "0xeface9902242b0399856f981600b907dcc9bc9a1",
+   30.78,
+   "-psoe",
+   "0x251402f0369577bfe4e6ef25528af5b0723636b4cb4896c53084b9fffd4cb786"
+  ],
+  [
+   1791534919,
+   "0x6e36bafb76a9195f2fd71d580684149e6f9b5374",
+   0.95,
+   "pp",
+   "0x09cac3050227930b8b148df7ef86bb254ed71737a727fe50dd10e0b0c61038c7"
+  ],
+  [
+   1791541375,
+   "0xa473bbf8011f0f3af7034a3a31f2c23388ed58c0",
+   16.8,
+   "pp",
+   "0xd1d339f3d57a09e4e3f17e3208e3ebf635e75a81e3197c46e19e4fa4b767018b"
+  ],
+  [
+   1791541495,
+   "0xa473bbf8011f0f3af7034a3a31f2c23388ed58c0",
+   3.76,
+   "pp",
+   "0x4d97a69c5199ae6d89f9717343ec9470cbc53cf778c7d544710a9e607231161d"
+  ],
+  [
+   1791545734,
+   "0x625bda8a0829fe1e12ef0c3f02a1929b954722cf",
+   48.6,
+   "pp",
+   "0xcccc778e7f632e86085a6097c15bfeb9f0a3fe2365e7dbee84af11753cc4d05c"
+  ],
+  [
+   1791545734,
+   "0xb9b56ac2329740ff9aff25f1ba752508becec194",
+   952.32,
+   "pp",
+   "0x291b8c1060eb5b7c9ca6069b1ba214c86364461295a5c25daaa3115a9b4a7281"
+  ],
+  [
+   1791545734,
+   "0x1583c5d3f2b55b3ec71c599c6b90d328d49cbdde",
+   215.46,
+   "pp",
+   "0xe29f69259a9d8992fb2b949a90589c4bffc8b73c40791fa964c50a4160ed19ef"
+  ],
+  [
+   1791545734,
+   "0xeed8c2be411025120fb511ea2332dd0a1f6135f0",
+   127.17,
+   "pp",
+   "0x14cc4d21cc2a7ef5996bf282a5bf8fcb48171ef2e475d023d0ca0d2dc9a8ad82"
+  ],
+  [
+   1791545736,
+   "0x37499246c9d3695d623c1244b58e7ebb94124094",
+   48.31,
+   "pp",
+   "0x0485e0eff156def9033e431ff9c3fe29acef72088c6a878f4b0c424e874a7ce0"
+  ],
+  [
+   1791545755,
+   "0x321e2890cc90f475b25011c76a296f2b6bf99292",
+   1.83,
+   "pp",
+   "0x19be3c294dd4f68c9238d7da933657b3a401fb5acc7a6948b940de90b9944842"
+  ],
+  [
+   1791545757,
+   "0x321e2890cc90f475b25011c76a296f2b6bf99292",
+   37.84,
+   "pp",
+   "0x4ec230e771948972623a5d11595015d2f3438f74ac0bdc15f5a535d6009e90d6"
+  ],
+  [
+   1791555831,
+   "0x70a21f1b3f482de6ac3c69e5e39e9e1f5efdfa09",
+   0.91,
+   "-psoe",
+   "0x5897d78d9e2a60a132a2ca2c7881f798542d0afe622c51e9b703eb007780e7fa"
+  ],
+  [
+   1791557260,
+   "0x36062964a32c75133958e2ac1e8b7841c143caca",
+   1.1,
+   "pp",
+   "0xd3f42cec9c5424959971e196823c1b7aa4b86ecc145f34af5ceab015239e6938"
+  ],
+  [
+   1791557382,
+   "0xeface9902242b0399856f981600b907dcc9bc9a1",
+   155.52,
+   "-psoe",
+   "0x65c27e6a9a98fb73a717805ac1d621e0de4ee0780929de79ab8344a00889f432"
+  ],
+  [
+   1791557434,
+   "0xe31c17d1a4b0f079cf372546594a5ab7ff4f5cf0",
+   50,
+   "pp",
+   "0x950a3ed20ae0a1a52870a525a6be0b55a9b45b23b59355d5dbde68fbbe255e8c"
+  ],
+  [
+   1791557451,
+   "0xc50c05d454f0681ea57b254df8ad97bc210f3017",
+   122.64,
+   "-psoe",
+   "0x79ad619fa9a7810d9a7c18247a2868daf976babc53b1f9d47e3c755fb4032282"
+  ],
+  [
+   1791557967,
+   "0xeface9902242b0399856f981600b907dcc9bc9a1",
+   7.2,
+   "-pp",
+   "0x1298be52635641e00269932b3d6cef33b7d820ac9165629ab21decdb144e9099"
+  ],
+  [
+   1791557994,
+   "0x7b259edf41df29db6916f9c0fdd672ddc334e4be",
+   9.69,
+   "pp",
+   "0x309f9bc228983d040a3be9f7410dbdb2b6dad5b636820b5403b00768b6cfc97a"
+  ],
+  [
+   1791558028,
+   "0xeface9902242b0399856f981600b907dcc9bc9a1",
+   4,
+   "-pp",
+   "0x402c7a25df0d1cb7446c0dbf1f3796808c64395d91d737048129efc1f55d81cf"
+  ],
+  [
+   1791558505,
+   "0xeface9902242b0399856f981600b907dcc9bc9a1",
+   15.2,
+   "-pp",
+   "0x7c964068fa60eea94705e24e8cb8363d8921e9439a8eed7282866cf1180a8981"
+  ],
+  [
+   1791563069,
+   "0xd17a407b735143bd18f85f6cbf01f7e49289b840",
+   30,
+   "-psoe",
+   "0x79a5d046b5171814a00df2e5616829fe3270aa74ae825962d831b39e86dcb7bf"
+  ],
+  [
+   1791565990,
+   "0xeface9902242b0399856f981600b907dcc9bc9a1",
+   7.29,
+   "psoe",
+   "0x2c7f5d7fcdcb10739f0d35b12174fb90761f848a161f88a9bf4258bbc1b7cc73"
+  ],
+  [
+   1791569416,
+   "0x4c99cd71c06e2efdd9bb679f3a2a6bdf6bf46efb",
+   299.7,
+   "pp",
+   "0x7a4469008f9e21acbb3c44f4a2bdfb98f1783409a213afee74113c8146dc4f90"
+  ],
+  [
+   1791569416,
+   "0x625bda8a0829fe1e12ef0c3f02a1929b954722cf",
+   48.96,
+   "pp",
+   "0x2a86b45c8ab2bbff96237c888bfcc0d3e6a6a87c7a1632e033cd0d3d5d53863b"
+  ],
+  [
+   1791569489,
+   "0xc50c05d454f0681ea57b254df8ad97bc210f3017",
+   110.04,
+   "pp",
+   "0x76151f1f73b1b9ee8d17bc6c35baaa6e1b25f41a6423f12f0b2f98d604eb9ce8"
+  ],
+  [
+   1791579625,
+   "0xaade8588bd7480f1143264e3ee218dc8e92e38a8",
+   4.75,
+   "-psoe",
+   "0x3e0f91811a291b3fefd98069eadf2c0a39b469187474dcdf8bca986fdd304a32"
+  ],
+  [
+   1791579625,
+   "0xeface9902242b0399856f981600b907dcc9bc9a1",
+   7.29,
+   "-psoe",
+   "0x0c0f60ce162bf80123ba8573ff383e3aa39ff24e06807472acd5b32baa61e07d"
+  ],
+  [
+   1791579625,
+   "0x9c2d261969319d0afb4ca45973fe558a0c601b16",
+   12,
+   "psoe",
+   "0xb9c1c7a07778eaf6761fa1ae3cd489628d5eef44f93aa6940b32566f0ad7f00b"
+  ],
+  [
+   1791579626,
+   "0xaade8588bd7480f1143264e3ee218dc8e92e38a8",
+   4.75,
+   "-psoe",
+   "0x86b86c1116489acc2119064c111a2d360bf0b59dfff5fb65742b5c4698e33569"
+  ],
+  [
+   1791579626,
+   "0xd86db5d1402f9e9c851251e3b0816d3f4191ecf8",
+   196.07,
+   "psoe",
+   "0x636833c112f11d732b9d97b80c241d8d47929a4e4f837f8a50d0ae8584615a25"
+  ],
+  [
+   1791579637,
+   "0x3ccf2c0fce7e56fc5b85d55c467fdaa985d1f061",
+   3,
+   "-psoe",
+   "0x21377c8510cca3caf1bdd194706e72081a144fbe4e86bfea19d8a7f3ca1c2d37"
+  ],
+  [
+   1791579643,
+   "0xa25ec815a0ff8f14331f8ef54d0f7bf3a62b2dd7",
+   4.05,
+   "-psoe",
+   "0x6beaab8cc4b867d31d652cc0eee750d4b5a334f1f2a69cfcdde225f8608fc00a"
+  ],
+  [
+   1791579646,
+   "0x42762b0f4f564276c970dbf34090d17362bf9b21",
+   1.15,
+   "-psoe",
+   "0x784865bb066c9483bf8233d49f9ce4081aea8789b066190cc22658a3a6a209cb"
+  ],
+  [
+   1791580342,
+   "0xeface9902242b0399856f981600b907dcc9bc9a1",
+   162,
+   "-psoe",
+   "0xeb0411307428204187b17d2db68ff2a20b52e036ea7130486994a6f1f95a1a20"
+  ],
+  [
+   1791582302,
+   "0xeface9902242b0399856f981600b907dcc9bc9a1",
+   70.47,
+   "-psoe",
+   "0x3bac00da75a65c293adcbd7da6741d7b6fa7c5e222ed1756e7e1b91658623ae2"
+  ]
+ ]
+}
