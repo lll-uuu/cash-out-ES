@@ -1,6 +1,6 @@
 # Cash Out · España: análisis agregado
 
-Elecciones generales del 29 de noviembre de 2026, mercado «spain-general-election-winner» de Polymarket (qué partido gana más escaños). Actualizado el 2026-11-17 20:28 (hora de Madrid). 44 horas registradas, del 2026-10-05T19Z al 2026-11-17T18Z (UTC).
+Elecciones generales del 29 de noviembre de 2026, mercado «spain-general-election-winner» de Polymarket (qué partido gana más escaños). Actualizado el 2026-11-18 15:13 (hora de Madrid). 46 horas registradas, del 2026-10-05T19Z al 2026-11-18T09Z (UTC).
 
 Ninguna dirección de billetera aparece aquí. Cada número es una suma o un conteo sobre un grupo, y los grupos de menos de 3 billeteras se omiten.
 
@@ -10,10 +10,10 @@ Ninguna dirección de billetera aparece aquí. Cada número es una suma o un con
 
 | | Billeteras | Apostado | PSOE | contra PSOE | PP | contra PP | Vox | contra Vox |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Todas las billeteras | 853 | US$ 251.883 | 19,3% | 20,8% | 32,2% | 17,5% | 1,2% | 8,9% |
-| Grandes apostadores | 7 | US$ 44.604 | 29,2% | 22,1% | 19,7% | 29% | 0% | 0% |
+| Todas las billeteras | 865 | US$ 256.413 | 19% | 21% | 32,8% | 17,3% | 1,2% | 8,8% |
+| Grandes apostadores | 7 | US$ 46.849 | 27,8% | 21,2% | 23,4% | 27,6% | 0% | 0% |
 
-Grandes apostadores = ballenas (US$ 5.000+ en menos de una hora), billeteras nuevas señaladas, o quien sumó US$ 5.000+ en el periodo. Son el 0,8% de las billeteras y ponen el 17,7% del dinero.
+Grandes apostadores = ballenas (US$ 5.000+ en menos de una hora), billeteras nuevas señaladas, o quien sumó US$ 5.000+ en el periodo. Son el 0,8% de las billeteras y ponen el 18,3% del dinero.
 
 ## A qué apuestan los grandes apostadores
 
@@ -21,8 +21,8 @@ Una billetera se «queda» en un lado cuando el 90% o más de su dinero fue ahí
 
 | Grupo | Solo PSOE | Solo contra PSOE | Solo PP | Solo contra PP | Solo Vox | Solo contra Vox | Varios lados |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Todos los grandes apostadores | 0 | 0 | 0 | 0 | 0 | 0 | 7 (US$ 44.604) |
-| Demás billeteras | 142 (US$ 15.438) | 73 (US$ 5.002) | 239 (US$ 49.267) | 58 (US$ 5.020) | 18 (US$ 1.150) | 16 (US$ 681) | 300 (US$ 130.722) |
+| Todos los grandes apostadores | 0 | 0 | 0 | 0 | 0 | 0 | 7 (US$ 46.849) |
+| Demás billeteras | 139 (US$ 14.969) | 72 (US$ 4.941) | 248 (US$ 49.634) | 56 (US$ 4.226) | 18 (US$ 1.150) | 16 (US$ 681) | 309 (US$ 133.963) |
 
 Día a día (fechas de Madrid). Parte del dinero de los grandes apostadores que fue a cada lado, junto a la de las demás billeteras y las probabilidades al final del día:
 
@@ -71,7 +71,8 @@ Día a día (fechas de Madrid). Parte del dinero de los grandes apostadores que 
 | 2026-11-14 | <3 | – | – | 35,9% / 11,7% / 0,1% | 82% / 18% / 0,4% |
 | 2026-11-15 | <3 | – | – | 34,3% / 26,9% / 9,5% | 80% / 19% / 0,4% |
 | 2026-11-16 | 3 | US$ 4.509 | 0% / 0% / 0% | 7,1% / 41,4% / 0,1% | 76% / 25% / 0,1% |
-| 2026-11-17 | <3 | – | – | 57,3% / 6,5% / 15,2% | 75,5% / 24,5% / 0,8% |
+| 2026-11-17 | <3 | – | – | 52,8% / 5,8% / 13,4% | 75,5% / 24,5% / 0,8% |
+| 2026-11-18 | <3 | – | – | 80,7% / 0% / 0% | 77,5% / 22,5% / 0,6% |
 
 (Solo apuestas *a favor*; el resto hasta 100% son apuestas en contra.)
 
@@ -82,29 +83,29 @@ Parte del dinero apostado en cada hora del día. La línea de tiempo completa, h
 | Hora | Grandes | Demás |
 |---|---:|---:|
 | 00 h | 0,2% | 2,6% |
-| 01 h | 3,1% | 1,6% |
+| 01 h | 3% | 1,6% |
 | 02 h | 0,1% | 0,5% |
 | 03 h | 0% | 1,8% |
 | 04 h | 0% | 1,7% |
 | 05 h | 0,3% | 1,6% |
-| 06 h | 0% | 0,3% |
+| 06 h | 4,8% | 0,5% |
 | 07 h | 0,6% | 1,7% |
-| 08 h | 5,5% | 4,3% |
-| 09 h | 8,6% | 2,9% |
-| 10 h | 13,2% | 4,7% |
-| 11 h | 13,7% | 13,5% |
-| 12 h | 2,2% | 6,9% |
-| 13 h | 2,1% | 5,6% |
-| 14 h | 2,5% | 2,8% |
-| 15 h | 3% | 5,3% |
-| 16 h | 0,6% | 3,1% |
-| 17 h | 7,4% | 6,5% |
-| 18 h | 9,4% | 7,9% |
+| 08 h | 5,2% | 4,2% |
+| 09 h | 8,2% | 2,9% |
+| 10 h | 12,5% | 4,6% |
+| 11 h | 13,1% | 13,3% |
+| 12 h | 2,1% | 6,8% |
+| 13 h | 2% | 5,6% |
+| 14 h | 2,4% | 2,8% |
+| 15 h | 2,9% | 5,3% |
+| 16 h | 0,5% | 3,1% |
+| 17 h | 7% | 6,4% |
+| 18 h | 9% | 7,8% |
 | 19 h | 0,2% | 1,7% |
-| 20 h | 16,5% | 4,5% |
-| 21 h | 3,5% | 4,2% |
-| 22 h | 6,9% | 6,2% |
-| 23 h | 0,3% | 8,1% |
+| 20 h | 15,7% | 5,1% |
+| 21 h | 3,4% | 4,2% |
+| 22 h | 6,5% | 6,2% |
+| 23 h | 0,3% | 8% |
 
 **Antes de los giros.** Hubo 21 giros de 3+ puntos en una hora en las probabilidades de algún partido. En 8 de ellos, grandes apostadores habían puesto dinero en las 2 horas anteriores: US$ 208 en la misma dirección del giro, US$ 2.926 en otras. Esto muestra coincidencia en el tiempo, no prueba que alguien supiera antes; también puede ser su propio dinero el que movió las probabilidades.
 
@@ -114,16 +115,16 @@ Parte del dinero apostado en cada hora del día. La línea de tiempo completa, h
 
 | Grupo (según su apuesta en España) | Billeteras con historial | También apostaron en Brasil | % | Dinero en Brasil a Flávio | Dinero a Lula | % a Flávio |
 |---|---:|---:|---:|---:|---:|---:|
-| Todas | 157 | 61 | 38,9% | US$ 220.526 | US$ 283.071 | 43,8% |
-| Varios lados | 39 | 18 | 46,2% | US$ 49.378 | US$ 44.553 | 52,6% |
-| Sobre todo en contra del PP | 16 | 9 | 56,3% | US$ 139.763 | US$ 191.806 | 42,2% |
-| Bloque izquierdo (PSOE o contra el PP) | 44 | 20 | 45,5% | US$ 164.067 | US$ 231.195 | 41,5% |
-| Sobre todo a favor del PP | 48 | 18 | 37,5% | US$ 784 | US$ 1.231 | 38,9% |
-| Bloque derecho (PP, Vox o contra el PSOE) | 76 | 24 | 31,6% | US$ 23.784 | US$ 23.806 | 50% |
-| Sobre todo en contra de Vox | 9 | <3 | 11,1% | – | – | – |
-| Sobre todo a favor del PSOE | 22 | 10 | 45,5% | US$ 24.045 | US$ 39.113 | 38,1% |
-| Sobre todo en contra del PSOE | 19 | 5 | 26,3% | US$ 6.556 | US$ 6.368 | 50,7% |
-| Sobre todo a favor de Vox | 4 | 0 | 0% | – | – | – |
+| Todas | 157 | 59 | 37,6% | US$ 182.514 | US$ 323.272 | 36,1% |
+| Varios lados | 40 | 16 | 40% | US$ 19.999 | US$ 18.498 | 52% |
+| Sobre todo en contra del PP | 14 | 6 | 42,9% | US$ 116.882 | US$ 145.020 | 44,6% |
+| Bloque izquierdo (PSOE o contra el PP) | 44 | 19 | 43,2% | US$ 154.127 | US$ 284.593 | 35,1% |
+| Sobre todo a favor del PP | 49 | 18 | 36,7% | US$ 6.189 | US$ 9.695 | 39% |
+| Bloque derecho (PP, Vox o contra el PSOE) | 79 | 27 | 34,2% | US$ 25.272 | US$ 37.005 | 40,6% |
+| Sobre todo en contra de Vox | 4 | 0 | 0% | – | – | – |
+| Sobre todo a favor del PSOE | 24 | 12 | 50% | US$ 36.986 | US$ 139.297 | 21% |
+| Sobre todo en contra del PSOE | 19 | 5 | 26,3% | US$ 164 | US$ 162 | 50,3% |
+| Sobre todo a favor de Vox | 7 | <3 | 28,6% | – | – | – |
 
 Coincidir en las dos elecciones no prueba coordinación: muchos apostadores profesionales apuestan en todas las elecciones del mundo. Lo que interesa es si el patrón se repite: las mismas billeteras, del mismo lado, en los mismos momentos de la campaña.
 
@@ -133,12 +134,12 @@ Para cada billetera con historial suficiente, las seis horas más tranquilas del
 
 | Franja | Grandes | Comparación |
 |---|---:|---:|
-| UTC−1 a +3 (Europa, incluida España, y África) | – | 50% |
-| UTC−5 a −2 (este de EE. UU., Canadá, Brasil, resto de Sudamérica) | – | 17,4% |
-| UTC+4 a +6 (Golfo, Asia Central, India) | – | 10,5% |
-| UTC+7 a +10 (Sudeste y Este de Asia, Australia) | – | 10,5% |
-| UTC−8 a −6 (costa oeste y centro de EE. UU., México) | – | 5,8% |
-| otros husos | – | 5,8% |
+| UTC−1 a +3 (Europa, incluida España, y África) | – | 53,7% |
+| UTC−5 a −2 (este de EE. UU., Canadá, Brasil, resto de Sudamérica) | – | 17,1% |
+| UTC+4 a +6 (Golfo, Asia Central, India) | – | 9,8% |
+| UTC−8 a −6 (costa oeste y centro de EE. UU., México) | – | 8,5% |
+| UTC+7 a +10 (Sudeste y Este de Asia, Australia) | – | 6,1% |
+| otros husos | – | 4,9% |
 
 ## Edad de las billeteras en su primera apuesta sobre la elección
 
@@ -152,21 +153,21 @@ Para cada billetera con historial suficiente, las seis horas más tranquilas del
 
 ## En qué más apuestan
 
-El 0% de los grandes apostadores nunca apostó en otra cosa en Polymarket (en la comparación: 1,3%). Las billeteras de un solo uso son una de las señales clásicas de apuestas con información privilegiada, pero también de quien solo se interesa por España.
+El 0% de los grandes apostadores nunca apostó en otra cosa en Polymarket (en la comparación: 3,3%). Las billeteras de un solo uso son una de las señales clásicas de apuestas con información privilegiada, pero también de quien solo se interesa por España.
 
 | Área | Grandes | Comparación |
 |---|---:|---:|
-| Otros | 100% | 93,3% |
-| Guerra y geopolítica | 100% | 91,3% |
-| Política de EE. UU. | 85,7% | 88,7% |
-| España | 85,7% | 79,3% |
+| Otros | 100% | 86,7% |
+| Guerra y geopolítica | 100% | 88% |
+| Política de EE. UU. | 85,7% | 86% |
+| España | 85,7% | 73,3% |
 | Otras elecciones europeas | 85,7% | 75,3% |
-| Brasil | 85,7% | 64% |
-| Otras elecciones | 71,4% | 72,7% |
-| Economía | 71,4% | 64,7% |
-| Deporte | 71,4% | 78% |
-| Cultura y tecnología | 71,4% | 64,7% |
-| Cripto | 71,4% | 66% |
+| Brasil | 85,7% | 62% |
+| Otras elecciones | 71,4% | 65,3% |
+| Economía | 71,4% | 59,3% |
+| Deporte | 71,4% | 76,7% |
+| Cultura y tecnología | 71,4% | 59,3% |
+| Cripto | 71,4% | 64,7% |
 
 Mercados en común entre los grandes apostadores (3+ billeteras):
 

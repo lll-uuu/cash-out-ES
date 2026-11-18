@@ -1,8 +1,8 @@
 {
- "generatedAt": 1794943716,
- "hoursRecorded": 44,
+ "generatedAt": 1795011182,
+ "hoursRecorded": 46,
  "from": "2026-10-05T19Z",
- "to": "2026-11-17T18Z",
+ "to": "2026-11-18T09Z",
  "thresholds": {
   "bigWalletUsd": 5000,
   "baselineSample": 150,
@@ -16,26 +16,26 @@
  "groups": [
   {
    "label": "Todas las billeteras",
-   "wallets": 853,
-   "usd": 251882.68,
+   "wallets": 865,
+   "usd": 256412.77,
    "pct": {
-    "psoe": 19.3,
-    "-psoe": 20.8,
-    "pp": 32.2,
-    "-pp": 17.5,
+    "psoe": 19,
+    "-psoe": 21,
+    "pp": 32.8,
+    "-pp": 17.3,
     "vox": 1.2,
-    "-vox": 8.9
+    "-vox": 8.8
    }
   },
   {
    "label": "Grandes apostadores",
    "wallets": 7,
-   "usd": 44603.83,
+   "usd": 46849.06,
    "pct": {
-    "psoe": 29.2,
-    "-psoe": 22.1,
-    "pp": 19.7,
-    "-pp": 29,
+    "psoe": 27.8,
+    "-psoe": 21.2,
+    "pp": 23.4,
+    "-pp": 27.6,
     "vox": 0,
     "-vox": 0
    }
@@ -43,33 +43,33 @@
  ],
  "concentration": {
   "bigWalletsPct": 0.8,
-  "bigUsdPct": 17.7
+  "bigUsdPct": 18.3
  },
  "hourOfDay": {
   "big": [
    0.2,
-   3.1,
+   3,
    0.1,
    0,
    0,
    0.3,
-   0,
+   4.8,
    0.6,
-   5.5,
-   8.6,
-   13.2,
-   13.7,
-   2.2,
+   5.2,
+   8.2,
+   12.5,
+   13.1,
    2.1,
-   2.5,
-   3,
-   0.6,
-   7.4,
-   9.4,
+   2,
+   2.4,
+   2.9,
+   0.5,
+   7,
+   9,
    0.2,
-   16.5,
-   3.5,
-   6.9,
+   15.7,
+   3.4,
+   6.5,
    0.3
   ],
   "rest": [
@@ -79,24 +79,24 @@
    1.8,
    1.7,
    1.6,
-   0.3,
+   0.5,
    1.7,
-   4.3,
+   4.2,
    2.9,
-   4.7,
-   13.5,
-   6.9,
+   4.6,
+   13.3,
+   6.8,
    5.6,
    2.8,
    5.3,
    3.1,
-   6.5,
-   7.9,
+   6.4,
+   7.8,
    1.7,
-   4.5,
+   5.1,
    4.2,
    6.2,
-   8.1
+   8
   ]
  },
  "sides": [
@@ -130,22 +130,22 @@
    },
    "mixed": {
     "wallets": 7,
-    "usd": 44603.83
+    "usd": 46849.06
    },
    "usd": {
     "psoe": 13007.3,
-    "-psoe": 9861.05,
-    "pp": 8792.54,
+    "-psoe": 9954.68,
+    "pp": 10944.14,
     "-pp": 12942.94,
     "vox": 0,
     "-vox": 0
    },
-   "total": 44603.829999999994,
+   "total": 46849.06,
    "pct": {
-    "psoe": 29.2,
-    "-psoe": 22.1,
-    "pp": 19.7,
-    "-pp": 29,
+    "psoe": 27.8,
+    "-psoe": 21.2,
+    "pp": 23.4,
+    "-pp": 27.6,
     "vox": 0,
     "-vox": 0
    }
@@ -154,20 +154,20 @@
    "label": "Demás billeteras",
    "stick": {
     "psoe": {
-     "wallets": 142,
-     "usd": 15437.66
+     "wallets": 139,
+     "usd": 14968.66
     },
     "-psoe": {
-     "wallets": 73,
-     "usd": 5002.1
+     "wallets": 72,
+     "usd": 4940.95
     },
     "pp": {
-     "wallets": 239,
-     "usd": 49266.96
+     "wallets": 248,
+     "usd": 49633.98
     },
     "-pp": {
-     "wallets": 58,
-     "usd": 5019.65
+     "wallets": 56,
+     "usd": 4226
     },
     "vox": {
      "wallets": 18,
@@ -179,25 +179,25 @@
     }
    },
    "mixed": {
-    "wallets": 300,
-    "usd": 130721.6
+    "wallets": 309,
+    "usd": 133963.24
    },
    "usd": {
-    "psoe": 35721.47,
-    "-psoe": 42533.22,
-    "pp": 72419.35,
-    "-pp": 31226.48,
+    "psoe": 35731.47,
+    "-psoe": 43779.14,
+    "pp": 73218.15,
+    "-pp": 31292.73,
     "vox": 3041.81,
-    "-vox": 22336.52
+    "-vox": 22500.41
    },
-   "total": 207278.84999999998,
+   "total": 209563.70999999996,
    "pct": {
-    "psoe": 17.2,
-    "-psoe": 20.5,
+    "psoe": 17.1,
+    "-psoe": 20.9,
     "pp": 34.9,
-    "-pp": 15.1,
+    "-pp": 14.9,
     "vox": 1.5,
-    "-vox": 10.8
+    "-vox": 10.7
    }
   }
  ],
@@ -1333,11 +1333,11 @@
     "-vox": 0
    },
    "restPct": {
-    "psoe": 6.5,
-    "-psoe": 6,
-    "pp": 57.3,
-    "-pp": 6.6,
-    "vox": 15.2,
+    "psoe": 5.8,
+    "-psoe": 13.2,
+    "pp": 52.8,
+    "-pp": 6.3,
+    "vox": 13.4,
     "-vox": 8.4
    },
    "odds": {
@@ -1345,98 +1345,124 @@
     "pp": 75.5,
     "vox": 0.8
    }
+  },
+  {
+   "day": "2026-11-18",
+   "bigWallets": 1,
+   "bigUsd": 2245.23,
+   "bigPct": {
+    "psoe": 0,
+    "-psoe": 4.2,
+    "pp": 95.8,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 0
+   },
+   "restPct": {
+    "psoe": 0,
+    "-psoe": 16.3,
+    "pp": 80.7,
+    "-pp": 0,
+    "vox": 0,
+    "-vox": 3
+   },
+   "odds": {
+    "psoe": 22.5,
+    "pp": 77.5,
+    "vox": 0.6
+   }
   }
  ],
  "brazil": [
   {
    "label": "Todas",
    "withHistory": 157,
-   "inBrazil": 61,
-   "lula": 283071.22,
-   "flavio": 220525.61,
-   "inBrazilPct": 38.9,
-   "flavioPct": 43.8
+   "inBrazil": 59,
+   "lula": 323272.44,
+   "flavio": 182514.25,
+   "inBrazilPct": 37.6,
+   "flavioPct": 36.1
   },
   {
    "label": "Varios lados",
-   "withHistory": 39,
-   "inBrazil": 18,
-   "lula": 44552.97,
-   "flavio": 49378.24,
-   "inBrazilPct": 46.2,
-   "flavioPct": 52.6
+   "withHistory": 40,
+   "inBrazil": 16,
+   "lula": 18497.65,
+   "flavio": 19999.1,
+   "inBrazilPct": 40,
+   "flavioPct": 52
   },
   {
    "label": "Sobre todo en contra del PP",
-   "withHistory": 16,
-   "inBrazil": 9,
-   "lula": 191805.54,
-   "flavio": 139763.01,
-   "inBrazilPct": 56.3,
-   "flavioPct": 42.2
+   "withHistory": 14,
+   "inBrazil": 6,
+   "lula": 145019.69,
+   "flavio": 116882.1,
+   "inBrazilPct": 42.9,
+   "flavioPct": 44.6
   },
   {
    "label": "Bloque izquierdo (PSOE o contra el PP)",
    "withHistory": 44,
-   "inBrazil": 20,
-   "lula": 231195.16,
-   "flavio": 164067.01,
-   "inBrazilPct": 45.5,
-   "flavioPct": 41.5
+   "inBrazil": 19,
+   "lula": 284593.25,
+   "flavio": 154127.21,
+   "inBrazilPct": 43.2,
+   "flavioPct": 35.1
   },
   {
    "label": "Sobre todo a favor del PP",
-   "withHistory": 48,
+   "withHistory": 49,
    "inBrazil": 18,
-   "lula": 1230.88,
-   "flavio": 783.73,
-   "inBrazilPct": 37.5,
-   "flavioPct": 38.9
+   "lula": 9694.7,
+   "flavio": 6189.12,
+   "inBrazilPct": 36.7,
+   "flavioPct": 39
   },
   {
    "label": "Bloque derecho (PP, Vox o contra el PSOE)",
-   "withHistory": 76,
-   "inBrazil": 24,
-   "lula": 23806.13,
-   "flavio": 23784.19,
-   "inBrazilPct": 31.6,
-   "flavioPct": 50
+   "withHistory": 79,
+   "inBrazil": 27,
+   "lula": 37005.22,
+   "flavio": 25272.31,
+   "inBrazilPct": 34.2,
+   "flavioPct": 40.6
   },
   {
    "label": "Sobre todo en contra de Vox",
-   "withHistory": 9,
-   "inBrazil": 1,
-   "lula": 0.3,
-   "flavio": 0,
-   "inBrazilPct": 11.1,
-   "flavioPct": 0
-  },
-  {
-   "label": "Sobre todo a favor del PSOE",
-   "withHistory": 22,
-   "inBrazil": 10,
-   "lula": 39113.48,
-   "flavio": 24044.52,
-   "inBrazilPct": 45.5,
-   "flavioPct": 38.1
-  },
-  {
-   "label": "Sobre todo en contra del PSOE",
-   "withHistory": 19,
-   "inBrazil": 5,
-   "lula": 6368.05,
-   "flavio": 6556.11,
-   "inBrazilPct": 26.3,
-   "flavioPct": 50.7
-  },
-  {
-   "label": "Sobre todo a favor de Vox",
    "withHistory": 4,
    "inBrazil": 0,
    "lula": 0,
    "flavio": 0,
    "inBrazilPct": 0,
    "flavioPct": 0
+  },
+  {
+   "label": "Sobre todo a favor del PSOE",
+   "withHistory": 24,
+   "inBrazil": 12,
+   "lula": 139297.42,
+   "flavio": 36985.63,
+   "inBrazilPct": 50,
+   "flavioPct": 21
+  },
+  {
+   "label": "Sobre todo en contra del PSOE",
+   "withHistory": 19,
+   "inBrazil": 5,
+   "lula": 162.36,
+   "flavio": 164.01,
+   "inBrazilPct": 26.3,
+   "flavioPct": 50.3
+  },
+  {
+   "label": "Sobre todo a favor de Vox",
+   "withHistory": 7,
+   "inBrazil": 2,
+   "lula": 10600.62,
+   "flavio": 2294.29,
+   "inBrazilPct": 28.6,
+   "flavioPct": 17.8
   }
  ],
  "aheadOfSwings": {
@@ -1452,38 +1478,38 @@
    "regions": []
   },
   "baseline": {
-   "estimated": 86,
-   "unclear": 64,
+   "estimated": 82,
+   "unclear": 68,
    "regions": [
     {
      "region": "UTC−1 a +3 (Europa, incluida España, y África)",
-     "wallets": 43,
-     "pct": 50
+     "wallets": 44,
+     "pct": 53.7
     },
     {
      "region": "UTC−5 a −2 (este de EE. UU., Canadá, Brasil, resto de Sudamérica)",
-     "wallets": 15,
-     "pct": 17.4
+     "wallets": 14,
+     "pct": 17.1
     },
     {
      "region": "UTC+4 a +6 (Golfo, Asia Central, India)",
-     "wallets": 9,
-     "pct": 10.5
-    },
-    {
-     "region": "UTC+7 a +10 (Sudeste y Este de Asia, Australia)",
-     "wallets": 9,
-     "pct": 10.5
+     "wallets": 8,
+     "pct": 9.8
     },
     {
      "region": "UTC−8 a −6 (costa oeste y centro de EE. UU., México)",
+     "wallets": 7,
+     "pct": 8.5
+    },
+    {
+     "region": "UTC+7 a +10 (Sudeste y Este de Asia, Australia)",
      "wallets": 5,
-     "pct": 5.8
+     "pct": 6.1
     },
     {
      "region": "otros husos",
-     "wallets": 5,
-     "pct": 5.8
+     "wallets": 4,
+     "pct": 4.9
     }
    ]
   }
@@ -1730,226 +1756,226 @@
   },
   "baseline": {
    "withHistory": 150,
-   "onlyThisMarket": 2,
-   "onlyThisMarketPct": 1.3,
+   "onlyThisMarket": 5,
+   "onlyThisMarketPct": 3.3,
    "areas": [
     {
-     "area": "Otros",
-     "wallets": 140,
-     "walletsPct": 93.3,
-     "usd": 2512804.55
+     "area": "Guerra y geopolítica",
+     "wallets": 132,
+     "walletsPct": 88,
+     "usd": 1654403.09
     },
     {
-     "area": "Guerra y geopolítica",
-     "wallets": 137,
-     "walletsPct": 91.3,
-     "usd": 1638548
+     "area": "Otros",
+     "wallets": 130,
+     "walletsPct": 86.7,
+     "usd": 1720347.6
     },
     {
      "area": "Política de EE. UU.",
-     "wallets": 133,
-     "walletsPct": 88.7,
-     "usd": 1662681.15
-    },
-    {
-     "area": "España",
-     "wallets": 119,
-     "walletsPct": 79.3,
-     "usd": 166952.25
+     "wallets": 129,
+     "walletsPct": 86,
+     "usd": 1610081.26
     },
     {
      "area": "Deporte",
-     "wallets": 117,
-     "walletsPct": 78,
-     "usd": 1461965.44
+     "wallets": 115,
+     "walletsPct": 76.7,
+     "usd": 823087.83
     },
     {
      "area": "Otras elecciones europeas",
      "wallets": 113,
      "walletsPct": 75.3,
-     "usd": 183967.69
+     "usd": 244581.26
+    },
+    {
+     "area": "España",
+     "wallets": 110,
+     "walletsPct": 73.3,
+     "usd": 84262.5
     },
     {
      "area": "Otras elecciones",
-     "wallets": 109,
-     "walletsPct": 72.7,
-     "usd": 377548.25
+     "wallets": 98,
+     "walletsPct": 65.3,
+     "usd": 227826.57
     },
     {
      "area": "Cripto",
-     "wallets": 99,
-     "walletsPct": 66,
-     "usd": 1131016.97
-    },
-    {
-     "area": "Economía",
      "wallets": 97,
      "walletsPct": 64.7,
-     "usd": 696907.37
-    },
-    {
-     "area": "Cultura y tecnología",
-     "wallets": 97,
-     "walletsPct": 64.7,
-     "usd": 224848.13
+     "usd": 590833.48
     },
     {
      "area": "Brasil",
-     "wallets": 96,
-     "walletsPct": 64,
-     "usd": 238453.64
+     "wallets": 93,
+     "walletsPct": 62,
+     "usd": 233673.21
+    },
+    {
+     "area": "Economía",
+     "wallets": 89,
+     "walletsPct": 59.3,
+     "usd": 529874.92
+    },
+    {
+     "area": "Cultura y tecnología",
+     "wallets": 89,
+     "walletsPct": 59.3,
+     "usd": 184136.73
     }
    ],
    "events": [
     {
-     "title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
-     "area": "Brasil",
-     "wallets": 49,
-     "usd": 156746.54
-    },
-    {
      "title": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
      "area": "Guerra y geopolítica",
      "wallets": 49,
-     "usd": 137365.35
+     "usd": 88661.21
     },
     {
-     "title": "Will Pedro Sánchez be the next Prime Minister of Spain?",
-     "area": "España",
-     "wallets": 48,
-     "usd": 39981.08
-    },
-    {
-     "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
-     "area": "Otras elecciones",
+     "title": "Will Flávio Bolsonaro win the 2026 Brazilian presidential election?",
+     "area": "Brasil",
      "wallets": 45,
-     "usd": 39884.16
-    },
-    {
-     "title": "Will Chiang Wan-an win the next Taipei Mayor election?",
-     "area": "Política de EE. UU.",
-     "wallets": 42,
-     "usd": 47363.26
+     "usd": 170693.99
     },
     {
      "title": "Will Jordan Bardella win the 2027 French presidential election?",
      "area": "Otras elecciones europeas",
-     "wallets": 41,
-     "usd": 26599.43
+     "wallets": 45,
+     "usd": 136866.54
     },
     {
-     "title": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
-     "area": "Economía",
-     "wallets": 39,
-     "usd": 154017.76
-    },
-    {
-     "title": "Will Luka Mesec win the 2026 Ljubljana mayoral election?",
-     "area": "Política de EE. UU.",
-     "wallets": 39,
-     "usd": 25742.45
-    },
-    {
-     "title": "Will Delcy Rodríguez be the leader of Venezuela end of 2026?",
-     "area": "Guerra y geopolítica",
-     "wallets": 37,
-     "usd": 33608.73
-    },
-    {
-     "title": "Will the Democrats win the Texas Senate race in 2026?",
-     "area": "Política de EE. UU.",
-     "wallets": 35,
-     "usd": 30377.7
-    },
-    {
-     "title": "Will Brian Schatz be the next Senate Majority Leader?",
-     "area": "Política de EE. UU.",
-     "wallets": 33,
-     "usd": 26687.38
+     "title": "Will Pedro Sánchez be the next Prime Minister of Spain?",
+     "area": "España",
+     "wallets": 43,
+     "usd": 22138.17
     },
     {
      "title": "Will France win the 2026 FIFA World Cup?",
      "area": "Otras elecciones europeas",
-     "wallets": 33,
-     "usd": 11580.79
+     "wallets": 42,
+     "usd": 3018.52
     },
     {
-     "title": "2026 Balance of Power: D Senate, D House",
+     "title": "Will the Democratic Party control the Senate after the 2026 Midterm elections?",
      "area": "Política de EE. UU.",
-     "wallets": 31,
-     "usd": 38835.14
+     "wallets": 37,
+     "usd": 34336.91
     },
     {
-     "title": "Robert Pattinson announced as next James Bond?",
-     "area": "Otros",
-     "wallets": 31,
-     "usd": 24020.14
-    },
-    {
-     "title": "Will Mary Peltola win the Alaska Senate race in 2026?",
+     "title": "Will Chiang Wan-an win the next Taipei Mayor election?",
      "area": "Política de EE. UU.",
-     "wallets": 30,
-     "usd": 100819.67
+     "wallets": 35,
+     "usd": 47278.69
     },
     {
-     "title": "Will Alphabet be the largest company in the world by market cap on December 31?",
-     "area": "Otros",
-     "wallets": 30,
-     "usd": 14305.2
-    },
-    {
-     "title": "Will Pedro Sánchez be the next leader out before 2027?",
-     "area": "España",
-     "wallets": 29,
-     "usd": 18876.1
-    },
-    {
-     "title": "Israel x Iran ceasefire continues through November 30?",
-     "area": "Guerra y geopolítica",
-     "wallets": 28,
-     "usd": 101670.23
-    },
-    {
-     "title": "Will Anthropic IPO by November 20, 2026?",
-     "area": "Economía",
-     "wallets": 28,
-     "usd": 47648.97
+     "title": "Will Ulf Kristersson be the next Prime Minister of Sweden?",
+     "area": "Otras elecciones",
+     "wallets": 34,
+     "usd": 22635.71
     },
     {
      "title": "US announces end of Iranian blockade by December 31, 2026?",
      "area": "Guerra y geopolítica",
-     "wallets": 28,
-     "usd": 41324
+     "wallets": 33,
+     "usd": 77208.72
     },
     {
-     "title": "Will OpenAI have the best AI model at the end of November 2026?",
-     "area": "Deporte",
-     "wallets": 28,
-     "usd": 18739.64
+     "title": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
+     "area": "Economía",
+     "wallets": 33,
+     "usd": 74225.72
+    },
+    {
+     "title": "Israel x Iran ceasefire continues through November 30?",
+     "area": "Guerra y geopolítica",
+     "wallets": 32,
+     "usd": 108610.08
+    },
+    {
+     "title": "Will the Democrats win the Texas Senate race in 2026?",
+     "area": "Política de EE. UU.",
+     "wallets": 30,
+     "usd": 80101.46
+    },
+    {
+     "title": "Will Delcy Rodríguez be the leader of Venezuela end of 2026?",
+     "area": "Guerra y geopolítica",
+     "wallets": 30,
+     "usd": 25362.38
     },
     {
      "title": "Will Ro Khanna win the 2028 Democratic presidential nomination?",
      "area": "Política de EE. UU.",
      "wallets": 28,
-     "usd": 17361.84
+     "usd": 16369.8
     },
     {
-     "title": "Will the Democrats win the Michigan Senate race in 2026?",
-     "area": "Política de EE. UU.",
+     "title": "Jensen Huang announced resignation or removal by November 12, 2026?",
+     "area": "Otros",
      "wallets": 27,
-     "usd": 26552.66
+     "usd": 76134.78
     },
     {
-     "title": "Will the Democrats win the Maine Senate race in 2026?",
-     "area": "Política de EE. UU.",
+     "title": "Will Harry Kane win the 2026 Ballon d'Or?",
+     "area": "Otros",
      "wallets": 27,
-     "usd": 10115.99
+     "usd": 47594.31
     },
     {
      "title": "US x Iran ceasefire continues through October 31?",
      "area": "Guerra y geopolítica",
      "wallets": 26,
-     "usd": 130439.54
+     "usd": 52466.09
+    },
+    {
+     "title": "Will Anthropic's market cap be less than $1.25T at market close on IPO day?",
+     "area": "Guerra y geopolítica",
+     "wallets": 26,
+     "usd": 43659.29
+    },
+    {
+     "title": "Will the U.S. invade Iran before 2027?",
+     "area": "Guerra y geopolítica",
+     "wallets": 25,
+     "usd": 290339.27
+    },
+    {
+     "title": "2026 Balance of Power: D Senate, D House",
+     "area": "Política de EE. UU.",
+     "wallets": 25,
+     "usd": 104734.57
+    },
+    {
+     "title": "Will Mary Peltola win the Alaska Senate race in 2026?",
+     "area": "Política de EE. UU.",
+     "wallets": 25,
+     "usd": 55851.43
+    },
+    {
+     "title": "Will OpenAI have the best AI model at the end of November 2026?",
+     "area": "Deporte",
+     "wallets": 25,
+     "usd": 20245
+    },
+    {
+     "title": "Robert Pattinson announced as next James Bond?",
+     "area": "Otros",
+     "wallets": 25,
+     "usd": 18898.86
+    },
+    {
+     "title": "Russia x Ukraine ceasefire agreement by November 30, 2026?",
+     "area": "Guerra y geopolítica",
+     "wallets": 25,
+     "usd": 14378.45
+    },
+    {
+     "title": "Will Alphabet be the largest company in the world by market cap on December 31?",
+     "area": "Otros",
+     "wallets": 25,
+     "usd": 13553.02
     }
    ]
   }
