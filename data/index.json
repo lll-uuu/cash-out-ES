@@ -18,6 +18,101 @@
   "newAnomalies": []
  },
  {
+  "id": "2026-11-17T20Z",
+  "ts": 1794945900,
+  "prices": {
+   "psoe": 0.25,
+   "pp": 0.76,
+   "vox": 0.006
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 29,
+   "-psoe": 27,
+   "pp": 46,
+   "-pp": 21,
+   "vox": 4,
+   "-vox": 15
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-17T21Z",
+  "ts": 1794949500,
+  "prices": {
+   "psoe": 0.25,
+   "pp": 0.76,
+   "vox": 0.006
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 25,
+   "-psoe": 26,
+   "pp": 46,
+   "-pp": 17,
+   "vox": 4,
+   "-vox": 11
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-17T22Z",
+  "ts": 1794953100,
+  "prices": {
+   "psoe": 0.25,
+   "pp": 0.76,
+   "vox": 0.006
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 23,
+   "-psoe": 26,
+   "pp": 46,
+   "-pp": 16,
+   "vox": 4,
+   "-vox": 10
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-17T23Z",
+  "ts": 1794956700,
+  "prices": {
+   "psoe": 0.24,
+   "pp": 0.76,
+   "vox": 0.006
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 21,
+   "-psoe": 25,
+   "pp": 47,
+   "-pp": 12,
+   "vox": 4,
+   "-vox": 7
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T00Z",
+  "ts": 1794960300,
+  "prices": {
+   "psoe": 0.24,
+   "pp": 0.76,
+   "vox": 0.006
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 21,
+   "-psoe": 26,
+   "pp": 45,
+   "-pp": 12,
+   "vox": 4,
+   "-vox": 7
+  },
+  "newAnomalies": []
+ },
+ {
   "id": "2026-11-18T01Z",
   "ts": 1794967132,
   "prices": {
@@ -32,6 +127,139 @@
    "-pp": 12,
    "vox": 4,
    "-vox": 7
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T02Z",
+  "ts": 1794967500,
+  "prices": {
+   "psoe": 0.24,
+   "pp": 0.76,
+   "vox": 0.006
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 19,
+   "-psoe": 26,
+   "pp": 44,
+   "-pp": 12,
+   "vox": 3,
+   "-vox": 7
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T03Z",
+  "ts": 1794971100,
+  "prices": {
+   "psoe": 0.24,
+   "pp": 0.76,
+   "vox": 0.006
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 19,
+   "-psoe": 27,
+   "pp": 44,
+   "-pp": 12,
+   "vox": 2,
+   "-vox": 5
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T04Z",
+  "ts": 1794974700,
+  "prices": {
+   "psoe": 0.24,
+   "pp": 0.76,
+   "vox": 0.006
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 19,
+   "-psoe": 27,
+   "pp": 43,
+   "-pp": 8,
+   "vox": 2,
+   "-vox": 5
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T05Z",
+  "ts": 1794978300,
+  "prices": {
+   "psoe": 0.23,
+   "pp": 0.77,
+   "vox": 0.006
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 19,
+   "-psoe": 26,
+   "pp": 42,
+   "-pp": 8,
+   "vox": 2,
+   "-vox": 5
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T06Z",
+  "ts": 1794981900,
+  "prices": {
+   "psoe": 0.23,
+   "pp": 0.77,
+   "vox": 0.0058
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 19,
+   "-psoe": 31,
+   "pp": 49,
+   "-pp": 8,
+   "vox": 2,
+   "-vox": 5
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T07Z",
+  "ts": 1794985500,
+  "prices": {
+   "psoe": 0.23,
+   "pp": 0.78,
+   "vox": 0.0058
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 19,
+   "-psoe": 30,
+   "pp": 48,
+   "-pp": 8,
+   "vox": 2,
+   "-vox": 6
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T08Z",
+  "ts": 1794989100,
+  "prices": {
+   "psoe": 0.23,
+   "pp": 0.78,
+   "vox": 0.0058
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 19,
+   "-psoe": 30,
+   "pp": 47,
+   "-pp": 8,
+   "vox": 2,
+   "-vox": 6
   },
   "newAnomalies": []
  },
@@ -54,6 +282,158 @@
   "newAnomalies": []
  },
  {
+  "id": "2026-11-18T10Z",
+  "ts": 1794996300,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.78,
+   "vox": 0.0058
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 16,
+   "-psoe": 27,
+   "pp": 44,
+   "-pp": 9,
+   "vox": 2,
+   "-vox": 5
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T11Z",
+  "ts": 1794999900,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.78,
+   "vox": 0.0058
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 15,
+   "-psoe": 24,
+   "pp": 45,
+   "-pp": 9,
+   "vox": 1,
+   "-vox": 5
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T12Z",
+  "ts": 1795003500,
+  "prices": {
+   "psoe": 0.22,
+   "pp": 0.77,
+   "vox": 0.0058
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 16,
+   "-psoe": 25,
+   "pp": 41,
+   "-pp": 8,
+   "vox": 1,
+   "-vox": 5
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T13Z",
+  "ts": 1795007100,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.78,
+   "vox": 0.0058
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 12,
+   "-psoe": 23,
+   "pp": 42,
+   "-pp": 10,
+   "vox": 0,
+   "-vox": 3
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T14Z",
+  "ts": 1795010700,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.78,
+   "vox": 0.0058
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 12,
+   "-psoe": 24,
+   "pp": 48,
+   "-pp": 11,
+   "vox": 0,
+   "-vox": 3
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T15Z",
+  "ts": 1795014300,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.78,
+   "vox": 0.0058
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 14,
+   "-psoe": 26,
+   "pp": 45,
+   "-pp": 11,
+   "vox": 0,
+   "-vox": 3
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T16Z",
+  "ts": 1795017900,
+  "prices": {
+   "psoe": 0.22,
+   "pp": 0.8,
+   "vox": 0.0058
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 13,
+   "-psoe": 27,
+   "pp": 47,
+   "-pp": 11,
+   "vox": 0,
+   "-vox": 3
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T17Z",
+  "ts": 1795021500,
+  "prices": {
+   "psoe": 0.22,
+   "pp": 0.79,
+   "vox": 0.0058
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 11,
+   "-psoe": 30,
+   "pp": 47,
+   "-pp": 9,
+   "vox": 0,
+   "-vox": 3
+  },
+  "newAnomalies": []
+ },
+ {
   "id": "2026-11-18T18Z",
   "ts": 1795026773,
   "prices": {
@@ -72,6 +452,101 @@
   "newAnomalies": []
  },
  {
+  "id": "2026-11-18T19Z",
+  "ts": 1795028700,
+  "prices": {
+   "psoe": 0.2,
+   "pp": 0.8,
+   "vox": 0.0032
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 9,
+   "-psoe": 30,
+   "pp": 47,
+   "-pp": 12,
+   "vox": 0,
+   "-vox": 4
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T20Z",
+  "ts": 1795032300,
+  "prices": {
+   "psoe": 0.2,
+   "pp": 0.81,
+   "vox": 0.0032
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 9,
+   "-psoe": 32,
+   "pp": 47,
+   "-pp": 12,
+   "vox": 0,
+   "-vox": 2
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T21Z",
+  "ts": 1795035900,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.79,
+   "vox": 0.0032
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 9,
+   "-psoe": 32,
+   "pp": 44,
+   "-pp": 12,
+   "vox": 0,
+   "-vox": 2
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T22Z",
+  "ts": 1795039500,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.78,
+   "vox": 0.0032
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 11,
+   "-psoe": 33,
+   "pp": 52,
+   "-pp": 30,
+   "vox": 0,
+   "-vox": 2
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-18T23Z",
+  "ts": 1795043100,
+  "prices": {
+   "psoe": 0.22,
+   "pp": 0.79,
+   "vox": 0.0032
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 11,
+   "-psoe": 33,
+   "pp": 52,
+   "-pp": 34,
+   "vox": 0,
+   "-vox": 2
+  },
+  "newAnomalies": []
+ },
+ {
   "id": "2026-11-19T00Z",
   "ts": 1795049602,
   "prices": {
@@ -86,6 +561,139 @@
    "-pp": 37,
    "vox": 0,
    "-vox": 2
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-19T01Z",
+  "ts": 1795050300,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.77,
+   "vox": 0.0032
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 13,
+   "-psoe": 31,
+   "pp": 55,
+   "-pp": 37,
+   "vox": 0,
+   "-vox": 2
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-19T02Z",
+  "ts": 1795053900,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.77,
+   "vox": 0.0032
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 13,
+   "-psoe": 30,
+   "pp": 54,
+   "-pp": 37,
+   "vox": 0,
+   "-vox": 2
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-19T03Z",
+  "ts": 1795057500,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.77,
+   "vox": 0.0032
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 13,
+   "-psoe": 29,
+   "pp": 54,
+   "-pp": 37,
+   "vox": 0,
+   "-vox": 2
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-19T04Z",
+  "ts": 1795061100,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.77,
+   "vox": 0.0032
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 13,
+   "-psoe": 29,
+   "pp": 54,
+   "-pp": 37,
+   "vox": 0,
+   "-vox": 2
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-19T05Z",
+  "ts": 1795064700,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.79,
+   "vox": 0.002
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 13,
+   "-psoe": 28,
+   "pp": 54,
+   "-pp": 37,
+   "vox": 0,
+   "-vox": 2
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-19T06Z",
+  "ts": 1795068300,
+  "prices": {
+   "psoe": 0.21,
+   "pp": 0.79,
+   "vox": 0.003
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 16,
+   "-psoe": 33,
+   "pp": 54,
+   "-pp": 50,
+   "vox": 2,
+   "-vox": 12
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-19T07Z",
+  "ts": 1795071900,
+  "prices": {
+   "psoe": 0.2233,
+   "pp": 0.79,
+   "vox": 0.003
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 18,
+   "-psoe": 37,
+   "pp": 55,
+   "-pp": 51,
+   "vox": 2,
+   "-vox": 13
   },
   "newAnomalies": []
  },
