@@ -1,14 +1,14 @@
 {
  "v": 2,
  "id": "2026-11-19T08Z",
- "ts": 1795077714,
- "at": "2026-11-19T08:41:54.000Z",
+ "ts": 1795078219,
+ "at": "2026-11-19T08:50:19.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 74325.091554
+  "volume24hr": 74325.09155400001
  },
  "palette": "espana",
  "candidates": [
