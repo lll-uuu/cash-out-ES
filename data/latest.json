@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-19T09Z",
- "ts": 1795079067,
- "at": "2026-11-19T09:04:27.000Z",
+ "id": "2026-11-19T10Z",
+ "ts": 1795082460,
+ "at": "2026-11-19T10:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 74455.79181499999
+  "volume24hr": 74407.801815
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0025
  },
  "priceHistory": [
-  [
-   498609,
-   {
-    "psoe": 0.225,
-    "pp": 0.775,
-    "vox": 0.006
-   }
-  ],
   [
    498610,
    {
@@ -239,6 +231,14 @@
     "pp": 0.78,
     "vox": 0.0025
    }
+  ],
+  [
+   498634,
+   {
+    "psoe": 0.22,
+    "pp": 0.78,
+    "vox": 0.0025
+   }
   ]
  ],
  "totals": {
@@ -248,14 +248,14 @@
    "trades": 33
   },
   "-psoe": {
-   "wallets": 37,
-   "usd": 6412.77,
-   "trades": 48
+   "wallets": 36,
+   "usd": 6410.77,
+   "trades": 47
   },
   "pp": {
-   "wallets": 54,
-   "usd": 9424.6,
-   "trades": 69
+   "wallets": 56,
+   "usd": 9390.17,
+   "trades": 70
   },
   "-pp": {
    "wallets": 52,
@@ -290,20 +290,6 @@
   }
  },
  "trades": [
-  [
-   1794994967,
-   "0x84eab97ac07614c02e8f64428fab7707f85efa29",
-   37.43,
-   "pp",
-   "0x890a46bbacbd3c07b7c0c3d53ee98cbf06b8c472526c90f7ddb75163771b544d"
-  ],
-  [
-   1794995525,
-   "0xc5c666df6e57cbfd6799790748811be7b6dc9b00",
-   2,
-   "-psoe",
-   "0x105b71050c07b2ec975c6c59a3936bb36f28d4a9d050905014e06fcdf192b1d6"
-  ],
   [
    1794996247,
    "0x785d28cff4123315f5355f8e4db871a52171c1f6",
@@ -2144,6 +2130,20 @@
    64.93,
    "vox",
    "0x0b2b6c3cd2a4fd7d74863d11e4d06b0274104e3c590b567c634740678b49ffa4"
+  ],
+  [
+   1795082158,
+   "0x3f208ab1ee8f7f60839f76c35c4845cd64ae2615",
+   2,
+   "pp",
+   "0x199795cd84d05ad6f328c7e3adeab0d0fadd5b2557c5b9adf4e794b2dfb6844a"
+  ],
+  [
+   1795082423,
+   "0x383c66c325d104feb531e4851fae56a40b19cc48",
+   1,
+   "pp",
+   "0x3e3ab638d7ebc37b2cf83c2b08c59b69e0070415fc1d163f21979f47a97efb8f"
   ]
  ]
 }
