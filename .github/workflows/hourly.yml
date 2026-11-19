@@ -1,40 +1,41 @@
 name: Cash Out España hourly
 
+# GitHub's scheduled runs are best-effort and often skip hours. So each run stays alive for
+# about five hours, marbling at the start of every hour (scripts/relay.sh), then starts the
+# next run itself. The hourly schedule stays as a backup that restarts the chain if it ever breaks.
+# The last frame is 20:00 UTC on 29 November 2026, when the Canary Islands close their polls
+# (21:00 in Madrid). After that, runs do nothing and the chain stops.
 on:
   schedule:
-    # Every hour on the hour. GitHub often starts these a few minutes late; each frame
-    # is filed under the hour it belongs to. The last frame is 20:00 UTC on 29 November 2026,
-    # when the Canary Islands close their polls (21:00 in Madrid). After that, runs do nothing.
-    - cron: "0 * * * *"
+    - cron: "5 * * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
+  actions: write      # to start the next run in the chain
 
 concurrency:
-  group: cash-out
+  group: cash-out-hourly
   cancel-in-progress: false
 
 jobs:
   marble:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 20
       - run: npm install --no-audit --no-fund
-      - name: Collect odds, trades and anomalies
-        run: node collect.js
-      - name: Render this hour's frame
-        run: node render-frame.js --latest --size 1600 --force
-      - name: Save
+      - name: Marble every hour for five hours
+        run: bash scripts/relay.sh
+      - name: Hand over to the next run
+        if: always()
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "cash-out"
-          git config user.email "cash-out@users.noreply.github.com"
-          git add data frames
-          if git diff --cached --quiet; then echo "nothing new"; exit 0; fi
-          git commit -m "marble $(date -u +%Y-%m-%dT%HZ)"
-          git pull --rebase --autostash
-          git push
+          if node -e 'process.exit(Date.now() > Date.parse(require("./lib").CONFIG.finalAt) ? 0 : 1)'; then
+            echo "polls closed; the chain ends here"; exit 0
+          fi
+          gh workflow run hourly.yml --ref main -R "$GITHUB_REPOSITORY"
