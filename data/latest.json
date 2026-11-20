@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-20T11Z",
- "ts": 1795172460,
- "at": "2026-11-20T11:01:00.000Z",
+ "id": "2026-11-20T12Z",
+ "ts": 1795176060,
+ "at": "2026-11-20T12:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 61425.182825
+  "volume24hr": 60811.605165
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0065
  },
  "priceHistory": [
-  [
-   498635,
-   {
-    "psoe": 0.22,
-    "pp": 0.785,
-    "vox": 0.0025
-   }
-  ],
   [
    498636,
    {
@@ -239,23 +231,31 @@
     "pp": 0.785,
     "vox": 0.0065
    }
+  ],
+  [
+   498660,
+   {
+    "psoe": 0.215,
+    "pp": 0.785,
+    "vox": 0.0065
+   }
   ]
  ],
  "totals": {
   "psoe": {
-   "wallets": 16,
-   "usd": 5906.6,
-   "trades": 21
+   "wallets": 15,
+   "usd": 5806.6,
+   "trades": 20
   },
   "-psoe": {
-   "wallets": 13,
-   "usd": 5995.71,
-   "trades": 13
+   "wallets": 11,
+   "usd": 5975.43,
+   "trades": 12
   },
   "pp": {
    "wallets": 31,
-   "usd": 8370.25,
-   "trades": 35
+   "usd": 8320.25,
+   "trades": 34
   },
   "-pp": {
    "wallets": 23,
@@ -290,34 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795087423,
-   "0x7e9217bfb078a0a69dc674698d35002d8ff99670",
-   28,
-   "-psoe",
-   "0xd5168a42a37443f492f0db62f153d8f389afb8f8ceaac6bcedf6165c8a31dbce"
-  ],
-  [
-   1795087648,
-   "0x1eea800151c34ca18f1dccdf30c72fe6cf8aa8ab",
-   100,
-   "psoe",
-   "0x897faa2a46138af3402be176563497c57c32dbabb747501e5b5c77f57b43f255"
-  ],
-  [
-   1795088696,
-   "0x5441e8470dce8a0b87cba72b067226b4a8137c4e",
-   50,
-   "pp",
-   "0x2f09ef3325f581d881b4d7588dd561e74f4d274043624d44f0cb4e8a03e5ed4b"
-  ],
-  [
-   1795089461,
-   "0x22663305b6176cc49feff292fc5475e7c1e334fe",
-   8.08,
-   "-psoe",
-   "0x7b31013233db35c6093819cd0e948e97c367d3d9bb7964a20aa165bb98a9c35c"
-  ],
   [
    1795091782,
    "0x3a5c90c2a14fbe00a87cefcdf467f42c76d12415",
@@ -1185,6 +1157,13 @@
    100,
    "pp",
    "0xefb2d9464217b9661edf36084058de7b809449c698f60b7075e5dcf7bfc41e74"
+  ],
+  [
+   1795174042,
+   "0x66e7ce01c6831b8a2503d09edd6167152ee68bcd",
+   15.8,
+   "-psoe",
+   "0x2af8ba13c7b1b4f69d38c3b45f5321e93c8fb8401da199d5edabafd34548b8a7"
   ]
  ]
 }
