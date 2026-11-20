@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-20T09Z",
- "ts": 1795165260,
- "at": "2026-11-20T09:01:00.000Z",
+ "id": "2026-11-20T10Z",
+ "ts": 1795168860,
+ "at": "2026-11-20T10:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 60392.92617
+  "volume24hr": 61305.068898000005
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0065
  },
  "priceHistory": [
-  [
-   498633,
-   {
-    "psoe": 0.22,
-    "pp": 0.78,
-    "vox": 0.0025
-   }
-  ],
   [
    498634,
    {
@@ -239,13 +231,21 @@
     "pp": 0.785,
     "vox": 0.0065
    }
+  ],
+  [
+   498658,
+   {
+    "psoe": 0.215,
+    "pp": 0.785,
+    "vox": 0.0065
+   }
   ]
  ],
  "totals": {
   "psoe": {
-   "wallets": 15,
-   "usd": 5856.6,
-   "trades": 20
+   "wallets": 16,
+   "usd": 5906.6,
+   "trades": 21
   },
   "-psoe": {
    "wallets": 13,
@@ -254,8 +254,8 @@
   },
   "pp": {
    "wallets": 32,
-   "usd": 8073.54,
-   "trades": 35
+   "usd": 8272.36,
+   "trades": 36
   },
   "-pp": {
    "wallets": 23,
@@ -290,20 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795082158,
-   "0x3f208ab1ee8f7f60839f76c35c4845cd64ae2615",
-   2,
-   "pp",
-   "0x199795cd84d05ad6f328c7e3adeab0d0fadd5b2557c5b9adf4e794b2dfb6844a"
-  ],
-  [
-   1795082423,
-   "0x383c66c325d104feb531e4851fae56a40b19cc48",
-   1,
-   "pp",
-   "0x3e3ab638d7ebc37b2cf83c2b08c59b69e0070415fc1d163f21979f47a97efb8f"
-  ],
   [
    1795083047,
    "0xf212f457acc9b0517177ef35dff9efdccccc4288",
@@ -1178,6 +1164,34 @@
    78,
    "psoe",
    "0x84e2f521c58503bb976526f6d71ef5502c765f68789804bf7ea3d375402291d5"
+  ],
+  [
+   1795166342,
+   "0x1bce08faf2b3d8a7e2aec31274cf40bdc0539e1f",
+   79,
+   "pp",
+   "0xd2762646b7bec207210313965ddf8a0191db55570ab02eecc34d2fdcce448f04"
+  ],
+  [
+   1795167226,
+   "0x9cb98fc57fe8a3bdf75c3b48bd419e5d262f7b80",
+   105,
+   "pp",
+   "0x8335c4c78b5b73583c6efb245c4abe94f78df506e1ac8bdc4befb035a1983db1"
+  ],
+  [
+   1795167227,
+   "0x0eec4a7fd0443352736c83c20d8055af02cce587",
+   17.82,
+   "pp",
+   "0x0151048ea755960212899f9aa1d41fbd8d9efe71480d08b021e59b0d6259b990"
+  ],
+  [
+   1795168184,
+   "0x85fe22320fa081d9ef4fa37eb1234d9e2b7c362a",
+   50,
+   "psoe",
+   "0x106186c28787e3189798daa4e8177a4b5a7c1754366e14c61f175eaa9a7fd13f"
   ]
  ]
 }
