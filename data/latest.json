@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-20T14Z",
- "ts": 1795183260,
- "at": "2026-11-20T14:01:00.000Z",
+ "id": "2026-11-20T15Z",
+ "ts": 1795186860,
+ "at": "2026-11-20T15:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 61096.497568
+  "volume24hr": 59420.023286999996
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0065
  },
  "priceHistory": [
-  [
-   498638,
-   {
-    "psoe": 0.22,
-    "pp": 0.785,
-    "vox": 0.0025
-   }
-  ],
   [
    498639,
    {
@@ -239,6 +231,14 @@
     "pp": 0.785,
     "vox": 0.0065
    }
+  ],
+  [
+   498663,
+   {
+    "psoe": 0.215,
+    "pp": 0.785,
+    "vox": 0.0065
+   }
   ]
  ],
  "totals": {
@@ -253,9 +253,9 @@
    "trades": 12
   },
   "pp": {
-   "wallets": 35,
-   "usd": 8554.4,
-   "trades": 38
+   "wallets": 32,
+   "usd": 8501.41,
+   "trades": 35
   },
   "-pp": {
    "wallets": 20,
@@ -263,9 +263,9 @@
    "trades": 22
   },
   "vox": {
-   "wallets": 5,
-   "usd": 13.82,
-   "trades": 18
+   "wallets": 6,
+   "usd": 33.6,
+   "trades": 19
   },
   "-vox": {
    "wallets": 14,
@@ -290,34 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795098505,
-   "0xa2d2e0b7201e407f659a19bc6feccc41009d6cbf",
-   4.92,
-   "pp",
-   "0x763f9bf6bb33151f82d4f20d17d7d218fed6612f0559e09a7a293936c925ec13"
-  ],
-  [
-   1795098611,
-   "0x5441e8470dce8a0b87cba72b067226b4a8137c4e",
-   35,
-   "pp",
-   "0xccf3bfdd8d0e312271ff858ea050dabd5c75e98b9c9857562e59981af202402d"
-  ],
-  [
-   1795098799,
-   "0xc5a56a3e119fb18282dc8e4ab6b474d4e74c3303",
-   1,
-   "pp",
-   "0x9af8c7c97f83b549318ae9083951f1fe0ea159e653dfa9139f48398e21af91a3"
-  ],
-  [
-   1795099730,
-   "0x0ebfcd3efd430309fe2d421f06ace87d6ba25bfa",
-   17.07,
-   "pp",
-   "0x4c1aafcd40b89f84ba57a94128b8f449d50c688d639185aea378877df1f1bac5"
-  ],
   [
    1795100839,
    "0x030b4b8d56ef011429b157951250ef20b2de6cc7",
@@ -1164,6 +1136,20 @@
    71.76,
    "pp",
    "0x5f3869dec9448db9475cce373ae744f83a97f4d9815999aa7f5833c33f10b3b2"
+  ],
+  [
+   1795184921,
+   "0x3e588611bf73d3eb18d6ecceb59ab7b1fb07070f",
+   19.78,
+   "vox",
+   "0x620ec143daf6198c858cf37a2bfb30ea7bad6b85ea51aadd137a741945823e88"
+  ],
+  [
+   1795186312,
+   "0x80880a5c75bd824ea8966ffb438c1ca4712a872b",
+   5,
+   "pp",
+   "0x17adc1e90ca73bc298dc52e9bf1fed81199bb144d9451b251d8ed07fa5ad9ffd"
   ]
  ]
 }
