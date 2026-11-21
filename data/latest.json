@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-21T08Z",
- "ts": 1795248109,
- "at": "2026-11-21T08:01:49.000Z",
+ "id": "2026-11-21T09Z",
+ "ts": 1795251660,
+ "at": "2026-11-21T09:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 24922.206958000002
+  "volume24hr": 24285.265903000003
  },
  "palette": "espana",
  "candidates": [
@@ -231,13 +231,21 @@
     "pp": 0.755,
     "vox": 0.0015
    }
+  ],
+  [
+   498681,
+   {
+    "psoe": 0.245,
+    "pp": 0.755,
+    "vox": 0.0015
+   }
   ]
  ],
  "totals": {
   "psoe": {
    "wallets": 39,
-   "usd": 3435.21,
-   "trades": 47
+   "usd": 3201.21,
+   "trades": 45
   },
   "-psoe": {
    "wallets": 15,
@@ -245,14 +253,14 @@
    "trades": 24
   },
   "pp": {
-   "wallets": 43,
-   "usd": 3390.23,
-   "trades": 46
+   "wallets": 44,
+   "usd": 3395.23,
+   "trades": 47
   },
   "-pp": {
-   "wallets": 35,
-   "usd": 1838.81,
-   "trades": 59
+   "wallets": 33,
+   "usd": 1738.86,
+   "trades": 57
   },
   "vox": {
    "wallets": 2,
@@ -282,34 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795162196,
-   "0x36b6d6027e2217f341275b790c6d1296d55be523",
-   33.95,
-   "-pp",
-   "0xd0b819b143f656e9598faf5a71989d589f3698ffbd4560e3f34ef95eaba64480"
-  ],
-  [
-   1795162937,
-   "0x2e4136fcb9692ff74a519008f4d489201ed683cc",
-   66,
-   "-pp",
-   "0x9f380a4bae1d3b3c9ff1b9c5787c01c584dd12a092918894fb276cb5ffb385e4"
-  ],
-  [
-   1795163140,
-   "0xff9152ac8cb6260419ea8940248177083aceab3a",
-   156,
-   "psoe",
-   "0x86a0de110647b892fef56b0f6ecdf63b8dc06a4f30333fcb32866bac5c8bcf8d"
-  ],
-  [
-   1795163159,
-   "0xff9152ac8cb6260419ea8940248177083aceab3a",
-   78,
-   "psoe",
-   "0x84e2f521c58503bb976526f6d71ef5502c765f68789804bf7ea3d375402291d5"
-  ],
   [
    1795166342,
    "0x1bce08faf2b3d8a7e2aec31274cf40bdc0539e1f",
@@ -1604,6 +1584,13 @@
    1.93,
    "-pp",
    "0xd8e83b8abe037e811bc3b3dfb1d383f367d62e42c59b6e28c2b9a9eff84c6550"
+  ],
+  [
+   1795248505,
+   "0xb4f70b3289b2896a54390ed881e5b9539f0a9e15",
+   5,
+   "pp",
+   "0x9cf55e7c6eadac47f8e2827936546bbed1e78fcd719337785ed019c4a2446af4"
   ]
  ]
 }
