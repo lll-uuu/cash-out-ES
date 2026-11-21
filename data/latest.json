@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-21T01Z",
- "ts": 1795222860,
- "at": "2026-11-21T01:01:00.000Z",
+ "id": "2026-11-21T02Z",
+ "ts": 1795226460,
+ "at": "2026-11-21T02:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 28101.116676
+  "volume24hr": 25542.359720000004
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0015
  },
  "priceHistory": [
-  [
-   498649,
-   {
-    "psoe": 0.215,
-    "pp": 0.785,
-    "vox": 0.0065
-   }
-  ],
   [
    498650,
    {
@@ -239,6 +231,14 @@
     "pp": 0.755,
     "vox": 0.0015
    }
+  ],
+  [
+   498674,
+   {
+    "psoe": 0.245,
+    "pp": 0.755,
+    "vox": 0.0015
+   }
   ]
  ],
  "totals": {
@@ -253,14 +253,14 @@
    "trades": 26
   },
   "pp": {
-   "wallets": 51,
-   "usd": 5506.65,
-   "trades": 55
+   "wallets": 49,
+   "usd": 3477.65,
+   "trades": 53
   },
   "-pp": {
    "wallets": 36,
-   "usd": 1950.02,
-   "trades": 57
+   "usd": 1951.47,
+   "trades": 58
   },
   "vox": {
    "wallets": 2,
@@ -290,27 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795137118,
-   "0x212f7fc77c18c6ce34bb1dae43e9198ab19b7fd2",
-   2000,
-   "pp",
-   "0x7dafcf88f993c688dfae04223a0a945eef7801ef70f3aa53b69b1b9d89610125"
-  ],
-  [
-   1795137127,
-   "0x599bf29edb70ab187aaf5cc8f466392996501155",
-   5,
-   "pp",
-   "0xdeb70efd9df988d6c118dc424cca1340944f97bd0922296a1f42ae41e034dc86"
-  ],
-  [
-   1795139198,
-   "0xfd32bc94eccfbb3a6011ed783693f0db59a03738",
-   100,
-   "pp",
-   "0x8bff237aceddc2204fd1d6bf6c60e17f706bfe977aaff9466b05f888ee5d59f0"
-  ],
   [
    1795141117,
    "0x2b9a8416048662d54bc5df0e9f33db8a73cf475d",
@@ -1689,6 +1668,20 @@
    74.25,
    "psoe",
    "0xed3850179e78b7033d6aaa1242ebed873b5743c09a3a180fc1136d35b988fb8d"
+  ],
+  [
+   1795223161,
+   "0x7db8cfe928918e6f7f80a31d98757d97e743ed19",
+   76,
+   "pp",
+   "0x99318ae078ae520e411dfd736c6c80bea3856728a23cba2360a9fd472c9a7d84"
+  ],
+  [
+   1795223162,
+   "0x14f4007930dee421fee1add60aabed7aa6ba507f",
+   1.45,
+   "-pp",
+   "0x75310996cd5d1e8f83b62a9b79f2a8101b9ce45723dd2a04150f9fb7b06e56f3"
   ]
  ]
 }
