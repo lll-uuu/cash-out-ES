@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-21T05Z",
- "ts": 1795237260,
- "at": "2026-11-21T05:01:00.000Z",
+ "id": "2026-11-21T06Z",
+ "ts": 1795240860,
+ "at": "2026-11-21T06:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 25410.308207
+  "volume24hr": 25021.987630000003
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0015
  },
  "priceHistory": [
-  [
-   498653,
-   {
-    "psoe": 0.215,
-    "pp": 0.785,
-    "vox": 0.0065
-   }
-  ],
   [
    498654,
    {
@@ -239,23 +231,31 @@
     "pp": 0.755,
     "vox": 0.0015
    }
+  ],
+  [
+   498678,
+   {
+    "psoe": 0.245,
+    "pp": 0.755,
+    "vox": 0.0015
+   }
   ]
  ],
  "totals": {
   "psoe": {
-   "wallets": 41,
-   "usd": 3490.86,
-   "trades": 49
+   "wallets": 40,
+   "usd": 3486.1,
+   "trades": 48
   },
   "-psoe": {
-   "wallets": 16,
-   "usd": 2104.96,
-   "trades": 26
+   "wallets": 15,
+   "usd": 1814.24,
+   "trades": 24
   },
   "pp": {
-   "wallets": 45,
-   "usd": 3387.13,
-   "trades": 49
+   "wallets": 46,
+   "usd": 3388.13,
+   "trades": 50
   },
   "-pp": {
    "wallets": 36,
@@ -290,27 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795153781,
-   "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
-   274.92,
-   "-psoe",
-   "0x7f79ad5660be7a1aa7b52302e75e23ada47280f1ecfa79ffc91f0615d37177fd"
-  ],
-  [
-   1795153783,
-   "0x5937098dd63928a53c0fa1432936cd7ec14211da",
-   4.76,
-   "psoe",
-   "0x1171c18e7108dd8a1f071bceb7f82b25ab94d02a8fdb3888dcfebe6a4adad839"
-  ],
-  [
-   1795153798,
-   "0x66e7ce01c6831b8a2503d09edd6167152ee68bcd",
-   15.8,
-   "-psoe",
-   "0xa71fd5b832ccde317fe5cf3bf822be9296160691949ab9f615d3d6cb63270b72"
-  ],
   [
    1795155505,
    "0x1bce08faf2b3d8a7e2aec31274cf40bdc0539e1f",
@@ -1654,6 +1633,13 @@
    1.45,
    "-pp",
    "0x75310996cd5d1e8f83b62a9b79f2a8101b9ce45723dd2a04150f9fb7b06e56f3"
+  ],
+  [
+   1795239890,
+   "0xa597bba2f1578089d150d47092d5f5a6192df328",
+   1,
+   "pp",
+   "0x89a95a7a88394ede0a144b3b013e1a8079d30b95185d61cbfec222ae30dcbc8e"
   ]
  ]
 }
