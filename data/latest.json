@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-21T12Z",
- "ts": 1795262509,
- "at": "2026-11-21T12:01:49.000Z",
+ "id": "2026-11-21T13Z",
+ "ts": 1795266060,
+ "at": "2026-11-21T13:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 30293.971767000003
+  "volume24hr": 30363.603345000003
  },
  "palette": "espana",
  "candidates": [
@@ -231,6 +231,14 @@
     "pp": 0.755,
     "vox": 0.0015
    }
+  ],
+  [
+   498685,
+   {
+    "psoe": 0.235,
+    "pp": 0.755,
+    "vox": 0.0015
+   }
   ]
  ],
  "totals": {
@@ -240,19 +248,19 @@
    "trades": 57
   },
   "-psoe": {
-   "wallets": 17,
-   "usd": 3153.62,
-   "trades": 25
+   "wallets": 18,
+   "usd": 3157.47,
+   "trades": 26
   },
   "pp": {
-   "wallets": 47,
-   "usd": 3350.24,
-   "trades": 51
+   "wallets": 49,
+   "usd": 3386.14,
+   "trades": 53
   },
   "-pp": {
    "wallets": 35,
-   "usd": 1775.85,
-   "trades": 64
+   "usd": 1777.6,
+   "trades": 65
   },
   "vox": {
    "wallets": 2,
@@ -282,13 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795179202,
-   "0xe6da760c29d3c2d420aebae3bcd287d74ed1aba0",
-   7.9,
-   "pp",
-   "0x095764fb2c5a8c7e1c052b435d59c0c7b4e0292d8adebb104e9cdaeaadc44efe"
-  ],
   [
    1795180141,
    "0x4636dd275bad99f3975220addce4859c0b59639b",
@@ -1751,6 +1752,41 @@
    4,
    "psoe",
    "0xc71609e387ea6c316a9edf7a431c9c35a13c5a2886a4be73cd32f439075a2f9e"
+  ],
+  [
+   1795262971,
+   "0x162e1e84981bf0e208c2032155689eb26e607cf3",
+   3.8,
+   "pp",
+   "0x69db787e1f469d1ae9f756585771d364171c276b3bc5c9bfcd2b1a3e0b170f83"
+  ],
+  [
+   1795262978,
+   "0x162e1e84981bf0e208c2032155689eb26e607cf3",
+   3.85,
+   "-psoe",
+   "0xe32d4a2b53dc8a3f3dfc704aa1f9829cf9fc51cf2d3ec4193e1b65a8af18a7f4"
+  ],
+  [
+   1795264180,
+   "0xeeadff8ea618c90cbde2789d7968c9e3211e5be4",
+   30,
+   "pp",
+   "0xd93655f79c787c68d2b9c0a457a5109adca9da8c901499a35ab5f17cf0af867d"
+  ],
+  [
+   1795264181,
+   "0x14f4007930dee421fee1add60aabed7aa6ba507f",
+   1.75,
+   "-pp",
+   "0xcc03fd1741fe0c1d7828c9fcecae954314c41d37cd44cb51d48ef970261fe1fa"
+  ],
+  [
+   1795264189,
+   "0x44d72a358d2c4dcf17084b32318df952f3e14ac3",
+   10,
+   "pp",
+   "0x5dc6194cba02aff433063a4c594645cb7cd2b92732bb6c89968505f927022ba0"
   ]
  ]
 }
