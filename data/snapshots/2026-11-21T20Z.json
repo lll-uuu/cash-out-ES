@@ -1,8 +1,8 @@
 {
  "v": 2,
  "id": "2026-11-21T20Z",
- "ts": 1795291260,
- "at": "2026-11-21T20:01:00.000Z",
+ "ts": 1795291303,
+ "at": "2026-11-21T20:01:43.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
@@ -253,9 +253,9 @@
    "trades": 9
   },
   "pp": {
-   "wallets": 48,
-   "usd": 5400.29,
-   "trades": 60
+   "wallets": 46,
+   "usd": 5376.73,
+   "trades": 58
   },
   "-pp": {
    "wallets": 29,
@@ -290,20 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795204861,
-   "0x5344dcfd3beb2013701be5ae852a524c50297dc1",
-   12.92,
-   "pp",
-   "0x013a42af83e82162df9e5657f2af5a00b150d736bdc10ecd070caa65fc227e95"
-  ],
-  [
-   1795204871,
-   "0x7833cc6d97ab4e3d564b25aa8ffec56ae75ef126",
-   10.64,
-   "pp",
-   "0x5b1ed8ee3331c031effb6e1627a8ce29544eddbe569b811cbc4b18509915fcba"
-  ],
   [
    1795205326,
    "0x9da3dfb4bba14734e2d0369de2197d6b901d621e",
