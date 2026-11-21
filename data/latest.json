@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-21T14Z",
- "ts": 1795269660,
- "at": "2026-11-21T14:01:00.000Z",
+ "id": "2026-11-21T15Z",
+ "ts": 1795273260,
+ "at": "2026-11-21T15:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 32635.604975000002
+  "volume24hr": 33278.71023700001
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0025
  },
  "priceHistory": [
-  [
-   498662,
-   {
-    "psoe": 0.215,
-    "pp": 0.785,
-    "vox": 0.0065
-   }
-  ],
   [
    498663,
    {
@@ -239,6 +231,14 @@
     "pp": 0.755,
     "vox": 0.0025
    }
+  ],
+  [
+   498687,
+   {
+    "psoe": 0.245,
+    "pp": 0.755,
+    "vox": 0.0025
+   }
   ]
  ],
  "totals": {
@@ -253,9 +253,9 @@
    "trades": 25
   },
   "pp": {
-   "wallets": 48,
-   "usd": 3738.29,
-   "trades": 53
+   "wallets": 47,
+   "usd": 3733.29,
+   "trades": 52
   },
   "-pp": {
    "wallets": 37,
@@ -263,9 +263,9 @@
    "trades": 73
   },
   "vox": {
-   "wallets": 3,
-   "usd": 21.55,
-   "trades": 4
+   "wallets": 2,
+   "usd": 1.77,
+   "trades": 3
   },
   "-vox": {
    "wallets": 5,
@@ -290,20 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795184921,
-   "0x3e588611bf73d3eb18d6ecceb59ab7b1fb07070f",
-   19.78,
-   "vox",
-   "0x620ec143daf6198c858cf37a2bfb30ea7bad6b85ea51aadd137a741945823e88"
-  ],
-  [
-   1795186312,
-   "0x80880a5c75bd824ea8966ffb438c1ca4712a872b",
-   5,
-   "pp",
-   "0x17adc1e90ca73bc298dc52e9bf1fed81199bb144d9451b251d8ed07fa5ad9ffd"
-  ],
   [
    1795187650,
    "0x882c72b3edc67f29e363e0f0b327a5b3e6b8b208",
