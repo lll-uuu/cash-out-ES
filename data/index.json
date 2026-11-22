@@ -2010,5 +2010,23 @@
    "-vox": 14
   },
   "newAnomalies": []
+ },
+ {
+  "id": "2026-11-22T09Z",
+  "ts": 1795338060,
+  "prices": {
+   "psoe": 0.275,
+   "pp": 0.715,
+   "vox": 0.0025
+  },
+  "wallets": {
+   "psoe": 44,
+   "-psoe": 34,
+   "pp": 47,
+   "-pp": 37,
+   "vox": 1,
+   "-vox": 14
+  },
+  "newAnomalies": []
  }
 ]
