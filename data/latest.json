@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-22T02Z",
- "ts": 1795312860,
- "at": "2026-11-22T02:01:00.000Z",
+ "id": "2026-11-22T03Z",
+ "ts": 1795316460,
+ "at": "2026-11-22T03:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 69510.112893
+  "volume24hr": 69649.226915
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0025
  },
  "priceHistory": [
-  [
-   498674,
-   {
-    "psoe": 0.245,
-    "pp": 0.755,
-    "vox": 0.0015
-   }
-  ],
   [
    498675,
    {
@@ -239,28 +231,36 @@
     "pp": 0.715,
     "vox": 0.0025
    }
+  ],
+  [
+   498699,
+   {
+    "psoe": 0.275,
+    "pp": 0.715,
+    "vox": 0.0025
+   }
   ]
  ],
  "totals": {
   "psoe": {
-   "wallets": 42,
-   "usd": 3551.49,
-   "trades": 51
+   "wallets": 43,
+   "usd": 3579.49,
+   "trades": 52
   },
   "-psoe": {
-   "wallets": 30,
-   "usd": 2957.55,
-   "trades": 36
+   "wallets": 31,
+   "usd": 2960.16,
+   "trades": 37
   },
   "pp": {
-   "wallets": 47,
-   "usd": 6145.18,
-   "trades": 66
+   "wallets": 48,
+   "usd": 6160.18,
+   "trades": 67
   },
   "-pp": {
    "wallets": 36,
-   "usd": 11744,
-   "trades": 83
+   "usd": 11746.5,
+   "trades": 84
   },
   "vox": {
    "wallets": 1,
@@ -2060,6 +2060,34 @@
    2.5,
    "-pp",
    "0x5000696022b05472066a88ff31cfff4a6650bf993b38b6e0a1e188ba21d1d464"
+  ],
+  [
+   1795312889,
+   "0x0eec4a7fd0443352736c83c20d8055af02cce587",
+   2.61,
+   "-psoe",
+   "0x3ca3b84ba033563fce26bd3065373dbd9f55e0aee5ec39f24d237c8c6a16ef7f"
+  ],
+  [
+   1795312889,
+   "0x0f24ea214ea7c527e3d634233eb5d2cca2a03c42",
+   28,
+   "psoe",
+   "0xa0963e091e8abc576b0d1bb2e634772e1500dc73f854ef71675dea3301c790e8"
+  ],
+  [
+   1795312913,
+   "0x69641034ae947217ec046776720c487f63651189",
+   15,
+   "pp",
+   "0x7b84e6eea8303f904d00a016f51d3dac39df8af00b98f4d7a84716857ea6882c"
+  ],
+  [
+   1795312916,
+   "0x54498e4c40b17261479aeaeeddf9cc37bd46992b",
+   2.5,
+   "-pp",
+   "0x64c2fa0eee1d6685cf7b6ef5abe50bd7ebb4c6f0e07c50563141e670ef07e607"
   ]
  ]
 }
