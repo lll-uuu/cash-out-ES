@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-22T01Z",
- "ts": 1795309260,
- "at": "2026-11-22T01:01:00.000Z",
+ "id": "2026-11-22T02Z",
+ "ts": 1795312860,
+ "at": "2026-11-22T02:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 69585.069982
+  "volume24hr": 69510.112893
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0025
  },
  "priceHistory": [
-  [
-   498673,
-   {
-    "psoe": 0.245,
-    "pp": 0.755,
-    "vox": 0.0015
-   }
-  ],
   [
    498674,
    {
@@ -239,6 +231,14 @@
     "pp": 0.715,
     "vox": 0.0025
    }
+  ],
+  [
+   498698,
+   {
+    "psoe": 0.275,
+    "pp": 0.715,
+    "vox": 0.0025
+   }
   ]
  ],
  "totals": {
@@ -254,12 +254,12 @@
   },
   "pp": {
    "wallets": 47,
-   "usd": 6205.18,
-   "trades": 65
+   "usd": 6145.18,
+   "trades": 66
   },
   "-pp": {
    "wallets": 36,
-   "usd": 11742.95,
+   "usd": 11744,
    "trades": 83
   },
   "vox": {
@@ -290,20 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795223161,
-   "0x7db8cfe928918e6f7f80a31d98757d97e743ed19",
-   76,
-   "pp",
-   "0x99318ae078ae520e411dfd736c6c80bea3856728a23cba2360a9fd472c9a7d84"
-  ],
-  [
-   1795223162,
-   "0x14f4007930dee421fee1add60aabed7aa6ba507f",
-   1.45,
-   "-pp",
-   "0x75310996cd5d1e8f83b62a9b79f2a8101b9ce45723dd2a04150f9fb7b06e56f3"
-  ],
   [
    1795239890,
    "0xa597bba2f1578089d150d47092d5f5a6192df328",
@@ -2053,6 +2039,27 @@
    23.24,
    "-psoe",
    "0xad0f88d7ed5275c3d07b85ab39c0fbac36b54d697d21ab7ad745871dd751d31e"
+  ],
+  [
+   1795309535,
+   "0x2b560ec206b35b03cb25e1f423a16ea233f5d1e1",
+   1,
+   "pp",
+   "0xba7575ddb833c1016506b117b235b6b1b68d05f904e42f80d32b724ca40c1fc8"
+  ],
+  [
+   1795309961,
+   "0x112cab40db8f049bb386c0a7cd765f2aab7e4bf7",
+   15,
+   "pp",
+   "0xf07d261fb633c85c612fef9335fa14b5f32cb33b3850f1afdbff47ef91e73aa4"
+  ],
+  [
+   1795309966,
+   "0x54498e4c40b17261479aeaeeddf9cc37bd46992b",
+   2.5,
+   "-pp",
+   "0x5000696022b05472066a88ff31cfff4a6650bf993b38b6e0a1e188ba21d1d464"
   ]
  ]
 }
