@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-22T23Z",
- "ts": 1795388460,
- "at": "2026-11-22T23:01:00.000Z",
+ "id": "2026-11-23T00Z",
+ "ts": 1795392060,
+ "at": "2026-11-23T00:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 43386.766152
+  "volume24hr": 38293.719807
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0035
  },
  "priceHistory": [
-  [
-   498695,
-   {
-    "psoe": 0.275,
-    "pp": 0.725,
-    "vox": 0.0025
-   }
-  ],
   [
    498696,
    {
@@ -239,28 +231,36 @@
     "pp": 0.735,
     "vox": 0.0035
    }
+  ],
+  [
+   498720,
+   {
+    "psoe": 0.255,
+    "pp": 0.735,
+    "vox": 0.0035
+   }
   ]
  ],
  "totals": {
   "psoe": {
    "wallets": 12,
-   "usd": 426.25,
-   "trades": 20
+   "usd": 430.25,
+   "trades": 19
   },
   "-psoe": {
    "wallets": 25,
-   "usd": 2160.76,
-   "trades": 37
+   "usd": 2150.63,
+   "trades": 35
   },
   "pp": {
-   "wallets": 45,
-   "usd": 15690.62,
-   "trades": 65
+   "wallets": 44,
+   "usd": 15664.28,
+   "trades": 64
   },
   "-pp": {
-   "wallets": 13,
-   "usd": 4894.84,
-   "trades": 36
+   "wallets": 12,
+   "usd": 1339.85,
+   "trades": 33
   },
   "vox": {
    "wallets": 2,
@@ -290,83 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795302607,
-   "0xe0dbdb7f005f233f4510e4ef7e53a2f76a8df44e",
-   3549.99,
-   "-pp",
-   "0xb7be7e610304068c61ec5e57b6d960726b0934f4c5eae027306765c79acc10de"
-  ],
-  [
-   1795302752,
-   "0xfeb5284c4d0a49ea0efae421c8ffbb29e3b2466e",
-   30,
-   "pp",
-   "0xe53edff590beac98e72892bd560c30eda5bb28f11c6c69ebad5cdd2da51239bd"
-  ],
-  [
-   1795302755,
-   "0x54498e4c40b17261479aeaeeddf9cc37bd46992b",
-   2.5,
-   "-pp",
-   "0x45da4c5bbd24792f1a8669a295c1a70647ad550b72fb972dedff8bff89f28c8d"
-  ],
-  [
-   1795304072,
-   "0xf35ccffdfcbc59658d2792aff929893934fef6e9",
-   8.91,
-   "-psoe",
-   "0x6354f216e53ad5548509a5df8e7d08170f8b8a75834f9bbb15161f812854ec5f"
-  ],
-  [
-   1795304077,
-   "0x388f0732be046d33773f69805d99fec307d626b1",
-   5,
-   "psoe",
-   "0x65f515522deeed4ce2cad9f0a6aeea3ee6d8048ca0192d252953530ef28dd1f4"
-  ],
-  [
-   1795304110,
-   "0xf35ccffdfcbc59658d2792aff929893934fef6e9",
-   4,
-   "psoe",
-   "0x97a309b3d1c70ee0e3673d8e4a29ebb8b72c3a5baeb842dc4544c5b9ca76ff7f"
-  ],
-  [
-   1795304131,
-   "0xf35ccffdfcbc59658d2792aff929893934fef6e9",
-   3.24,
-   "-psoe",
-   "0xbb2488d06ee9b881883bb099f4706e4e5853cddea6c825abacf11b9fb59b768b"
-  ],
-  [
-   1795304150,
-   "0xf35ccffdfcbc59658d2792aff929893934fef6e9",
-   0.27,
-   "-psoe",
-   "0x594a553bdccf0591553a5f15751cbed1113d0c23cc807e3ea293019ff792f6bd"
-  ],
-  [
-   1795304992,
-   "0x7ea831a5db3535953d880a2f279217da23961010",
-   10,
-   "pp",
-   "0x95b48bb4f6e2b345791de1fdaf9608c2d6ed426f8e80fa9c5ee35c87830b0c5a"
-  ],
-  [
-   1795304995,
-   "0x54498e4c40b17261479aeaeeddf9cc37bd46992b",
-   2.5,
-   "-pp",
-   "0x5cffb2e081f2aa2e509204e9d32596de3e83b1f0482be3b14aed12a73771566d"
-  ],
-  [
-   1795305458,
-   "0xc75e53d591c912865ab733db9e5c82181d88055f",
-   1,
-   "pp",
-   "0x6cfdf3bd61675a2ced87c3329c77ab73e09d5939fee1dc1c70965df989eceb63"
-  ],
   [
    1795306103,
    "0xa45fd80cebd05390a9155c7f61b8b7b91890d6cb",
@@ -1500,6 +1423,34 @@
    2,
    "pp",
    "0x34653c33f3a02217a70776be2b75ad8468878635d9f8de9f0e69b700bb198e6c"
+  ],
+  [
+   1795389094,
+   "0x78774cd7650faf5d25c2a88a5bac6a33feffb611",
+   4.66,
+   "pp",
+   "0xca5c57edd57647f53d23c087efb8bdcb51191526c4b4c92352ccd198a33331b8"
+  ],
+  [
+   1795389602,
+   "0xf92ec285bbe5ec890589b309a3763d0291c0caa0",
+   2.29,
+   "-psoe",
+   "0x9354955db5bafd49061b986625e4542a6dcdfb231e1973c2d2ae037682ae5bdf"
+  ],
+  [
+   1795389643,
+   "0xe8a107f09d111f2badc17d68ccee4ec35a91ceb8",
+   10,
+   "pp",
+   "0x60c2a979ca78cf8f8c2b17a8f3ecc7348f7111e0fc37e30128de1feaf0832a67"
+  ],
+  [
+   1795390858,
+   "0x7091ffb97229ff6b4674ab83b9081bc0519a2e4c",
+   13,
+   "psoe",
+   "0x62ec65913a970031f24a3a58e10de5a7eb1718c3ac524f4205be19fab57be6d0"
   ]
  ]
 }
