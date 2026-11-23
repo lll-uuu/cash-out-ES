@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-23T08Z",
- "ts": 1795420906,
- "at": "2026-11-23T08:01:46.000Z",
+ "id": "2026-11-23T09Z",
+ "ts": 1795424460,
+ "at": "2026-11-23T09:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 41388.9554
+  "volume24hr": 43335.113915
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0035
  },
  "priceHistory": [
-  [
-   498704,
-   {
-    "psoe": 0.275,
-    "pp": 0.715,
-    "vox": 0.0025
-   }
-  ],
   [
    498705,
    {
@@ -239,28 +231,36 @@
     "pp": 0.745,
     "vox": 0.0035
    }
+  ],
+  [
+   498729,
+   {
+    "psoe": 0.255,
+    "pp": 0.745,
+    "vox": 0.0035
+   }
   ]
  ],
  "totals": {
   "psoe": {
    "wallets": 13,
-   "usd": 410.95,
-   "trades": 20
+   "usd": 899.01,
+   "trades": 19
   },
   "-psoe": {
-   "wallets": 23,
-   "usd": 2079.08,
-   "trades": 31
+   "wallets": 22,
+   "usd": 2067.91,
+   "trades": 28
   },
   "pp": {
-   "wallets": 49,
-   "usd": 17718.08,
-   "trades": 69
+   "wallets": 53,
+   "usd": 17825.3,
+   "trades": 73
   },
   "-pp": {
    "wallets": 17,
-   "usd": 1347.32,
-   "trades": 30
+   "usd": 1344.82,
+   "trades": 29
   },
   "vox": {
    "wallets": 3,
@@ -290,62 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795334537,
-   "0x259fd0911f7e31327c2ec142feec1148cd05d309",
-   4.93,
-   "-psoe",
-   "0xc82cf7d2cbf9110158d1841b55bdb2aef442b2b4bf372222a820c71bd1f39d2e"
-  ],
-  [
-   1795334764,
-   "0x84eab97ac07614c02e8f64428fab7707f85efa29",
-   57.6,
-   "pp",
-   "0x14def02498a39e6ab515aebd9562a63bea6eb1189a1b3d96ad2d035ef9f52bdb"
-  ],
-  [
-   1795334767,
-   "0x54498e4c40b17261479aeaeeddf9cc37bd46992b",
-   2.5,
-   "-pp",
-   "0x46d7d154d8a8eb480300c69036060e35990e159dc27056b541d74eddfe63580e"
-  ],
-  [
-   1795336940,
-   "0x15e2d1ea0b87dfb4178fca037e7445e0464a8fb8",
-   20.13,
-   "-psoe",
-   "0x8d378b00b5261b110fa2f41f23b0b7a7b564a4bf96a9393e0e9fbb71758022ad"
-  ],
-  [
-   1795336943,
-   "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
-   1.94,
-   "psoe",
-   "0x2e6bb85cb8f224526691e5e7ecfc6463361b3782ce6106670f7571a7e7f9957f"
-  ],
-  [
-   1795336945,
-   "0x0eec4a7fd0443352736c83c20d8055af02cce587",
-   0.18,
-   "-psoe",
-   "0x1a23ebb7fd3bacb3d05a6854389e84ae9d78a454225e6b6f8f4454a4c1fde5c6"
-  ],
-  [
-   1795337038,
-   "0x0eec4a7fd0443352736c83c20d8055af02cce587",
-   0.93,
-   "-psoe",
-   "0xab85ed266148633c5b96c1c8e6a6038c3d77f25690cde3e64e9724f93fbb6c5f"
-  ],
-  [
-   1795337038,
-   "0x6b1b0ab22196d9b73605e2ec33f9e4962ecf3fc2",
-   10,
-   "psoe",
-   "0xd64a254c617d898732f296e5e1499ec31e6c2c700f808718882aa6cafa1007bf"
-  ],
   [
    1795338641,
    "0x74439dc26783485a693337dffe10f36f69653764",
@@ -1465,6 +1409,55 @@
    3.7,
    "-pp",
    "0x42bedf4161c90e19a08eefd397832d56009ac5d604b55cbcf26a963425b88f20"
+  ],
+  [
+   1795420870,
+   "0xcee9eef070d4fddf78d52e49bfe4f8832846ac7e",
+   75,
+   "pp",
+   "0xdd1394c19893a97213f46495169f7033783641fbb32b7a1c42a06bcdb9abb0f7"
+  ],
+  [
+   1795420913,
+   "0x1946e97c0fbcbf687144f626513df2dee39a6367",
+   15,
+   "-psoe",
+   "0xc35f2eff04d0ba24d159bcec9c2c45c23c335fd61eed1118801fa7342e56e603"
+  ],
+  [
+   1795421039,
+   "0xeb1aa833bea69dac8469bd51344df9856d4121dc",
+   2,
+   "pp",
+   "0x76e2493c2895c2c8e4a78d20d4964a02e56083143ad482b83cbf55a79487b45c"
+  ],
+  [
+   1795421065,
+   "0xcee9eef070d4fddf78d52e49bfe4f8832846ac7e",
+   33.75,
+   "pp",
+   "0xfcdbaf2f52f081715fc3087fde638eaed5815b6e3a5ed56c938e3e7bf9da23bb"
+  ],
+  [
+   1795421371,
+   "0xa54c8e02d3da2997760c50fbe401f7ee2deed6ea",
+   4.07,
+   "pp",
+   "0x7bffae5919e46144c89a3a2e7b46b18269cdd5ee26626fc8df00e8ef4a2fdd8e"
+  ],
+  [
+   1795421806,
+   "0x733fa17aa0f56fb3dda7ba6a58bc66fef695fe8c",
+   50,
+   "pp",
+   "0x4ebee43ef5ad260eaa6bf9ab899be1a65cc4eaf31b52ad71c1ac8201ade019da"
+  ],
+  [
+   1795422629,
+   "0xa9aca75fb5d8f04c2ec9eeb0eb0c30d2e526c5d1",
+   500,
+   "psoe",
+   "0x19255912d82e96eae1e8492d7b3fa908d9165cc9bc310d9f7cb0b9dc84d4b4e9"
   ]
  ]
 }
