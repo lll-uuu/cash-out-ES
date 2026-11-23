@@ -2496,5 +2496,23 @@
    "-vox": 9
   },
   "newAnomalies": []
+ },
+ {
+  "id": "2026-11-23T12Z",
+  "ts": 1795435260,
+  "prices": {
+   "psoe": 0.255,
+   "pp": 0.755,
+   "vox": 0.0035
+  },
+  "wallets": {
+   "psoe": 18,
+   "-psoe": 23,
+   "pp": 47,
+   "-pp": 14,
+   "vox": 2,
+   "-vox": 9
+  },
+  "newAnomalies": []
  }
 ]
