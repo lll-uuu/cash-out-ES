@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-23T04Z",
- "ts": 1795406510,
- "at": "2026-11-23T04:01:50.000Z",
+ "id": "2026-11-23T05Z",
+ "ts": 1795410060,
+ "at": "2026-11-23T05:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 40797.304727
+  "volume24hr": 40630.857760000006
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0035
  },
  "priceHistory": [
-  [
-   498700,
-   {
-    "psoe": 0.275,
-    "pp": 0.715,
-    "vox": 0.0025
-   }
-  ],
   [
    498701,
    {
@@ -239,6 +231,14 @@
     "pp": 0.745,
     "vox": 0.0035
    }
+  ],
+  [
+   498725,
+   {
+    "psoe": 0.255,
+    "pp": 0.745,
+    "vox": 0.0035
+   }
   ]
  ],
  "totals": {
@@ -248,19 +248,19 @@
    "trades": 19
   },
   "-psoe": {
-   "wallets": 24,
-   "usd": 2095.58,
-   "trades": 32
+   "wallets": 23,
+   "usd": 2093.58,
+   "trades": 31
   },
   "pp": {
-   "wallets": 48,
-   "usd": 17209.85,
-   "trades": 68
+   "wallets": 47,
+   "usd": 17166.38,
+   "trades": 67
   },
   "-pp": {
    "wallets": 16,
-   "usd": 1350.33,
-   "trades": 32
+   "usd": 1346.12,
+   "trades": 30
   },
   "vox": {
    "wallets": 2,
@@ -290,34 +290,6 @@
   }
  },
  "trades": [
-  [
-   1795321094,
-   "0xc5c666df6e57cbfd6799790748811be7b6dc9b00",
-   2,
-   "-psoe",
-   "0x6944c601a1c9711f22eb0a699a9c2f43dec5822cea3c72a5310339a4b6262435"
-  ],
-  [
-   1795321106,
-   "0x1ac24356ea1e3c1d0d7b298a0879db6dbd80fd15",
-   43.47,
-   "pp",
-   "0x9705a2112c8ccbc08d9ba5849a887d4d62062fe93c04fe9b77a208291d858e2b"
-  ],
-  [
-   1795321108,
-   "0x464f1488bf47609664d6faf681fdc0d4608c358f",
-   1.71,
-   "-pp",
-   "0x5fd0f0218e063902abd9cb72cf49626071cf3e333d87459d8c837af76c8a47ab"
-  ],
-  [
-   1795321109,
-   "0x54498e4c40b17261479aeaeeddf9cc37bd46992b",
-   2.5,
-   "-pp",
-   "0x55f85e3875257a958be7f5653707d984ba9a9ffb41c8d6c709acb043f0877d60"
-  ],
   [
    1795324463,
    "0xe6da760c29d3c2d420aebae3bcd287d74ed1aba0",
