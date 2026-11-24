@@ -1,6 +1,6 @@
 # Cash Out · España: análisis agregado
 
-Elecciones generales del 29 de noviembre de 2026, mercado «spain-general-election-winner» de Polymarket (qué partido gana más escaños). Actualizado el 2026-11-23 17:07 (hora de Madrid). 185 horas registradas, del 2026-10-05T19Z al 2026-11-23T15Z (UTC).
+Elecciones generales del 29 de noviembre de 2026, mercado «spain-general-election-winner» de Polymarket (qué partido gana más escaños). Actualizado el 2026-11-24 16:58 (hora de Madrid). 208 horas registradas, del 2026-10-05T19Z al 2026-11-24T14Z (UTC).
 
 Ninguna dirección de billetera aparece aquí. Cada número es una suma o un conteo sobre un grupo, y los grupos de menos de 3 billeteras se omiten.
 
@@ -10,10 +10,10 @@ Ninguna dirección de billetera aparece aquí. Cada número es una suma o un con
 
 | | Billeteras | Apostado | PSOE | contra PSOE | PP | contra PP | Vox | contra Vox |
 |---|---:|---:|---:|---:|---:|---:|---:|---:|
-| Todas las billeteras | 1168 | US$ 369.444 | 17,3% | 20,1% | 36,2% | 17,9% | 0,9% | 7,6% |
-| Grandes apostadores | 11 | US$ 88.774 | 17,1% | 16,9% | 41% | 24,9% | 0% | 0% |
+| Todas las billeteras | 1227 | US$ 391.645 | 17,9% | 19,7% | 35,1% | 19,4% | 0,8% | 7,2% |
+| Grandes apostadores | 11 | US$ 96.853 | 15,7% | 18,1% | 37,6% | 28,6% | 0% | 0% |
 
-Grandes apostadores = ballenas (US$ 5.000+ en menos de una hora), billeteras nuevas señaladas, o quien sumó US$ 5.000+ en el periodo. Son el 0,9% de las billeteras y ponen el 24% del dinero.
+Grandes apostadores = ballenas (US$ 5.000+ en menos de una hora), billeteras nuevas señaladas, o quien sumó US$ 5.000+ en el periodo. Son el 0,9% de las billeteras y ponen el 24,7% del dinero.
 
 ## A qué apuestan los grandes apostadores
 
@@ -21,8 +21,8 @@ Una billetera se «queda» en un lado cuando el 90% o más de su dinero fue ahí
 
 | Grupo | Solo PSOE | Solo contra PSOE | Solo PP | Solo contra PP | Solo Vox | Solo contra Vox | Varios lados |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| Todos los grandes apostadores | 0 | 0 | <3 | 0 | 0 | 0 | 9 (US$ 75.803) |
-| Demás billeteras | 174 (US$ 14.379) | 108 (US$ 11.997) | 368 (US$ 71.537) | 69 (US$ 8.543) | 21 (US$ 1.157) | 14 (US$ 1.800) | 403 (US$ 171.257) |
+| Todos los grandes apostadores | 0 | 0 | <3 | 0 | 0 | 0 | 10 (US$ 89.089) |
+| Demás billeteras | 188 (US$ 18.424) | 107 (US$ 12.148) | 390 (US$ 74.817) | 74 (US$ 10.696) | 22 (US$ 1.167) | 16 (US$ 1.936) | 419 (US$ 175.604) |
 
 Día a día (fechas de Madrid). Parte del dinero de los grandes apostadores que fue a cada lado, junto a la de las demás billeteras y las probabilidades al final del día:
 
@@ -77,7 +77,8 @@ Día a día (fechas de Madrid). Parte del dinero de los grandes apostadores que 
 | 2026-11-20 | 3 | US$ 4.185 | 48% / 36,8% / 0% | 25% / 31,4% / 0,2% | 75,5% / 24,5% / 0,2% |
 | 2026-11-21 | 4 | US$ 7.210 | 18,7% / 0% / 0% | 35,2% / 22,7% / 0% | 73,5% / 27,5% / 0,3% |
 | 2026-11-22 | 5 | US$ 4.892 | 75,7% / 0% / 0% | 63,1% / 2,2% / 0% | 73,5% / 25,5% / 0,4% |
-| 2026-11-23 | <3 | – | – | 59,6% / 13,9% / 0,3% | 75,5% / 24,5% / 0,4% |
+| 2026-11-23 | <3 | – | – | 46,3% / 24,9% / 0,2% | 75,5% / 23,5% / 0,4% |
+| 2026-11-24 | <3 | – | – | 26,4% / 41,1% / 0,1% | 75,5% / 25,5% / 0,5% |
 
 (Solo apuestas *a favor*; el resto hasta 100% son apuestas en contra.)
 
@@ -87,30 +88,30 @@ Parte del dinero apostado en cada hora del día. La línea de tiempo completa, h
 
 | Hora | Grandes | Demás |
 |---|---:|---:|
-| 00 h | 0,1% | 4,7% |
-| 01 h | 1,9% | 2,1% |
-| 02 h | 2,4% | 0,5% |
+| 00 h | 0,1% | 4,9% |
+| 01 h | 1,7% | 2,6% |
+| 02 h | 2,2% | 0,7% |
 | 03 h | 0% | 1,4% |
-| 04 h | 0% | 1,3% |
-| 05 h | 0,6% | 1,1% |
-| 06 h | 8% | 0,8% |
-| 07 h | 5% | 1,9% |
-| 08 h | 2,8% | 3,4% |
-| 09 h | 4,5% | 2,5% |
-| 10 h | 8,1% | 4,5% |
-| 11 h | 10% | 10,4% |
-| 12 h | 5,8% | 5% |
-| 13 h | 1,3% | 4,8% |
-| 14 h | 2,2% | 3,2% |
-| 15 h | 5,6% | 3,3% |
-| 16 h | 2,7% | 5,6% |
-| 17 h | 3,8% | 5,3% |
-| 18 h | 10,4% | 7,5% |
-| 19 h | 2,3% | 4,5% |
-| 20 h | 9,9% | 8,5% |
-| 21 h | 2,2% | 4,3% |
-| 22 h | 3,5% | 6,5% |
-| 23 h | 6,8% | 7,1% |
+| 04 h | 0% | 1,2% |
+| 05 h | 0,5% | 1% |
+| 06 h | 7,3% | 0,8% |
+| 07 h | 4,6% | 1,8% |
+| 08 h | 2,5% | 3,5% |
+| 09 h | 4,1% | 2,8% |
+| 10 h | 7,4% | 4,3% |
+| 11 h | 9,2% | 10,3% |
+| 12 h | 5,3% | 5,1% |
+| 13 h | 7% | 4,6% |
+| 14 h | 2% | 3,3% |
+| 15 h | 5,1% | 3,1% |
+| 16 h | 2,5% | 5,4% |
+| 17 h | 3,5% | 5% |
+| 18 h | 9,5% | 7,5% |
+| 19 h | 2,1% | 4,3% |
+| 20 h | 9,1% | 8,1% |
+| 21 h | 2% | 4,1% |
+| 22 h | 5,8% | 6,6% |
+| 23 h | 6,3% | 7,4% |
 
 **Antes de los giros.** Hubo 21 giros de 3+ puntos en una hora en las probabilidades de algún partido. En 9 de ellos, grandes apostadores habían puesto dinero en las 2 horas anteriores: US$ 371 en la misma dirección del giro, US$ 3.288 en otras. Esto muestra coincidencia en el tiempo, no prueba que alguien supiera antes; también puede ser su propio dinero el que movió las probabilidades.
 
@@ -120,15 +121,16 @@ Parte del dinero apostado en cada hora del día. La línea de tiempo completa, h
 
 | Grupo (según su apuesta en España) | Billeteras con historial | También apostaron en Brasil | % | Dinero en Brasil a Flávio | Dinero a Lula | % a Flávio |
 |---|---:|---:|---:|---:|---:|---:|
-| Todas | 161 | 50 | 31,1% | US$ 608.375 | US$ 396.970 | 60,5% |
-| Varios lados | 42 | 12 | 28,6% | US$ 145.471 | US$ 181.029 | 44,6% |
-| Sobre todo en contra del PP | 11 | 4 | 36,4% | US$ 38.691 | US$ 46.353 | 45,5% |
-| Bloque izquierdo (PSOE o contra el PP) | 41 | 13 | 31,7% | US$ 58.557 | US$ 78.411 | 42,8% |
-| Sobre todo a favor del PP | 58 | 19 | 32,8% | US$ 410.486 | US$ 120.877 | 77,3% |
-| Bloque derecho (PP, Vox o contra el PSOE) | 84 | 28 | 33,3% | US$ 439.635 | US$ 183.899 | 70,5% |
-| Sobre todo en contra de Vox | 6 | 0 | 0% | – | – | – |
-| Sobre todo en contra del PSOE | 21 | 7 | 33,3% | US$ 12.649 | US$ 46.762 | 21,3% |
-| Sobre todo a favor del PSOE | 21 | 7 | 33,3% | US$ 1.023 | US$ 1.896 | 35,1% |
+| Todas | 160 | 60 | 37,5% | US$ 682.295 | US$ 513.845 | 57% |
+| Varios lados | 29 | 12 | 41,4% | US$ 539.534 | US$ 274.095 | 66,3% |
+| Sobre todo en contra del PP | 11 | <3 | 18,2% | – | – | – |
+| Bloque izquierdo (PSOE o contra el PP) | 38 | 11 | 28,9% | US$ 13.351 | US$ 16.404 | 44,9% |
+| Sobre todo a favor del PP | 66 | 31 | 47% | US$ 102.790 | US$ 185.282 | 35,7% |
+| Bloque derecho (PP, Vox o contra el PSOE) | 93 | 39 | 41,9% | US$ 146.035 | US$ 239.893 | 37,8% |
+| Sobre todo en contra de Vox | 8 | 0 | 0% | – | – | – |
+| Sobre todo en contra del PSOE | 18 | 6 | 33,3% | US$ 26.620 | US$ 38.064 | 41,2% |
+| Sobre todo a favor del PSOE | 24 | 9 | 37,5% | US$ 2.173 | US$ 2.523 | 46,3% |
+| Sobre todo a favor de Vox | 4 | 0 | 0% | – | – | – |
 
 Coincidir en las dos elecciones no prueba coordinación: muchos apostadores profesionales apuestan en todas las elecciones del mundo. Lo que interesa es si el patrón se repite: las mismas billeteras, del mismo lado, en los mismos momentos de la campaña.
 
@@ -138,40 +140,40 @@ Para cada billetera con historial suficiente, las seis horas más tranquilas del
 
 | Franja | Grandes | Comparación |
 |---|---:|---:|
-| UTC−1 a +3 (Europa, incluida España, y África) | 50% | 44,6% |
-| UTC−5 a −2 (este de EE. UU., Canadá, Brasil, resto de Sudamérica) | – | 16,9% |
-| UTC+4 a +6 (Golfo, Asia Central, India) | – | 10,8% |
-| otros husos | – | 9,6% |
-| UTC+7 a +10 (Sudeste y Este de Asia, Australia) | – | 9,6% |
-| UTC−8 a −6 (costa oeste y centro de EE. UU., México) | – | 8,4% |
+| UTC−1 a +3 (Europa, incluida España, y África) | 50% | 52,7% |
+| UTC−5 a −2 (este de EE. UU., Canadá, Brasil, resto de Sudamérica) | – | 21,5% |
+| otros husos | – | 8,6% |
+| UTC+7 a +10 (Sudeste y Este de Asia, Australia) | – | 7,5% |
+| UTC+4 a +6 (Golfo, Asia Central, India) | – | 6,5% |
+| UTC−8 a −6 (costa oeste y centro de EE. UU., México) | – | 3,2% |
 
 ## Edad de las billeteras en su primera apuesta sobre la elección
 
 | Edad | Grandes | % | Apostado |
 |---|---:|---:|---:|
-| menos de 1 día | 5 | 45,5% | US$ 35.410 |
+| menos de 1 día | 5 | 45,5% | US$ 37.910 |
 | 1 a 7 días | 0 | 0% | – |
 | 1 a 4 semanas | <3 | – | – |
 | 1 a 6 meses | <3 | – | – |
-| más de 6 meses | 3 | 27,3% | US$ 19.490 |
+| más de 6 meses | 3 | 27,3% | US$ 25.069 |
 
 ## En qué más apuestan
 
-El 0% de los grandes apostadores nunca apostó en otra cosa en Polymarket (en la comparación: 1,3%). Las billeteras de un solo uso son una de las señales clásicas de apuestas con información privilegiada, pero también de quien solo se interesa por España.
+El 0% de los grandes apostadores nunca apostó en otra cosa en Polymarket (en la comparación: 2%). Las billeteras de un solo uso son una de las señales clásicas de apuestas con información privilegiada, pero también de quien solo se interesa por España.
 
 | Área | Grandes | Comparación |
 |---|---:|---:|
-| Otros | 90,9% | 86% |
-| España | 90,9% | 77,3% |
-| Guerra y geopolítica | 90,9% | 88% |
-| Política de EE. UU. | 81,8% | 87,3% |
-| Deporte | 81,8% | 76,7% |
-| Brasil | 81,8% | 53,3% |
-| Otras elecciones europeas | 72,7% | 64,7% |
-| Cripto | 72,7% | 64% |
-| Otras elecciones | 63,6% | 67,3% |
-| Economía | 63,6% | 64,7% |
-| Cultura y tecnología | 63,6% | 60% |
+| Guerra y geopolítica | 90,9% | 83,2% |
+| España | 90,9% | 71,8% |
+| Otros | 90,9% | 89,3% |
+| Política de EE. UU. | 81,8% | 83,2% |
+| Deporte | 81,8% | 76,5% |
+| Brasil | 81,8% | 58,4% |
+| Cripto | 72,7% | 57% |
+| Otras elecciones europeas | 72,7% | 69,8% |
+| Otras elecciones | 63,6% | 65,8% |
+| Economía | 63,6% | 63,8% |
+| Cultura y tecnología | 63,6% | 59,1% |
 
 Mercados en común entre los grandes apostadores (3+ billeteras):
 
@@ -179,14 +181,14 @@ Mercados en común entre los grandes apostadores (3+ billeteras):
 |---|---|---:|---:|
 | Will Alberto Núñez Feijóo be the next Prime Minister of Spain? | España | 6 | US$ 128.479 |
 | Will Benjamin Netanyahu be the next Prime Minister of Israel? | Guerra y geopolítica | 5 | US$ 380.696 |
-| US announces end of Iranian blockade by November 2, 2026? | Guerra y geopolítica | 5 | US$ 180.831 |
+| US announces end of Iranian blockade by December 31, 2026? | Guerra y geopolítica | 5 | US$ 180.831 |
 | Pedro Sánchez out as PM of Spain by January 31, 2027? | España | 5 | US$ 27.953 |
-| US x Iran ceasefire continues through November 7? | Guerra y geopolítica | 4 | US$ 327.223 |
+| US x Iran ceasefire continues through September 25? | Guerra y geopolítica | 4 | US$ 327.223 |
 | Will Jensen Huang rejoin NVIDIA by December 31, 2026? | Otros | 4 | US$ 85.250 |
-| Will Puma Shen win the next Taipei Mayor election? | Política de EE. UU. | 4 | US$ 64.146 |
+| Will Chiang Wan-an win the next Taipei Mayor election? | Política de EE. UU. | 4 | US$ 64.146 |
 | Will Delcy Rodríguez be the leader of Venezuela end of 2026? | Guerra y geopolítica | 4 | US$ 53.956 |
-| Will the Fed increase interest rates by 25 bps after the December 2026 meeting? | Economía | 4 | US$ 22.331 |
-| Will Anthropic's valuation hit (LOW) $800B by December 31? | Otros | 4 | US$ 15.057 |
+| Will the Fed increase interest rates by 50+ bps after the December 2026 meeting? | Economía | 4 | US$ 22.331 |
+| Will Anthropic's valuation hit (HIGH) $2.0T by December 31? | Otros | 4 | US$ 15.057 |
 | Will Vox receive between 20% and 22% of the vote in the 2026 Spanish general election? | España | 4 | US$ 8.128 |
 | Will PSOE win 102-107 seats in the 2026 Spanish general election? | España | 4 | US$ 6.896 |
 | Will Luiz Inácio Lula da Silva be the next leader out before 2027? | Brasil | 4 | US$ 6.608 |
@@ -197,7 +199,7 @@ Mercados en común entre los grandes apostadores (3+ billeteras):
 | Will Likud win 30-34 seats in the 2026 Israeli legislative election? | Guerra y geopolítica | 3 | US$ 46.556 |
 | Will Likud win the most seats in the 2026 Israeli legislative election? | Guerra y geopolítica | 3 | US$ 39.776 |
 | Will a team from LCK (South Korea) win LoL Worlds 2026? | Otros | 3 | US$ 35.474 |
-| Total Kills Over/Under 27.5 in Game 4? | Deporte | 3 | US$ 33.634 |
+| LoL: Karmine Corp vs T1 (BO5) - Worlds Playoffs | Deporte | 3 | US$ 33.634 |
 | Jensen Huang announced resignation or removal by November 11, 2026? | Otros | 3 | US$ 30.549 |
 | Will Spider-Man: Brand New Day be the top grossing movie of 2026? | Cultura y tecnología | 3 | US$ 26.014 |
 | Will Iran target Oman by November 30, 2026? | Guerra y geopolítica | 3 | US$ 20.136 |
