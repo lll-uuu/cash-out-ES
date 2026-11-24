@@ -2971,5 +2971,23 @@
     "note": "$5,579 bet against PP within an hour"
    }
   ]
+ },
+ {
+  "id": "2026-11-24T14Z",
+  "ts": 1795528860,
+  "prices": {
+   "psoe": 0.255,
+   "pp": 0.755,
+   "vox": 0.0045
+  },
+  "wallets": {
+   "psoe": 47,
+   "-psoe": 13,
+   "pp": 39,
+   "-pp": 27,
+   "vox": 2,
+   "-vox": 3
+  },
+  "newAnomalies": []
  }
 ]
