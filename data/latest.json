@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-25T05Z",
- "ts": 1795582860,
- "at": "2026-11-25T05:01:00.000Z",
+ "id": "2026-11-25T06Z",
+ "ts": 1795586460,
+ "at": "2026-11-25T06:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 51024.715326
+  "volume24hr": 51499.649539
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0035
  },
  "priceHistory": [
-  [
-   498749,
-   {
-    "psoe": 0.245,
-    "pp": 0.755,
-    "vox": 0.004
-   }
-  ],
   [
    498750,
    {
@@ -239,6 +231,14 @@
     "pp": 0.755,
     "vox": 0.0035
    }
+  ],
+  [
+   498774,
+   {
+    "psoe": 0.255,
+    "pp": 0.755,
+    "vox": 0.0035
+   }
   ]
  ],
  "totals": {
@@ -248,13 +248,13 @@
    "trades": 30
   },
   "-psoe": {
-   "wallets": 15,
-   "usd": 927.16,
-   "trades": 76
+   "wallets": 16,
+   "usd": 931.1,
+   "trades": 77
   },
   "pp": {
    "wallets": 41,
-   "usd": 5469.14,
+   "usd": 5601.09,
    "trades": 78
   },
   "-pp": {
@@ -300,20 +300,6 @@
   }
  },
  "trades": [
-  [
-   1795498727,
-   "0x9b921858c45333e7177741485e240570a9a8fd85",
-   1,
-   "pp",
-   "0x64aa6e1d7b5dbb9cdaa76ae0696e9ad8d5cb06a9d647d770c871f1fa226a9d3d"
-  ],
-  [
-   1795499833,
-   "0xd037f12829cb1500975b136d84472abc767767b2",
-   1,
-   "pp",
-   "0xd7082ef32820fe412eca5e25faf6a70d461a1830984e3021a50f26cb412b6536"
-  ],
   [
    1795504109,
    "0xe2cc3808662a795f9ef70fbb3b52446f29d7afc9",
@@ -1930,6 +1916,27 @@
    225,
    "-psoe",
    "0xef4051fde2969f2928088355a31a128f0ba2091de108979cc23b4325cc8ac1aa"
+  ],
+  [
+   1795583036,
+   "0x24bdf702b4e7468ae81edfc121f7c63fe3ba9dd5",
+   33.63,
+   "pp",
+   "0xb3a2c9267d65bcc9bd410c77e04c054de8fc32a04c69c764540fa4c9b9d1bfab"
+  ],
+  [
+   1795583050,
+   "0x40fe57965a53d6efde2c678b8b442bb76c3a3bfd",
+   100.32,
+   "pp",
+   "0x50a3f21bc16a8a75aa260b316f59d337f99dbd88572cb854bdd25bad4a07a97d"
+  ],
+  [
+   1795586120,
+   "0xe95f9749c4b39a34a4ac5a0a850d2c910f753d98",
+   3.94,
+   "-psoe",
+   "0x28ad2895f29fc87b7a9a1c043a4db4abe2bf098700a0e00efd0cbb4e446c0f59"
   ]
  ]
 }
