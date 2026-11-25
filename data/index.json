@@ -3459,6 +3459,63 @@
   "newAnomalies": []
  },
  {
+  "id": "2026-11-25T17Z",
+  "ts": 1795626300,
+  "prices": {
+   "psoe": 0.25,
+   "pp": 0.76,
+   "vox": 0.003
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 21,
+   "-psoe": 22,
+   "pp": 43,
+   "-pp": 22,
+   "vox": 3,
+   "-vox": 6
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-25T18Z",
+  "ts": 1795629900,
+  "prices": {
+   "psoe": 0.25,
+   "pp": 0.75,
+   "vox": 0.003
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 21,
+   "-psoe": 21,
+   "pp": 43,
+   "-pp": 23,
+   "vox": 3,
+   "-vox": 6
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-25T19Z",
+  "ts": 1795633500,
+  "prices": {
+   "psoe": 0.25,
+   "pp": 0.74,
+   "vox": 0.003
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 21,
+   "-psoe": 21,
+   "pp": 40,
+   "-pp": 30,
+   "vox": 2,
+   "-vox": 6
+  },
+  "newAnomalies": []
+ },
+ {
   "id": "2026-11-25T20Z",
   "ts": 1795636945,
   "prices": {
