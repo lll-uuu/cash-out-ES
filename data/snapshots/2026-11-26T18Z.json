@@ -1,8 +1,8 @@
 {
  "v": 2,
  "id": "2026-11-26T18Z",
- "ts": 1795716060,
- "at": "2026-11-26T18:01:00.000Z",
+ "ts": 1795716153,
+ "at": "2026-11-26T18:02:33.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
@@ -29,7 +29,7 @@
   {
    "key": "vox",
    "label": "Vox",
-   "price": 0.0035,
+   "price": 0.003,
    "conditionId": "0x32efce5c16d89771617eb4e28a42db8845b7fceae965b18d64b72baf1775d2c4",
    "closed": false
   }
@@ -37,7 +37,7 @@
  "prices": {
   "psoe": 0.265,
   "pp": 0.745,
-  "vox": 0.0035
+  "vox": 0.003
  },
  "priceHistory": [
   [
@@ -237,7 +237,7 @@
    {
     "psoe": 0.265,
     "pp": 0.745,
-    "vox": 0.0035
+    "vox": 0.003
    }
   ]
  ],
@@ -311,7 +311,7 @@
    "note": "$6,235 bet against PSOE within an hour"
   }
  ],
- "newAnomalies": 1,
+ "newAnomalies": 0,
  "contracts": {
   "collateral": {
    "name": "pUSD collateral token",
