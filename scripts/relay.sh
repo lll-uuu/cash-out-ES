@@ -42,6 +42,8 @@ for round in $(seq 1 "$ROUNDS"); do
   echo "::group::round $round, $(date -u +%H:%MZ)"
   marble || echo "this hour failed three times; it will be rebuilt"
   fill_gaps || true
+  # the other markets (PP + Vox majority, Vox vote and seats): collect and report, best effort
+  { node scripts/collect-extra.js && node scripts/extra-report.js && save "other markets $(date -u +%Y-%m-%dT%HZ)"; } || echo "other markets failed this round"
   echo "::endgroup::"
   now=$(date +%s)
   [ "$now" -gt "$FINAL" ] && { echo "polls closed, stopping"; exit 0; }

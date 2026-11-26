@@ -26,6 +26,8 @@ jobs:
         env:
           ETHERSCAN_API_KEY: ${{ secrets.ETHERSCAN_API_KEY }}
         run: node analyze.js
+      - name: Other markets
+        run: node scripts/extra-report.js || true
       - name: Save
         run: |
           git config user.name "cash-out"
