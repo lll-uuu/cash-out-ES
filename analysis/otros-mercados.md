@@ -1,6 +1,6 @@
 # Cash Out · España: otros mercados
 
-Actualizado el 26 nov, 19:02 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
+Actualizado el 26 nov, 19:03 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
 
 **Apuestas «ultra»** = apuestas a que PP y Vox suman mayoría absoluta, a que suman el 50% de los votos, a que Vox supera el 20% de los votos, a que Vox saca 66 escaños o más, a que Vox gana alguna circunscripción, o a que Santiago Abascal será presidente del Gobierno o recibirá el primer encargo para formarlo.
 
@@ -105,7 +105,7 @@ US$ 79.213 apostados por 213 billeteras en 501 apuestas, desde el 12 oct, 20:54.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| Sí (ultra) | 87% | US$ 60.664 | US$ 18.549 |
+| Sí (ultra) | 89,5% | US$ 60.664 | US$ 18.549 |
 
 Las 5 billeteras más grandes ponen el 63,7% del dinero.
 Ballenas (US$ 5.000+ en una hora): 3 billeteras, 3 veces.
