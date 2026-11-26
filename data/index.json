@@ -3768,6 +3768,63 @@
   "newAnomalies": []
  },
  {
+  "id": "2026-11-26T10Z",
+  "ts": 1795687500,
+  "prices": {
+   "psoe": 0.26,
+   "pp": 0.75,
+   "vox": 0.002
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 42,
+   "-psoe": 19,
+   "pp": 60,
+   "-pp": 22,
+   "vox": 1,
+   "-vox": 2
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-26T11Z",
+  "ts": 1795691100,
+  "prices": {
+   "psoe": 0.26,
+   "pp": 0.75,
+   "vox": 0.002
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 43,
+   "-psoe": 23,
+   "pp": 63,
+   "-pp": 20,
+   "vox": 1,
+   "-vox": 3
+  },
+  "newAnomalies": []
+ },
+ {
+  "id": "2026-11-26T12Z",
+  "ts": 1795694700,
+  "prices": {
+   "psoe": 0.26,
+   "pp": 0.75,
+   "vox": 0.002
+  },
+  "rebuilt": true,
+  "wallets": {
+   "psoe": 44,
+   "-psoe": 24,
+   "pp": 67,
+   "-pp": 20,
+   "vox": 1,
+   "-vox": 3
+  },
+  "newAnomalies": []
+ },
+ {
   "id": "2026-11-26T13Z",
   "ts": 1795698174,
   "prices": {
