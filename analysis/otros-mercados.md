@@ -1,6 +1,6 @@
 # Cash Out · España: otros mercados
 
-Actualizado el 26 nov, 23:02 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
+Actualizado el 26 nov, 23:03 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
 
 **Apuestas «ultra»** = apuestas a que PP y Vox suman mayoría absoluta, a que suman el 50% de los votos, a que Vox supera el 20% de los votos, a que Vox saca 66 escaños o más, a que Vox gana alguna circunscripción, o a que Santiago Abascal será presidente del Gobierno o recibirá el primer encargo para formarlo.
 
@@ -69,11 +69,11 @@ Apuestas individuales de US$ 1.000 o más:
 
 ## Spain Combo: Election Winner and Next Prime Minister
 
-US$ 8.675 apostados por 95 billeteras en 382 apuestas, desde el 18 nov, 04:48.
+US$ 8.680 apostados por 96 billeteras en 383 apuestas, desde el 18 nov, 04:48.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| PP winner, Feijóo PM | 68% | US$ 1.945 | US$ 809 |
+| PP winner, Feijóo PM | 68% | US$ 1.950 | US$ 809 |
 | PSOE winner, Sánchez PM | 8% | US$ 222 | US$ 2.642 |
 | PSOE winner, Feijóo PM | 24% | US$ 558 | US$ 1.203 |
 | PP winner, Sánchez PM | 1,8% | US$ 57 | US$ 1.239 |
