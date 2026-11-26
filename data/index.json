@@ -3927,5 +3927,30 @@
     "note": "$8,639 bet on PP within an hour"
    }
   ]
+ },
+ {
+  "id": "2026-11-26T18Z",
+  "ts": 1795716060,
+  "prices": {
+   "psoe": 0.265,
+   "pp": 0.745,
+   "vox": 0.0035
+  },
+  "wallets": {
+   "psoe": 60,
+   "-psoe": 40,
+   "pp": 84,
+   "-pp": 35,
+   "vox": 3,
+   "-vox": 6
+  },
+  "newAnomalies": [
+   {
+    "kind": "whale",
+    "wallet": "0x21c7001ff2f9c4fbb002258688f1629cc24842e7",
+    "usd": 6234.89,
+    "note": "$6,235 bet against PSOE within an hour"
+   }
+  ]
  }
 ]
