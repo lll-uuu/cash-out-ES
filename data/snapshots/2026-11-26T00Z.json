@@ -1,8 +1,8 @@
 {
  "v": 2,
  "id": "2026-11-26T00Z",
- "ts": 1795651260,
- "at": "2026-11-26T00:01:00.000Z",
+ "ts": 1795651315,
+ "at": "2026-11-26T00:01:55.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
@@ -40,14 +40,6 @@
   "vox": 0.0025
  },
  "priceHistory": [
-  [
-   498768,
-   {
-    "psoe": 0.255,
-    "pp": 0.745,
-    "vox": 0.0035
-   }
-  ],
   [
    498769,
    {
@@ -284,7 +276,7 @@
    "note": "$5,168 bet on PP within an hour"
   }
  ],
- "newAnomalies": 1,
+ "newAnomalies": 0,
  "contracts": {
   "collateral": {
    "name": "pUSD collateral token",
