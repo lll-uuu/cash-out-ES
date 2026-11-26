@@ -1,6 +1,6 @@
 # Cash Out · España: otros mercados
 
-Actualizado el 26 nov, 10:13 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
+Actualizado el 26 nov, 10:30 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
 
 **Apuestas «ultra»** = apuestas a que PP y Vox suman mayoría absoluta, a que suman el 50% de los votos, a que Vox supera el 20% de los votos, a que Vox saca 66 escaños o más, o a que Vox gana alguna circunscripción.
 
@@ -108,7 +108,7 @@ Ninguna ballena (US$ 5.000+ en una hora).
 
 En todos estos mercados, 290 billeteras pusieron US$ 76.666 en apuestas ultra.
 121 de ellas también apuestan en el mercado principal (quién gana más escaños).
-De las 76 que tienen su historial leído, 26 también apostaron en la elección presidencial de Brasil: US$ 118.422 a Flávio Bolsonaro y US$ 89.419 a Lula (57% a Flávio).
+De las 80 que tienen su historial leído, 26 también apostaron en la elección presidencial de Brasil: US$ 118.422 a Flávio Bolsonaro y US$ 89.419 a Lula (57% a Flávio).
 
 Dinero en apuestas ultra por día (los días del 24 al 29 de noviembre, en negrita, son los de la veda de encuestas):
 
