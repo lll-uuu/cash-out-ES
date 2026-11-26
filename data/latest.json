@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-26T04Z",
- "ts": 1795665705,
- "at": "2026-11-26T04:01:45.000Z",
+ "id": "2026-11-26T05Z",
+ "ts": 1795669260,
+ "at": "2026-11-26T05:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 38426.917359
+  "volume24hr": 38845.760178000004
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0025
  },
  "priceHistory": [
-  [
-   498772,
-   {
-    "psoe": 0.255,
-    "pp": 0.755,
-    "vox": 0.0035
-   }
-  ],
   [
    498773,
    {
@@ -239,28 +231,36 @@
     "pp": 0.745,
     "vox": 0.0025
    }
+  ],
+  [
+   498797,
+   {
+    "psoe": 0.255,
+    "pp": 0.745,
+    "vox": 0.0025
+   }
   ]
  ],
  "totals": {
   "psoe": {
-   "wallets": 40,
-   "usd": 2423.73,
-   "trades": 62
+   "wallets": 41,
+   "usd": 2448.73,
+   "trades": 63
   },
   "-psoe": {
    "wallets": 20,
-   "usd": 2744.54,
+   "usd": 2525.54,
    "trades": 23
   },
   "pp": {
-   "wallets": 46,
-   "usd": 11741.12,
-   "trades": 110
+   "wallets": 49,
+   "usd": 12226.99,
+   "trades": 107
   },
   "-pp": {
-   "wallets": 25,
-   "usd": 2876.74,
-   "trades": 27
+   "wallets": 24,
+   "usd": 2873.96,
+   "trades": 26
   },
   "vox": {
    "wallets": 2,
@@ -300,69 +300,6 @@
   }
  },
  "trades": [
-  [
-   1795580729,
-   "0x1946e97c0fbcbf687144f626513df2dee39a6367",
-   2.78,
-   "-pp",
-   "0x3d16e53be9448eed5fc3d48d005897211dd73401d9b96d62beb59ee271eea397"
-  ],
-  [
-   1795580747,
-   "0x8eadfb28e78d85512f256e83ddce579e94d0ac50",
-   0.04,
-   "pp",
-   "0x821549967762b56e2ad51fb6dbf67c84b0a124853fb9f812a896b28d14722a1b"
-  ],
-  [
-   1795580752,
-   "0x8eadfb28e78d85512f256e83ddce579e94d0ac50",
-   0.2,
-   "pp",
-   "0x2e09e8df2f75f353ec18361eed548bd20bac2a10fbddcd193cfa567f7a265560"
-  ],
-  [
-   1795580758,
-   "0x8eadfb28e78d85512f256e83ddce579e94d0ac50",
-   0.13,
-   "pp",
-   "0x6f2961882cd3072bf5abe8bc999989dc1fb2f1eb97dbbac4246a9113311b0927"
-  ],
-  [
-   1795580764,
-   "0x8eadfb28e78d85512f256e83ddce579e94d0ac50",
-   0.2,
-   "pp",
-   "0xc11d8aca9f546a31fc138a7fe981f1f700aa9fd7fad0a6937c699e97b3a5a466"
-  ],
-  [
-   1795580770,
-   "0x8eadfb28e78d85512f256e83ddce579e94d0ac50",
-   0.18,
-   "pp",
-   "0xa8d841980eedf471d8c47bc57b082717c6d85cd5b1d448d17af3454f31c332d1"
-  ],
-  [
-   1795580776,
-   "0x8eadfb28e78d85512f256e83ddce579e94d0ac50",
-   0.05,
-   "pp",
-   "0xe64c7b4809c2bf080defdef1d045ed013326360fabae0a55509075879a6f3e43"
-  ],
-  [
-   1795580780,
-   "0x8eadfb28e78d85512f256e83ddce579e94d0ac50",
-   0.05,
-   "pp",
-   "0x90254e98e7bda3bf4a6263097a09a6b2a436ceba18f6c0f7b9511a3fadb70fd8"
-  ],
-  [
-   1795582489,
-   "0xff9152ac8cb6260419ea8940248177083aceab3a",
-   225,
-   "-psoe",
-   "0xef4051fde2969f2928088355a31a128f0ba2091de108979cc23b4325cc8ac1aa"
-  ],
   [
    1795583036,
    "0x24bdf702b4e7468ae81edfc121f7c63fe3ba9dd5",
@@ -1881,6 +1818,48 @@
    15,
    "psoe",
    "0x9c2e034e5fca015b5601f7cb22c554ef7259e02aa259391411261e2f213fccaa"
+  ],
+  [
+   1795665918,
+   "0x13b1879cbe07c4efbd62cdbdae4897320bdb89df",
+   25,
+   "psoe",
+   "0x10a8fd0a80e1cc3bdd06dfd7ce413664a57c0cfea92fc078a3ce912048b8a974"
+  ],
+  [
+   1795667481,
+   "0xa39ec16014ad90af01f9ee4083fcea969487b348",
+   6,
+   "-psoe",
+   "0xa355378a633b5a98090a09384d109fb7eca62395f84ed5557f3c9419b260cc56"
+  ],
+  [
+   1795667967,
+   "0x6d653e0a9fdf2bf9538fa0f1001778c7a3b39eea",
+   200,
+   "pp",
+   "0x63ae2d5a81dedf653a2a7cb624779aa7aafea3c270d39e1e0ca368c721e56042"
+  ],
+  [
+   1795667991,
+   "0x5f359ff2bf32cf21c521f2852749baa5c0ca8961",
+   3.75,
+   "pp",
+   "0x4d39bfc7baeb5d02abf91936d626824e8c765016f86e4b99cf2fbb862d4ae1dd"
+  ],
+  [
+   1795668676,
+   "0x2466699b5e4b0c5eb85573acac6263013209e381",
+   278.97,
+   "pp",
+   "0xce13e9f8e076fc8b44554eeae80571accea0175447fa46ecd7b3418f035a53e0"
+  ],
+  [
+   1795669153,
+   "0xc148a7290b4e1347d7ee3143e886da708f9613d0",
+   4,
+   "pp",
+   "0x155c9a86bac8cd03ed7127472dce59290081abafd5b80a38648dc08723012926"
   ]
  ]
 }
