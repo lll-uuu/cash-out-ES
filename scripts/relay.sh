@@ -10,7 +10,7 @@ git config user.name "cash-out"
 git config user.email "cash-out@users.noreply.github.com"
 
 save() {
-  git add data frames
+  git add data frames analysis/otros-mercados.md 2>/dev/null || git add data frames
   if git diff --cached --quiet; then echo "nothing new"; return 0; fi
   git commit -q -m "$1"
   for i in 1 2 3; do git pull -q --rebase --autostash && git push -q && return 0; sleep 10; done
