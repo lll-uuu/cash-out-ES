@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-26T03Z",
- "ts": 1795662060,
- "at": "2026-11-26T03:01:00.000Z",
+ "id": "2026-11-26T04Z",
+ "ts": 1795665660,
+ "at": "2026-11-26T04:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 37724.12659299999
+  "volume24hr": 38426.917359
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0025
  },
  "priceHistory": [
-  [
-   498771,
-   {
-    "psoe": 0.255,
-    "pp": 0.755,
-    "vox": 0.0035
-   }
-  ],
   [
    498772,
    {
@@ -239,28 +231,36 @@
     "pp": 0.745,
     "vox": 0.0025
    }
+  ],
+  [
+   498796,
+   {
+    "psoe": 0.255,
+    "pp": 0.745,
+    "vox": 0.0025
+   }
   ]
  ],
  "totals": {
   "psoe": {
-   "wallets": 39,
-   "usd": 2405.2,
-   "trades": 60
+   "wallets": 40,
+   "usd": 2423.73,
+   "trades": 62
   },
   "-psoe": {
-   "wallets": 19,
-   "usd": 2634.54,
-   "trades": 22
+   "wallets": 20,
+   "usd": 2744.54,
+   "trades": 23
   },
   "pp": {
-   "wallets": 45,
-   "usd": 11731.12,
-   "trades": 109
+   "wallets": 46,
+   "usd": 11741.12,
+   "trades": 110
   },
   "-pp": {
-   "wallets": 24,
-   "usd": 2499.35,
-   "trades": 26
+   "wallets": 25,
+   "usd": 2876.74,
+   "trades": 27
   },
   "vox": {
    "wallets": 2,
@@ -1846,6 +1846,41 @@
    5,
    "psoe",
    "0x88705f5d94f63e8946b7d3b2066303a19362bff2cffaa9e9372c913a91b8e12d"
+  ],
+  [
+   1795662733,
+   "0x1cb63fd92efcaaf359ffdf301c40674b2ed793f6",
+   110,
+   "-psoe",
+   "0xbadb6ad0378c8606b23cf1ff4c28e16856ab1ab8e8c270b15abf07287918ddaa"
+  ],
+  [
+   1795662736,
+   "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
+   3.53,
+   "psoe",
+   "0x192e0ec572024ac159ec16646025996c3b817cadbfbe661596b88ed5b6039dd0"
+  ],
+  [
+   1795664160,
+   "0x4bea04e3a292af1a13824d73cbc8de8b5b65b7ed",
+   10,
+   "pp",
+   "0xf3ea8f1798cd5ddbb71082a9fa880ca23e68e9887c5ca4100c2e37e5c1d03895"
+  ],
+  [
+   1795664899,
+   "0xe11ab7e675ffc7136bb065ac13d0d9ba2247c40b",
+   377.39,
+   "-pp",
+   "0xa4ee7fa0cc80d5c4626d79e68d40d59a70499dbceede99715da2c4273577c65d"
+  ],
+  [
+   1795665499,
+   "0x1fafeea97802681b2af6f27ee106a9a7ce53c792",
+   15,
+   "psoe",
+   "0x9c2e034e5fca015b5601f7cb22c554ef7259e02aa259391411261e2f213fccaa"
   ]
  ]
 }
