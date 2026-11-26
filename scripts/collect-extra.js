@@ -18,6 +18,11 @@ const EVENTS = [
   "spain-general-election-vox-of-vote",
   "spain-general-election-vox-of-seats",
   "spain-general-election-vox-wins-a-constituency",
+  // who governs: the biggest markets on Spain
+  "next-prime-minister-of-spain-20260625005215443",
+  "pedro-snchez-out-as-pm-of-spain-by",
+  "who-will-receive-the-first-mandate-to-form-spains-next-government",
+  "spain-combo-election-winner-and-next-prime-minister",
 ];
 const GAMMA = "https://gamma-api.polymarket.com";
 const DATA = "https://data-api.polymarket.com";

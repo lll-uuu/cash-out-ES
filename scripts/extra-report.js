@@ -14,6 +14,8 @@ const ULTRA = {
   "spain-general-election-vox-of-vote": o => /^(20-22%|22%\+)$/.test(o),
   "spain-general-election-vox-of-seats": o => /^(66-70|71-75|76\+)$/.test(o),
   "spain-general-election-vox-wins-a-constituency": o => true,
+  "next-prime-minister-of-spain-20260625005215443": o => /abascal/i.test(o),
+  "who-will-receive-the-first-mandate-to-form-spains-next-government": o => /abascal/i.test(o),
 };
 const readJSON = (f, d) => { try { return JSON.parse(fs.readFileSync(f, "utf8")); } catch { return d; } };
 const money = x => "US$ " + Math.round(x).toLocaleString("es-ES", { useGrouping: "always" });
@@ -42,7 +44,7 @@ p("# Cash Out · España: otros mercados");
 p("");
 p(`Actualizado el ${madTime(Math.floor(Date.now() / 1000))} (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de ${MIN} billeteras se omiten.`);
 p("");
-p("**Apuestas «ultra»** = apuestas a que PP y Vox suman mayoría absoluta, a que suman el 50% de los votos, a que Vox supera el 20% de los votos, a que Vox saca 66 escaños o más, o a que Vox gana alguna circunscripción.");
+p("**Apuestas «ultra»** = apuestas a que PP y Vox suman mayoría absoluta, a que suman el 50% de los votos, a que Vox supera el 20% de los votos, a que Vox saca 66 escaños o más, a que Vox gana alguna circunscripción, o a que Santiago Abascal será presidente del Gobierno o recibirá el primer encargo para formarlo.");
 p("");
 
 const allUltra = new Map();   // wallet -> usd on ultra outcomes, all markets
@@ -60,11 +62,14 @@ for (const f of files) {
   p("");
   p("| Resultado | Probabilidad ahora | A favor | En contra |");
   p("|---|---:|---:|---:|");
-  for (const m of E.markets) {
-    const y = tr.filter(t => t[3] === m.outcome && t[4] === "yes").reduce((a, t) => a + t[2], 0);
-    const n = tr.filter(t => t[3] === m.outcome && t[4] === "no").reduce((a, t) => a + t[2], 0);
-    p(`| ${m.outcome === "Yes" ? "Sí" : m.outcome}${isUltra(m.outcome) ? " (ultra)" : ""} | ${m.price == null ? "–" : pc(m.price, 1)} | ${money(y)} | ${money(n)} |`);
-  }
+  // outcomes with money, biggest first; long lists (e.g. 58 candidates for prime minister) are cut at 12
+  const rows = E.markets.map(m => ({ m,
+    y: tr.filter(t => t[3] === m.outcome && t[4] === "yes").reduce((a, t) => a + t[2], 0),
+    n: tr.filter(t => t[3] === m.outcome && t[4] === "no").reduce((a, t) => a + t[2], 0) }))
+    .filter(x => x.y + x.n > 0);
+  if (rows.length > 12) rows.sort((a, b) => (b.y + b.n) - (a.y + a.n));
+  for (const { m, y, n } of rows.slice(0, 12)) p(`| ${m.outcome === "Yes" ? "Sí" : m.outcome}${isUltra(m.outcome) ? " (ultra)" : ""} | ${m.price == null ? "–" : pc(m.price, 1)} | ${money(y)} | ${money(n)} |`);
+  if (rows.length > 12) p(`| …y otros ${rows.length - 12} resultados | | | |`);
   p("");
   // concentration
   const per = new Map();
