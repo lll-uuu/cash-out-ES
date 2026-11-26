@@ -1,14 +1,14 @@
 {
  "v": 2,
  "id": "2026-11-26T09Z",
- "ts": 1795683660,
- "at": "2026-11-26T09:01:00.000Z",
+ "ts": 1795684353,
+ "at": "2026-11-26T09:12:33.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 36443.431715
+  "volume24hr": 36506.064533000004
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0025
  },
  "priceHistory": [
-  [
-   498777,
-   {
-    "psoe": 0.255,
-    "pp": 0.755,
-    "vox": 0.0035
-   }
-  ],
   [
    498778,
    {
