@@ -4446,5 +4446,23 @@
     "note": "wallet first active 0 h ago, staked $8,119 on PSOE"
    }
   ]
+ },
+ {
+  "id": "2026-11-27T21Z",
+  "ts": 1795813260,
+  "prices": {
+   "psoe": 0.265,
+   "pp": 0.735,
+   "vox": 0.006
+  },
+  "wallets": {
+   "psoe": 71,
+   "-psoe": 31,
+   "pp": 127,
+   "-pp": 42,
+   "vox": 9,
+   "-vox": 13
+  },
+  "newAnomalies": []
  }
 ]
