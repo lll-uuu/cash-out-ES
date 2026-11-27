@@ -4053,5 +4053,42 @@
    "-vox": 5
   },
   "newAnomalies": []
+ },
+ {
+  "id": "2026-11-27T01Z",
+  "ts": 1795741260,
+  "prices": {
+   "psoe": 0.245,
+   "pp": 0.735,
+   "vox": 0.0035
+  },
+  "wallets": {
+   "psoe": 73,
+   "-psoe": 51,
+   "pp": 109,
+   "-pp": 49,
+   "vox": 6,
+   "-vox": 5
+  },
+  "newAnomalies": [
+   {
+    "kind": "whale",
+    "wallet": "0x2974bd0059e48f215c391882976e0f1b4c8c9c23",
+    "usd": 6482,
+    "note": "$6,482 bet on PP within an hour"
+   },
+   {
+    "kind": "whale",
+    "wallet": "0x2974bd0059e48f215c391882976e0f1b4c8c9c23",
+    "usd": 24267.17,
+    "note": "$24,267 bet against PSOE within an hour"
+   },
+   {
+    "kind": "whale",
+    "wallet": "0x2974bd0059e48f215c391882976e0f1b4c8c9c23",
+    "usd": 6477.24,
+    "note": "$6,477 bet against PP within an hour"
+   }
+  ]
  }
 ]
