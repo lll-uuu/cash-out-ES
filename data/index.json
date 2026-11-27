@@ -4421,5 +4421,30 @@
    "-vox": 11
   },
   "newAnomalies": []
+ },
+ {
+  "id": "2026-11-27T20Z",
+  "ts": 1795809660,
+  "prices": {
+   "psoe": 0.265,
+   "pp": 0.735,
+   "vox": 0.0065
+  },
+  "wallets": {
+   "psoe": 73,
+   "-psoe": 35,
+   "pp": 123,
+   "-pp": 36,
+   "vox": 10,
+   "-vox": 11
+  },
+  "newAnomalies": [
+   {
+    "kind": "fresh",
+    "wallet": "0x834a2c2cc6bfcc5652ed2a893b4aecedfd647e77",
+    "usd": 8118.91,
+    "note": "wallet first active 0 h ago, staked $8,119 on PSOE"
+   }
+  ]
  }
 ]
