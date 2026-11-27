@@ -1,6 +1,6 @@
 # Cash Out · España: otros mercados
 
-Actualizado el 27 nov, 03:01 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
+Actualizado el 27 nov, 03:03 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
 
 **Apuestas «ultra»** = apuestas a que PP y Vox suman mayoría absoluta, a que suman el 50% de los votos, a que Vox supera el 20% de los votos, a que Vox saca 66 escaños o más, a que Vox gana alguna circunscripción, o a que Santiago Abascal será presidente del Gobierno o recibirá el primer encargo para formarlo.
 
@@ -107,7 +107,7 @@ US$ 79.515 apostados por 216 billeteras en 508 apuestas, desde el 12 oct, 20:54.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| Sí (ultra) | 88% | US$ 60.874 | US$ 18.642 |
+| Sí (ultra) | 88,5% | US$ 60.874 | US$ 18.642 |
 
 Las 5 billeteras más grandes ponen el 63,5% del dinero.
 Ballenas (US$ 5.000+ en una hora): 3 billeteras, 3 veces.
@@ -133,9 +133,9 @@ US$ 14.707 apostados por 169 billeteras en 717 apuestas, desde el 22 oct, 10:34.
 |---|---:|---:|---:|
 | <56 | 38,1% | US$ 2.514 | US$ 3.031 |
 | 56-60 | 19% | US$ 824 | US$ 1.857 |
-| 61-65 | 20,5% | US$ 303 | US$ 1.379 |
+| 61-65 | 21% | US$ 303 | US$ 1.379 |
 | 66-70 (ultra) | 11,5% | US$ 450 | US$ 1.403 |
-| 71-75 (ultra) | 8,9% | US$ 143 | US$ 1.281 |
+| 71-75 (ultra) | 8,2% | US$ 143 | US$ 1.281 |
 | 76+ (ultra) | 6,5% | US$ 184 | US$ 1.337 |
 
 Las 5 billeteras más grandes ponen el 44,2% del dinero.
@@ -155,9 +155,9 @@ US$ 31.825 apostados por 257 billeteras en 1081 apuestas, desde el 22 oct, 02:27
 |---|---:|---:|---:|
 | <16% | 9,9% | US$ 440 | US$ 3.193 |
 | 16-18% | 46% | US$ 3.094 | US$ 1.653 |
-| 18-20% | 35% | US$ 2.007 | US$ 1.460 |
+| 18-20% | 35,5% | US$ 2.007 | US$ 1.460 |
 | 20-22% (ultra) | 10,5% | US$ 2.074 | US$ 4.295 |
-| 22%+ (ultra) | 4,3% | US$ 3.076 | US$ 10.533 |
+| 22%+ (ultra) | 4% | US$ 3.076 | US$ 10.533 |
 
 Las 5 billeteras más grandes ponen el 59,3% del dinero.
 Ninguna ballena (US$ 5.000+ en una hora).
@@ -190,7 +190,7 @@ US$ 46.323 apostados por 154 billeteras en 1457 apuestas, desde el 18 nov, 03:58
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| Alberto Núñez Feijóo | 89,5% | US$ 5.078 | US$ 660 |
+| Alberto Núñez Feijóo | 87% | US$ 5.078 | US$ 660 |
 | Ester Muñoz | 0,1% | US$ 47 | US$ 2.746 |
 | María Jesús Montero | 0,1% | US$ 55 | US$ 2.544 |
 | Aitor Esteban | 0,1% | US$ 0 | US$ 2.591 |
