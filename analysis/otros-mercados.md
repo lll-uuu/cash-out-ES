@@ -1,19 +1,19 @@
 # Cash Out · España: otros mercados
 
-Actualizado el 27 nov, 00:02 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
+Actualizado el 27 nov, 01:02 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
 
 **Apuestas «ultra»** = apuestas a que PP y Vox suman mayoría absoluta, a que suman el 50% de los votos, a que Vox supera el 20% de los votos, a que Vox saca 66 escaños o más, a que Vox gana alguna circunscripción, o a que Santiago Abascal será presidente del Gobierno o recibirá el primer encargo para formarlo.
 
 ## Next Prime Minister of Spain?
 
-US$ 2.235.468 apostados por 3170 billeteras en 20336 apuestas, desde el 26 jun, 23:15.
+US$ 2.246.392 apostados por 3184 billeteras en 20578 apuestas, desde el 26 jun, 23:15.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| Alberto Núñez Feijóo | 90,5% | US$ 566.487 | US$ 259.608 |
-| Pedro Sánchez | 9,4% | US$ 208.560 | US$ 479.936 |
-| Santiago Abascal (ultra) | 0,4% | US$ 18.492 | US$ 266.744 |
-| Carlos Cuerpo | 0,5% | US$ 11.774 | US$ 146.669 |
+| Alberto Núñez Feijóo | 90,5% | US$ 569.845 | US$ 260.509 |
+| Pedro Sánchez | 9,9% | US$ 209.383 | US$ 480.392 |
+| Santiago Abascal (ultra) | 0,4% | US$ 18.508 | US$ 269.499 |
+| Carlos Cuerpo | 0,2% | US$ 11.781 | US$ 149.280 |
 | Isabel Díaz Ayuso | 0,1% | US$ 14.802 | US$ 123.182 |
 | Yolanda Díaz | 0,1% | US$ 12.017 | US$ 35.298 |
 | María Jesús Montero | 0,1% | US$ 157 | US$ 9.998 |
@@ -73,9 +73,9 @@ US$ 8.938 apostados por 97 billeteras en 403 apuestas, desde el 18 nov, 04:48.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| PP winner, Feijóo PM | 69% | US$ 1.960 | US$ 829 |
+| PP winner, Feijóo PM | 70% | US$ 1.960 | US$ 829 |
 | PSOE winner, Sánchez PM | 11% | US$ 298 | US$ 2.663 |
-| PSOE winner, Feijóo PM | 20,5% | US$ 558 | US$ 1.270 |
+| PSOE winner, Feijóo PM | 20% | US$ 558 | US$ 1.270 |
 | PP winner, Sánchez PM | 1,8% | US$ 61 | US$ 1.300 |
 
 Las 5 billeteras más grandes ponen el 35,6% del dinero.
@@ -83,13 +83,13 @@ Ninguna ballena (US$ 5.000+ en una hora).
 
 ## Spain General Election: PP + Vox get 50%+ of Vote?
 
-US$ 23.511 apostados por 173 billeteras en 531 apuestas, desde el 14 oct, 15:50.
+US$ 25.729 apostados por 188 billeteras en 551 apuestas, desde el 14 oct, 15:50.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| Sí (ultra) | 32% | US$ 10.919 | US$ 12.593 |
+| Sí (ultra) | 30,5% | US$ 12.952 | US$ 12.777 |
 
-Las 5 billeteras más grandes ponen el 48,3% del dinero.
+Las 5 billeteras más grandes ponen el 47,4% del dinero.
 Ninguna ballena (US$ 5.000+ en una hora).
 
 Apuestas individuales de US$ 1.000 o más:
@@ -97,6 +97,7 @@ Apuestas individuales de US$ 1.000 o más:
 | Cuándo (Madrid) | Monto | Apuesta |
 |---|---:|---|
 | 23 nov, 22:25 | US$ 2.254 | en contra de «Sí» |
+| 27 nov, 00:41 | US$ 1.991 | a favor de «Sí» (ultra) |
 | 28 oct, 16:19 | US$ 1.100 | en contra de «Sí» |
 
 ## Spain General Election: PP + Vox Majority?
@@ -125,18 +126,18 @@ Apuestas individuales de US$ 1.000 o más:
 
 ## Spain General Election: Vox # of seats?
 
-US$ 14.637 apostados por 166 billeteras en 704 apuestas, desde el 22 oct, 10:34.
+US$ 14.647 apostados por 167 billeteras en 711 apuestas, desde el 22 oct, 10:34.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| <56 | 37,8% | US$ 2.506 | US$ 3.027 |
-| 56-60 | 20,5% | US$ 823 | US$ 1.847 |
-| 61-65 | 21% | US$ 300 | US$ 1.369 |
-| 66-70 (ultra) | 15% | US$ 444 | US$ 1.376 |
-| 71-75 (ultra) | 8,8% | US$ 143 | US$ 1.281 |
+| <56 | 37,9% | US$ 2.506 | US$ 3.027 |
+| 56-60 | 20,5% | US$ 824 | US$ 1.847 |
+| 61-65 | 21,5% | US$ 303 | US$ 1.369 |
+| 66-70 (ultra) | 14,5% | US$ 450 | US$ 1.376 |
+| 71-75 (ultra) | 7,5% | US$ 143 | US$ 1.281 |
 | 76+ (ultra) | 6,5% | US$ 184 | US$ 1.337 |
 
-Las 5 billeteras más grandes ponen el 44,4% del dinero.
+Las 5 billeteras más grandes ponen el 44,3% del dinero.
 Ninguna ballena (US$ 5.000+ en una hora).
 
 Apuestas individuales de US$ 1.000 o más:
@@ -151,11 +152,11 @@ US$ 31.791 apostados por 257 billeteras en 1075 apuestas, desde el 22 oct, 02:27
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| <16% | 10,9% | US$ 440 | US$ 3.193 |
+| <16% | 10,2% | US$ 440 | US$ 3.193 |
 | 16-18% | 45% | US$ 3.074 | US$ 1.653 |
 | 18-20% | 35,5% | US$ 1.993 | US$ 1.460 |
-| 20-22% (ultra) | 9,5% | US$ 2.074 | US$ 4.295 |
-| 22%+ (ultra) | 6,2% | US$ 3.076 | US$ 10.533 |
+| 20-22% (ultra) | 9% | US$ 2.074 | US$ 4.295 |
+| 22%+ (ultra) | 4,5% | US$ 3.076 | US$ 10.533 |
 
 Las 5 billeteras más grandes ponen el 59,4% del dinero.
 Ninguna ballena (US$ 5.000+ en una hora).
@@ -214,8 +215,8 @@ Apuestas individuales de US$ 1.000 o más:
 
 ## Quién apuesta a una extrema derecha fuerte
 
-En todos estos mercados, 663 billeteras pusieron US$ 96.619 en apuestas ultra.
-167 de ellas también apuestan en el mercado principal (quién gana más escaños).
+En todos estos mercados, 666 billeteras pusieron US$ 98.674 en apuestas ultra.
+168 de ellas también apuestan en el mercado principal (quién gana más escaños).
 De las 117 que tienen su historial leído, 39 también apostaron en la elección presidencial de Brasil: US$ 161.854 a Flávio Bolsonaro y US$ 229.926 a Lula (41,3% a Flávio).
 
 Dinero en apuestas ultra por día (los días del 24 al 29 de noviembre, en negrita, son los de la veda de encuestas):
@@ -299,3 +300,4 @@ Dinero en apuestas ultra por día (los días del 24 al 29 de noviembre, en negri
 | **2026-11-24** | US$ 2.961 |
 | **2026-11-25** | US$ 652 |
 | **2026-11-26** | US$ 3.799 |
+| **2026-11-27** | US$ 2.055 |
