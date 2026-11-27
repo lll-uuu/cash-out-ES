@@ -1,6 +1,6 @@
 # Cash Out · España: otros mercados
 
-Actualizado el 27 nov, 23:02 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
+Actualizado el 27 nov, 23:03 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
 
 **Apuestas «ultra»** = apuestas a que PP y Vox suman mayoría absoluta, a que suman el 50% de los votos, a que Vox supera el 20% de los votos, a que Vox saca 66 escaños o más, a que Vox gana alguna circunscripción, o a que Santiago Abascal será presidente del Gobierno o recibirá el primer encargo para formarlo.
 
@@ -131,11 +131,11 @@ US$ 16.633 apostados por 185 billeteras en 781 apuestas, desde el 22 oct, 10:34.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| <56 | 39,2% | US$ 2.948 | US$ 3.348 |
+| <56 | 37,7% | US$ 2.948 | US$ 3.348 |
 | 56-60 | 22,5% | US$ 1.070 | US$ 2.105 |
-| 61-65 | 18,5% | US$ 351 | US$ 1.739 |
+| 61-65 | 19% | US$ 351 | US$ 1.739 |
 | 66-70 (ultra) | 12% | US$ 452 | US$ 1.519 |
-| 71-75 (ultra) | 6,9% | US$ 145 | US$ 1.355 |
+| 71-75 (ultra) | 7% | US$ 145 | US$ 1.355 |
 | 76+ (ultra) | 7,5% | US$ 186 | US$ 1.415 |
 
 Las 5 billeteras más grandes ponen el 44,9% del dinero.
@@ -155,9 +155,9 @@ US$ 32.204 apostados por 260 billeteras en 1104 apuestas, desde el 22 oct, 02:27
 |---|---:|---:|---:|
 | <16% | 14,2% | US$ 527 | US$ 3.212 |
 | 16-18% | 42,5% | US$ 3.125 | US$ 1.852 |
-| 18-20% | 34,5% | US$ 2.007 | US$ 1.483 |
+| 18-20% | 34% | US$ 2.007 | US$ 1.483 |
 | 20-22% (ultra) | 7,5% | US$ 2.076 | US$ 4.307 |
-| 22%+ (ultra) | 1,9% | US$ 3.076 | US$ 10.538 |
+| 22%+ (ultra) | 1,8% | US$ 3.076 | US$ 10.538 |
 
 Las 5 billeteras más grandes ponen el 58,6% del dinero.
 Ninguna ballena (US$ 5.000+ en una hora).
