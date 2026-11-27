@@ -1,19 +1,19 @@
 # Cash Out · España: otros mercados
 
-Actualizado el 27 nov, 08:02 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
+Actualizado el 27 nov, 09:02 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
 
 **Apuestas «ultra»** = apuestas a que PP y Vox suman mayoría absoluta, a que suman el 50% de los votos, a que Vox supera el 20% de los votos, a que Vox saca 66 escaños o más, a que Vox gana alguna circunscripción, o a que Santiago Abascal será presidente del Gobierno o recibirá el primer encargo para formarlo.
 
 ## Next Prime Minister of Spain?
 
-US$ 2.319.653 apostados por 3255 billeteras en 21432 apuestas, desde el 26 jun, 23:15.
+US$ 2.331.548 apostados por 3272 billeteras en 21581 apuestas, desde el 26 jun, 23:15.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| Alberto Núñez Feijóo | 90,5% | US$ 591.675 | US$ 265.279 |
-| Pedro Sánchez | 9,5% | US$ 217.686 | US$ 492.412 |
-| Santiago Abascal (ultra) | 0,5% | US$ 18.665 | US$ 283.226 |
-| Carlos Cuerpo | 0,2% | US$ 11.802 | US$ 161.710 |
+| Alberto Núñez Feijóo | 89,5% | US$ 592.452 | US$ 266.431 |
+| Pedro Sánchez | 10,8% | US$ 219.924 | US$ 494.092 |
+| Santiago Abascal (ultra) | 0,4% | US$ 18.665 | US$ 287.974 |
+| Carlos Cuerpo | 0,1% | US$ 11.802 | US$ 163.008 |
 | Isabel Díaz Ayuso | 0,1% | US$ 14.802 | US$ 123.182 |
 | Yolanda Díaz | 0,1% | US$ 12.017 | US$ 35.298 |
 | María Jesús Montero | 0,1% | US$ 157 | US$ 9.998 |
@@ -24,7 +24,7 @@ US$ 2.319.653 apostados por 3255 billeteras en 21432 apuestas, desde el 26 jun, 
 | Borja Sémper | 0,1% | US$ 29 | US$ 9.490 |
 | …y otros 8 resultados | | | |
 
-Las 5 billeteras más grandes ponen el 20,5% del dinero.
+Las 5 billeteras más grandes ponen el 20,4% del dinero.
 Ballenas (US$ 5.000+ en una hora): 24 billeteras, 45 veces.
 
 Apuestas individuales de US$ 1.000 o más:
@@ -74,7 +74,7 @@ US$ 9.317 apostados por 97 billeteras en 433 apuestas, desde el 18 nov, 04:48.
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
 | PP winner, Feijóo PM | 72% | US$ 2.006 | US$ 838 |
-| PSOE winner, Sánchez PM | 6,5% | US$ 389 | US$ 2.754 |
+| PSOE winner, Sánchez PM | 6% | US$ 389 | US$ 2.754 |
 | PSOE winner, Feijóo PM | 20% | US$ 582 | US$ 1.302 |
 | PP winner, Sánchez PM | 1,7% | US$ 89 | US$ 1.358 |
 
@@ -83,13 +83,13 @@ Ninguna ballena (US$ 5.000+ en una hora).
 
 ## Spain General Election: PP + Vox get 50%+ of Vote?
 
-US$ 29.068 apostados por 193 billeteras en 559 apuestas, desde el 14 oct, 15:50.
+US$ 29.099 apostados por 194 billeteras en 561 apuestas, desde el 14 oct, 15:50.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| Sí (ultra) | 29,5% | US$ 12.957 | US$ 16.110 |
+| Sí (ultra) | 29,5% | US$ 12.957 | US$ 16.142 |
 
-Las 5 billeteras más grandes ponen el 48,6% del dinero.
+Las 5 billeteras más grandes ponen el 48,5% del dinero.
 Ninguna ballena (US$ 5.000+ en una hora).
 
 Apuestas individuales de US$ 1.000 o más:
@@ -133,10 +133,10 @@ US$ 14.707 apostados por 169 billeteras en 717 apuestas, desde el 22 oct, 10:34.
 |---|---:|---:|---:|
 | <56 | 39,6% | US$ 2.514 | US$ 3.031 |
 | 56-60 | 19% | US$ 824 | US$ 1.857 |
-| 61-65 | 19,5% | US$ 303 | US$ 1.379 |
+| 61-65 | 18% | US$ 303 | US$ 1.379 |
 | 66-70 (ultra) | 11,5% | US$ 450 | US$ 1.403 |
-| 71-75 (ultra) | 7% | US$ 143 | US$ 1.281 |
-| 76+ (ultra) | 6% | US$ 184 | US$ 1.337 |
+| 71-75 (ultra) | 7,4% | US$ 143 | US$ 1.281 |
+| 76+ (ultra) | 6,5% | US$ 184 | US$ 1.337 |
 
 Las 5 billeteras más grandes ponen el 44,2% del dinero.
 Ninguna ballena (US$ 5.000+ en una hora).
@@ -153,11 +153,11 @@ US$ 31.830 apostados por 257 billeteras en 1083 apuestas, desde el 22 oct, 02:27
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| <16% | 9,9% | US$ 440 | US$ 3.193 |
+| <16% | 10% | US$ 440 | US$ 3.193 |
 | 16-18% | 46% | US$ 3.094 | US$ 1.653 |
 | 18-20% | 35% | US$ 2.007 | US$ 1.460 |
 | 20-22% (ultra) | 8,5% | US$ 2.076 | US$ 4.295 |
-| 22%+ (ultra) | 3,8% | US$ 3.076 | US$ 10.535 |
+| 22%+ (ultra) | 3,6% | US$ 3.076 | US$ 10.535 |
 
 Las 5 billeteras más grandes ponen el 59,3% del dinero.
 Ninguna ballena (US$ 5.000+ en una hora).
@@ -175,13 +175,13 @@ Apuestas individuales de US$ 1.000 o más:
 
 ## Spain General Election: Vox wins a constituency?
 
-US$ 719 apostados por 16 billeteras en 27 apuestas, desde el 22 oct, 01:35.
+US$ 724 apostados por 17 billeteras en 28 apuestas, desde el 22 oct, 01:35.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| Sí (ultra) | 30,5% | US$ 561 | US$ 159 |
+| Sí (ultra) | 30% | US$ 561 | US$ 164 |
 
-Las 5 billeteras más grandes ponen el 89% del dinero.
+Las 5 billeteras más grandes ponen el 88,4% del dinero.
 Ninguna ballena (US$ 5.000+ en una hora).
 
 ## Who will receive the first mandate to form Spain's next government?
