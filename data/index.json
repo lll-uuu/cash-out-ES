@@ -4561,5 +4561,30 @@
    "-vox": 15
   },
   "newAnomalies": []
+ },
+ {
+  "id": "2026-11-28T03Z",
+  "ts": 1795834860,
+  "prices": {
+   "psoe": 0.275,
+   "pp": 0.735,
+   "vox": 0.006
+  },
+  "wallets": {
+   "psoe": 74,
+   "-psoe": 21,
+   "pp": 119,
+   "-pp": 41,
+   "vox": 9,
+   "-vox": 18
+  },
+  "newAnomalies": [
+   {
+    "kind": "whale",
+    "wallet": "0x448861155279dbf833d041b963e3ac854599e319",
+    "usd": 27627.46,
+    "note": "$27,627 bet on PSOE within an hour"
+   }
+  ]
  }
 ]
