@@ -1,19 +1,19 @@
 # Cash Out · España: otros mercados
 
-Actualizado el 28 nov, 04:02 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
+Actualizado el 28 nov, 05:02 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
 
 **Apuestas «ultra»** = apuestas a que PP y Vox suman mayoría absoluta, a que suman el 50% de los votos, a que Vox supera el 20% de los votos, a que Vox saca 66 escaños o más, a que Vox gana alguna circunscripción, o a que Santiago Abascal será presidente del Gobierno o recibirá el primer encargo para formarlo.
 
 ## Next Prime Minister of Spain?
 
-US$ 2.618.779 apostados por 3550 billeteras en 23591 apuestas, desde el 26 jun, 23:15.
+US$ 2.627.261 apostados por 3555 billeteras en 23648 apuestas, desde el 26 jun, 23:15.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| Alberto Núñez Feijóo | 88,5% | US$ 658.063 | US$ 290.881 |
-| Pedro Sánchez | 11,8% | US$ 247.294 | US$ 595.924 |
-| Santiago Abascal (ultra) | 0,2% | US$ 25.324 | US$ 341.155 |
-| Carlos Cuerpo | 0,2% | US$ 12.024 | US$ 170.819 |
+| Alberto Núñez Feijóo | 88,5% | US$ 658.121 | US$ 291.433 |
+| Pedro Sánchez | 11,9% | US$ 249.163 | US$ 596.056 |
+| Santiago Abascal (ultra) | 0,2% | US$ 25.325 | US$ 343.797 |
+| Carlos Cuerpo | 0,1% | US$ 12.024 | US$ 174.046 |
 | Isabel Díaz Ayuso | 0,1% | US$ 14.803 | US$ 123.182 |
 | Yolanda Díaz | 0,1% | US$ 12.017 | US$ 35.298 |
 | María Jesús Montero | 0,1% | US$ 159 | US$ 9.998 |
@@ -24,7 +24,7 @@ US$ 2.618.779 apostados por 3550 billeteras en 23591 apuestas, desde el 26 jun, 
 | Borja Sémper | 0,1% | US$ 29 | US$ 9.490 |
 | …y otros 8 resultados | | | |
 
-Las 5 billeteras más grandes ponen el 20% del dinero.
+Las 5 billeteras más grandes ponen el 20,1% del dinero.
 Ballenas (US$ 5.000+ en una hora): 27 billeteras, 51 veces.
 
 Apuestas individuales de US$ 1.000 o más:
@@ -74,8 +74,8 @@ US$ 10.462 apostados por 106 billeteras en 454 apuestas, desde el 18 nov, 04:48.
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
 | PP winner, Feijóo PM | 71% | US$ 2.173 | US$ 840 |
-| PSOE winner, Sánchez PM | 9,5% | US$ 414 | US$ 2.767 |
-| PSOE winner, Feijóo PM | 18,5% | US$ 604 | US$ 2.211 |
+| PSOE winner, Sánchez PM | 9% | US$ 414 | US$ 2.767 |
+| PSOE winner, Feijóo PM | 17,5% | US$ 604 | US$ 2.211 |
 | PP winner, Sánchez PM | 2,8% | US$ 90 | US$ 1.363 |
 
 Las 5 billeteras más grandes ponen el 33,4% del dinero.
@@ -103,11 +103,11 @@ Apuestas individuales de US$ 1.000 o más:
 
 ## Spain General Election: PP + Vox Majority?
 
-US$ 84.352 apostados por 229 billeteras en 547 apuestas, desde el 12 oct, 20:54.
+US$ 84.360 apostados por 230 billeteras en 548 apuestas, desde el 12 oct, 20:54.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| Sí (ultra) | 83,5% | US$ 62.374 | US$ 21.978 |
+| Sí (ultra) | 83,5% | US$ 62.382 | US$ 21.978 |
 
 Las 5 billeteras más grandes ponen el 60,9% del dinero.
 Ballenas (US$ 5.000+ en una hora): 3 billeteras, 3 veces.
@@ -131,11 +131,11 @@ US$ 16.689 apostados por 189 billeteras en 785 apuestas, desde el 22 oct, 10:34.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| <56 | 34,3% | US$ 2.948 | US$ 3.388 |
+| <56 | 33,9% | US$ 2.948 | US$ 3.388 |
 | 56-60 | 23% | US$ 1.075 | US$ 2.111 |
 | 61-65 | 22,5% | US$ 356 | US$ 1.739 |
 | 66-70 (ultra) | 12% | US$ 452 | US$ 1.519 |
-| 71-75 (ultra) | 7% | US$ 145 | US$ 1.355 |
+| 71-75 (ultra) | 6,9% | US$ 145 | US$ 1.355 |
 | 76+ (ultra) | 7,5% | US$ 186 | US$ 1.415 |
 
 Las 5 billeteras más grandes ponen el 44,8% del dinero.
@@ -155,7 +155,7 @@ US$ 32.237 apostados por 260 billeteras en 1106 apuestas, desde el 22 oct, 02:27
 |---|---:|---:|---:|
 | <16% | 16% | US$ 559 | US$ 3.212 |
 | 16-18% | 44% | US$ 3.125 | US$ 1.853 |
-| 18-20% | 32,5% | US$ 2.007 | US$ 1.483 |
+| 18-20% | 32% | US$ 2.007 | US$ 1.483 |
 | 20-22% (ultra) | 7,5% | US$ 2.076 | US$ 4.307 |
 | 22%+ (ultra) | 1,5% | US$ 3.076 | US$ 10.538 |
 
@@ -190,7 +190,7 @@ US$ 47.468 apostados por 162 billeteras en 1503 apuestas, desde el 18 nov, 03:58
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| Alberto Núñez Feijóo | 85,5% | US$ 5.641 | US$ 807 |
+| Alberto Núñez Feijóo | 86% | US$ 5.641 | US$ 807 |
 | Ester Muñoz | 0,1% | US$ 47 | US$ 2.746 |
 | Miguel Tellado | 0,2% | US$ 56 | US$ 2.602 |
 | María Jesús Montero | 0,1% | US$ 55 | US$ 2.544 |
@@ -216,8 +216,8 @@ Apuestas individuales de US$ 1.000 o más:
 
 ## Quién apuesta a una extrema derecha fuerte
 
-En todos estos mercados, 706 billeteras pusieron US$ 107.319 en apuestas ultra.
-184 de ellas también apuestan en el mercado principal (quién gana más escaños).
+En todos estos mercados, 708 billeteras pusieron US$ 107.329 en apuestas ultra.
+185 de ellas también apuestan en el mercado principal (quién gana más escaños).
 De las 124 que tienen su historial leído, 43 también apostaron en la elección presidencial de Brasil: US$ 575.953 a Flávio Bolsonaro y US$ 399.335 a Lula (59,1% a Flávio).
 
 Dinero en apuestas ultra por día (los días del 24 al 29 de noviembre, en negrita, son los de la veda de encuestas):
@@ -302,4 +302,4 @@ Dinero en apuestas ultra por día (los días del 24 al 29 de noviembre, en negri
 | **2026-11-25** | US$ 652 |
 | **2026-11-26** | US$ 3.799 |
 | **2026-11-27** | US$ 10.668 |
-| **2026-11-28** | US$ 32 |
+| **2026-11-28** | US$ 42 |
