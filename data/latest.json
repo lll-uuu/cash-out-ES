@@ -1,14 +1,14 @@
 {
  "v": 2,
- "id": "2026-11-28T13Z",
- "ts": 1795870860,
- "at": "2026-11-28T13:01:00.000Z",
+ "id": "2026-11-28T14Z",
+ "ts": 1795874460,
+ "at": "2026-11-28T14:01:00.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
   "id": "1138701",
   "title": "Spain General Election Winner",
-  "volume24hr": 296159.15713
+  "volume24hr": 294931.735389
  },
  "palette": "espana",
  "candidates": [
@@ -40,14 +40,6 @@
   "vox": 0.0045
  },
  "priceHistory": [
-  [
-   498829,
-   {
-    "psoe": 0.255,
-    "pp": 0.745,
-    "vox": 0.0045
-   }
-  ],
   [
    498830,
    {
@@ -239,27 +231,35 @@
     "pp": 0.715,
     "vox": 0.0045
    }
+  ],
+  [
+   498854,
+   {
+    "psoe": 0.285,
+    "pp": 0.715,
+    "vox": 0.0045
+   }
   ]
  ],
  "totals": {
   "psoe": {
    "wallets": 86,
-   "usd": 43479.41,
-   "trades": 141
+   "usd": 43546.77,
+   "trades": 149
   },
   "-psoe": {
-   "wallets": 53,
-   "usd": 7841.87,
-   "trades": 109
+   "wallets": 58,
+   "usd": 8809.96,
+   "trades": 145
   },
   "pp": {
-   "wallets": 166,
-   "usd": 52196.43,
-   "trades": 213
+   "wallets": 164,
+   "usd": 51816.31,
+   "trades": 215
   },
   "-pp": {
-   "wallets": 58,
-   "usd": 29624.86,
+   "wallets": 57,
+   "usd": 27792.67,
    "trades": 88
   },
   "vox": {
@@ -268,9 +268,9 @@
    "trades": 10
   },
   "-vox": {
-   "wallets": 27,
-   "usd": 1946.49,
-   "trades": 33
+   "wallets": 26,
+   "usd": 1903.6,
+   "trades": 31
   }
  },
  "anomalies": [
@@ -351,7 +351,7 @@
    "note": "wallet first active 0 h ago, staked $1,230 on PP"
   }
  ],
- "newAnomalies": 1,
+ "newAnomalies": 0,
  "contracts": {
   "collateral": {
    "name": "pUSD collateral token",
@@ -367,111 +367,6 @@
   }
  },
  "trades": [
-  [
-   1795784807,
-   "0x71dcb2f14c45fd5395ef1ee60dc603eb0683dfcd",
-   97.38,
-   "pp",
-   "0xfd44f333dd697ac053495227a97c4cc390608fe370810de52984dfa10ad947de"
-  ],
-  [
-   1795784963,
-   "0x0e84836b5ab6b73254497391b976dd29843a9f5e",
-   3,
-   "psoe",
-   "0x41396a83c1be51464308308fbca38cd5e5b940f337904ef191369cd319a05ebe"
-  ],
-  [
-   1795785179,
-   "0xa67f0de723bcec01b74ede5c61444785a467e165",
-   26,
-   "psoe",
-   "0xb3ac82a87edce07b7e499fd65bdaabe071b04819c12e0773696f30cf62f87a93"
-  ],
-  [
-   1795785224,
-   "0xe7db03504320fe01c909827f517870f4c3d9c00c",
-   28.6,
-   "psoe",
-   "0xfeb2437a7a5c0c5219e58902a5b7999af694eabd467330ca1b67779c54f8d464"
-  ],
-  [
-   1795786160,
-   "0xcdb6fb7cb942d296347fc7793e155242ebda6fe2",
-   15.88,
-   "pp",
-   "0xd1da53bd1476ee42cae0720f4670a6962af2f7db917adb229a9917c58acda0ca"
-  ],
-  [
-   1795786184,
-   "0x3f16ba15a80b3da1d5e6ec331cbae574c33be21f",
-   161.38,
-   "pp",
-   "0x24ad7aecdc16f6438b1cdfc4b5488d511d03c8e4506ff103ded290591724bab4"
-  ],
-  [
-   1795786186,
-   "0xd82f93324c0db0f85240718733f00e37746c0274",
-   10,
-   "psoe",
-   "0x93b960814e94e0e96ea74aec8ead3754cd7cca7e9d7a4a997bd9372af41f8377"
-  ],
-  [
-   1795786337,
-   "0x5a0bf6a3a380204611f91895f5333842d0c69e64",
-   85,
-   "pp",
-   "0x9171115d3fcc8952737e6b1329d93326e327d12a386764f656b71d25f3949543"
-  ],
-  [
-   1795786367,
-   "0x3f16ba15a80b3da1d5e6ec331cbae574c33be21f",
-   79.3,
-   "pp",
-   "0x3fe298e6f36ea38e5beaea1d944b4ab4b4ecc13bc169ea5db0ba7662c9960feb"
-  ],
-  [
-   1795786388,
-   "0xf11a3f75ee49bb60e9d52be094f4e62d6ebb4c46",
-   10,
-   "pp",
-   "0x2bfa0fead6efce556590b66c37315d1f8850c4909bc773f3e10bbc4bda757c0e"
-  ],
-  [
-   1795786549,
-   "0x5eff640e298c6039d0e17f2076c59aa68a24ec23",
-   60,
-   "pp",
-   "0x749f0c97a526045b4a4d40506767dc98251d0b078d9a171a8e7ec54d2a9688e4"
-  ],
-  [
-   1795786568,
-   "0x3ab5ad27c676c4be1218397912eab5396e6de56f",
-   1931.59,
-   "-pp",
-   "0xeb143e7954396ff9a98c5e536646186279c686c01e44ae9610e6b8454dadcdd4"
-  ],
-  [
-   1795786834,
-   "0x40fb16192141abfedc36c824edef3ea583a23cae",
-   4,
-   "pp",
-   "0x5297358f914aa77ab86c7409ef7490feb1ced094875e8126cf2deecb3530592d"
-  ],
-  [
-   1795787204,
-   "0xc1909449bb960a365159b2360570ac4d7319e087",
-   37.9,
-   "-vox",
-   "0x6cc2dfb312a61e7c8cafa342fe13b1abeda6b0128cc592f4585d89929a755564"
-  ],
-  [
-   1795788034,
-   "0xf4fe4aeea49c54aa73ec946ab2eebd02ee42f6e7",
-   4.99,
-   "-vox",
-   "0x95b3a14aa968d8632e4cc743022a2c1814b9fceeac040a5153de1b017e0bd9ff"
-  ],
   [
    1795788317,
    "0x7552e2c57cf8844c740057fd09dea0d7fdc28c26",
@@ -4524,6 +4419,419 @@
    4.12,
    "pp",
    "0x95c11b58568dbf88ef80d9785cf5adb2078109e58199caf6e536d2010797d017"
+  ],
+  [
+   1795870940,
+   "0x1c729dc786d1b3023af5b1ed706735db4174a399",
+   2,
+   "psoe",
+   "0xf880bfe318149206176598403158dc85b380ace9bcc2bf40bc777f04cba6a840"
+  ],
+  [
+   1795870942,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0.01,
+   "-psoe",
+   "0x50c70dbb55b57f55257412503ea745de733d9eba8e7f8838c668531c29ccd806"
+  ],
+  [
+   1795870948,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0,
+   "-psoe",
+   "0x89161c264de62573c42877d89947caf6da3fb219c904e81c3ed11ea32f2dbb0c"
+  ],
+  [
+   1795870948,
+   "0x2f6a5152a5844e10f98614e6551356e20d0687f3",
+   1.45,
+   "psoe",
+   "0xe5c23b528a9236678fc6669e3f8c04793f2ee8ad672e3ec8384f3459994cfd3a"
+  ],
+  [
+   1795870973,
+   "0x7a96c5947857569b18e1ba3b82f751fbb0657ed8",
+   9,
+   "pp",
+   "0x38a22efd38fd01784f9a0e892154ea1f947c0b9d5c8542bcdf90262fa3794f1b"
+  ],
+  [
+   1795871093,
+   "0xc4c4d5ad6cb6ce5d43edbf89e888edac6861569d",
+   20,
+   "pp",
+   "0x8d1f60aaf269184bd6e78660b24105b23e60f681db9e247a732826a21fad38d3"
+  ],
+  [
+   1795871485,
+   "0xd2b94e1cafa5f514e9488afa480fbc902948ba63",
+   19.99,
+   "pp",
+   "0xcf5ab705fdeeb8360ca081cc867ea84c1453dba70a6ed0c1839445da00f87668"
+  ],
+  [
+   1795871486,
+   "0x8b1278bec63d1617db34c37a14c260a4a7c09646",
+   5,
+   "pp",
+   "0x7d899ca6eae920773581a32152e164d373ad0c4390eaaefcca5868d951332fc5"
+  ],
+  [
+   1795871494,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0.06,
+   "-psoe",
+   "0x0079488ccffcc99b52eb70477b8f1606a33671614bc1573c8583860439c82dc9"
+  ],
+  [
+   1795871494,
+   "0x95556ca484e0f50211d4ce7b956f55fe1d6912da",
+   0.03,
+   "-psoe",
+   "0x2adef59de82bc59b41f16653e7daa52aee0afc6a25d84d008f29e31616739e8d"
+  ],
+  [
+   1795871494,
+   "0x43a5b00abac065cdca34a6ebdb879eead1218107",
+   7.8,
+   "psoe",
+   "0x3f39b14382f79a0b185879e1f5b587fd67971ae9a2e96e184fc979d81bbd901d"
+  ],
+  [
+   1795871494,
+   "0xf0ce599882d888a43c4ec380163803133187bf26",
+   20.33,
+   "psoe",
+   "0x3f058a019778030c3fd13370097547832af2850174f8528acef7f89a1505daa8"
+  ],
+  [
+   1795871494,
+   "0x969d1e24dfde273a83f39e54916c78e802a83393",
+   30,
+   "-psoe",
+   "0xb850adc35a8123ed8619287472281224a4941e9f9e566dda2ae2b34f8f3b686c"
+  ],
+  [
+   1795871494,
+   "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
+   864,
+   "-psoe",
+   "0xc3e2127c9a76537e98bd8069a3de4b73fd3c40595537abf5d068b625dcfcb4ed"
+  ],
+  [
+   1795871495,
+   "0x307528b11c1dfbcf87797b3446bea7b2c8e0ae0b",
+   2.81,
+   "psoe",
+   "0xcd0f03bcbfd27c8c80b6fd02a619e32c4f62e6e0921efde29e358db7aa7216d5"
+  ],
+  [
+   1795871495,
+   "0x8a38b73b9f64e51e295ba8153af8dc066a22d420",
+   5,
+   "-psoe",
+   "0xbc86c2ed3ce7715d663193e15e1c3c368021f115b591791385ea814927305786"
+  ],
+  [
+   1795871495,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0.02,
+   "-psoe",
+   "0x123a873533e82992edb1031e9cba125f2f149eae1bcc4099d83ec23b9cd87c6d"
+  ],
+  [
+   1795871495,
+   "0x95556ca484e0f50211d4ce7b956f55fe1d6912da",
+   0.01,
+   "-psoe",
+   "0xa4fa3b2e157bdd50ccede38ff72c170c70191b849c773e47ba4e3a86b5f7f924"
+  ],
+  [
+   1795871497,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0.01,
+   "-psoe",
+   "0x926371a2a1aedbe22bfbd5e6e588a1c1e504f9cc2c843f05b6bfabd53e2e6cb1"
+  ],
+  [
+   1795871497,
+   "0x95556ca484e0f50211d4ce7b956f55fe1d6912da",
+   0,
+   "-psoe",
+   "0x575ae75341305505212952dab5eecf75d20db165e8d9e621036f46e45038ce81"
+  ],
+  [
+   1795871497,
+   "0xc6f3b1d3853f9932a30b36ff24ece648cc3d53c0",
+   1,
+   "-psoe",
+   "0x6a70365dff700ec1a5fca0e059dafba89f9b9e0ddb907c3126e2717a56afdcf6"
+  ],
+  [
+   1795871497,
+   "0xbafd69a6c38f9887a6ec6923a2318ee1a6884898",
+   1,
+   "-psoe",
+   "0x7e9c5455f1c95c38442530d7b770d6adffaa7465fac6c659d76ee34aa018dfcc"
+  ],
+  [
+   1795871501,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0,
+   "-psoe",
+   "0x46649602ae6d230eb56c65d3cc98240e0956fbd7c9f809d1de467df9d5404cdb"
+  ],
+  [
+   1795871501,
+   "0x2f6a5152a5844e10f98614e6551356e20d0687f3",
+   1.45,
+   "psoe",
+   "0x51cc0461b53c22a2d2cbe0d9e4ec9728f475575b54557827c41fa3970b7950f5"
+  ],
+  [
+   1795871503,
+   "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
+   2.16,
+   "-psoe",
+   "0xc5b04e4af3899422e6ebe6a564b27992bd8f96447500f3e26f7b6983f220e4c9"
+  ],
+  [
+   1795871516,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0.01,
+   "-psoe",
+   "0x643f6b04912c95ea9eed21173359ebb9b98db4883d2e3bdde029d5e4b17056a2"
+  ],
+  [
+   1795871516,
+   "0x95556ca484e0f50211d4ce7b956f55fe1d6912da",
+   0.01,
+   "-psoe",
+   "0x9069784b0d929f5d3a42ce7ff7387072a957aa1a7c75fca6c7a753f3d333df03"
+  ],
+  [
+   1795871516,
+   "0x289eed12231d10a1fd9e606acbe1bfe4518c85fd",
+   4.93,
+   "psoe",
+   "0xed733d0a0d503311de631138084eb1332b6895637780240f2231ebead4bc62f5"
+  ],
+  [
+   1795871540,
+   "0x7ca69d966666ba5a6646c7f4136f0d1d8cab9da8",
+   20,
+   "-psoe",
+   "0x8516674ae4a9c3a308c5d063e63231e4b2dd92ec14d5e9114d7648976d868187"
+  ],
+  [
+   1795871585,
+   "0x1946e97c0fbcbf687144f626513df2dee39a6367",
+   11.05,
+   "pp",
+   "0xc1384b0fa9c6e477a63a10b50d55a5803918de7deac4294511cbed63d8c2ef0f"
+  ],
+  [
+   1795871779,
+   "0xf0ce599882d888a43c4ec380163803133187bf26",
+   2.16,
+   "psoe",
+   "0xd5ca33f2c8956895c3588bf3411a4ef6743c1ad88ed511ff51749f6c94c98029"
+  ],
+  [
+   1795871779,
+   "0x1ee9a5fc09665909c0cce297c581703bfbb9197f",
+   28.8,
+   "-psoe",
+   "0x51f956ae7ca3b2721d12561f19c25513d7830c5533b4e5588335b8edd6e73d40"
+  ],
+  [
+   1795871780,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0.01,
+   "-psoe",
+   "0x3a8adf045989afa123d8639c1c2ddd912cad5a9d0672a4c0476669087ad418ad"
+  ],
+  [
+   1795871780,
+   "0x95556ca484e0f50211d4ce7b956f55fe1d6912da",
+   0,
+   "-psoe",
+   "0x83c773f1448281c3375cf2b277e540eefb06da326ca6cdf0ef23b9320c57a195"
+  ],
+  [
+   1795871780,
+   "0x8a38b73b9f64e51e295ba8153af8dc066a22d420",
+   5,
+   "-psoe",
+   "0x7596360a8d04939ed26bea0fd4eace43aa1ecf0f490c8a350f0dc6926204523f"
+  ],
+  [
+   1795871782,
+   "0xbafd69a6c38f9887a6ec6923a2318ee1a6884898",
+   1,
+   "-psoe",
+   "0xca846eeafc42d949cef1236369be53918c04c13caf047e00801a7caa207fbc6b"
+  ],
+  [
+   1795871783,
+   "0x7a96c5947857569b18e1ba3b82f751fbb0657ed8",
+   3,
+   "pp",
+   "0xb31cdb92b54490fe4a0bc62770ce97600fc4f52b9753ff5061eb8fa88f19d6f7"
+  ],
+  [
+   1795871788,
+   "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
+   1.54,
+   "-psoe",
+   "0xd82b9b9f8cfac2208f325108d0001c3d17963a2f093ef99849063934e0017bff"
+  ],
+  [
+   1795871803,
+   "0x8b7abc5da249047f1a13204e058eb9ab80262a54",
+   33,
+   "pp",
+   "0xa3b0bc79ed99e7356da68de5868fb769f7fd3c59255148f7596dfb602d8838f4"
+  ],
+  [
+   1795872076,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0.08,
+   "-psoe",
+   "0x202fd78ba7be68102be419d80546dffdf90a149d5c670d99fad36481e8937360"
+  ],
+  [
+   1795872076,
+   "0x95556ca484e0f50211d4ce7b956f55fe1d6912da",
+   0.04,
+   "-psoe",
+   "0x8f1bb3188a617b78f1241a8b1aab37291f0b0ee42ff94327dbc6d3982739cba8"
+  ],
+  [
+   1795872076,
+   "0x3e1810eca8d32b8350a1a52176dc863b38db9b6d",
+   27,
+   "psoe",
+   "0xe48d8d45557bafa0c2d99618a0a499037ef400fcff66eeacd956a98f2abb9aed"
+  ],
+  [
+   1795872083,
+   "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
+   2.18,
+   "-psoe",
+   "0x7cecd3478aa237cb5d8077e8c7805efbf001307e446634815c7a19e35f7cda81"
+  ],
+  [
+   1795873238,
+   "0x8dcb9e7dba2464c65987a9b78c2c05bef94e6c79",
+   30,
+   "pp",
+   "0x856d7623bd41c6fb2471ee066227d146455426eb256bc05497c30bd8258d9844"
+  ],
+  [
+   1795873261,
+   "0x5b763266add9fb3d8641e1fabcbe411e095b3024",
+   99.4,
+   "-pp",
+   "0x5d3d71438179b289464a6c647f61e9a77ada59840ac2b27d2591474495dd275e"
+  ],
+  [
+   1795873262,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0.11,
+   "pp",
+   "0x1e507f7fb764c3c6e81b3bb9fef30ffcbcfaf230a86d4670f6bb2500800c5c64"
+  ],
+  [
+   1795873270,
+   "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
+   1.67,
+   "pp",
+   "0xa104a1da88c4841daa9fe2534bf2b723b610cb291677d8fb31ea5ac5e719dd01"
+  ],
+  [
+   1795873672,
+   "0x95556ca484e0f50211d4ce7b956f55fe1d6912da",
+   0.03,
+   "-psoe",
+   "0x9765510bb7410d46de97255a723dc881c1e02e496aff97927a903722a0bb89d1"
+  ],
+  [
+   1795873672,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0.08,
+   "-psoe",
+   "0x56ed27033eae8d5bae1dd70e4d2aa862e589d84b7ade43fa342b2b5be4038408"
+  ],
+  [
+   1795873672,
+   "0x6fa106b966b3e348f032a4cbecb51dbf8d1cc963",
+   25.03,
+   "psoe",
+   "0x528c29723ca6ed198762c6a69b5bc22885c0c2a85e1ffe593e3bec598ecc7479"
+  ],
+  [
+   1795873682,
+   "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
+   2.02,
+   "-psoe",
+   "0x7ef116d2095a550e80ace5a94536a038e36f02443142fdb1401846625bdf9631"
+  ],
+  [
+   1795873840,
+   "0xca95e326ed8d4f1d1d40b145c234e407f8b5770f",
+   30,
+   "psoe",
+   "0x6006f638182c00c224e5a629d6265868c365e801ab885cb68c8f9160a8044d78"
+  ],
+  [
+   1795873841,
+   "0x95556ca484e0f50211d4ce7b956f55fe1d6912da",
+   0.04,
+   "-psoe",
+   "0x9ea760465be8a113e28f658e524b4137079ba8f5d15c57fa34e4368d9fbc5e71"
+  ],
+  [
+   1795873841,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0.09,
+   "-psoe",
+   "0x3b600deb62a16196f9ac3a6f903bd017a0e03757d2d7d0879dc940f76b25d0b2"
+  ],
+  [
+   1795873844,
+   "0xe054e6347eb422b7fc512925be49c9b1e1100834",
+   1.4,
+   "-psoe",
+   "0x41ae8726b8551ae487d8b106909530aa9d4d41bedfa0afb1746e0bc4ddc6d530"
+  ],
+  [
+   1795873849,
+   "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
+   2.42,
+   "-psoe",
+   "0x6c403f42b3f506e1529fc8a0e4d1c55de6d59d3ae51c063aaabcd8575ef0f095"
+  ],
+  [
+   1795873936,
+   "0x95556ca484e0f50211d4ce7b956f55fe1d6912da",
+   0.01,
+   "-psoe",
+   "0xbc0653ae6d488f547007cd7a621cfb8e454e4899080a0139aa8b52120ba7a557"
+  ],
+  [
+   1795873936,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0.03,
+   "-psoe",
+   "0x5688ee91dd0c624c1f68ef6483c260a7b1a24c98837a8f70345ece381ea14a56"
+  ],
+  [
+   1795873936,
+   "0x4fb7fdcb09f90385f807fbf7dea48a7e355e6c16",
+   10,
+   "psoe",
+   "0x0928ccf3ea49ef6ea5faf7db8794d9aaef8fb3798fa3fe693cf39dc182573076"
   ]
  ]
 }
