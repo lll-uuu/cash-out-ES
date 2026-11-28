@@ -4625,7 +4625,7 @@
  },
  {
   "id": "2026-11-28T06Z",
-  "ts": 1795845660,
+  "ts": 1795845757,
   "prices": {
    "psoe": 0.275,
    "pp": 0.735,
@@ -4639,13 +4639,6 @@
    "vox": 7,
    "-vox": 27
   },
-  "newAnomalies": [
-   {
-    "kind": "whale",
-    "wallet": "0x096f5aa775c6f9904508625a5c3836ffedb9194d",
-    "usd": 6500,
-    "note": "$6,500 bet on PP within an hour"
-   }
-  ]
+  "newAnomalies": []
  }
 ]
