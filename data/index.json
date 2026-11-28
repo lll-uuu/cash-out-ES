@@ -4586,5 +4586,23 @@
     "note": "$27,627 bet on PSOE within an hour"
    }
   ]
+ },
+ {
+  "id": "2026-11-28T04Z",
+  "ts": 1795838460,
+  "prices": {
+   "psoe": 0.275,
+   "pp": 0.735,
+   "vox": 0.0055
+  },
+  "wallets": {
+   "psoe": 78,
+   "-psoe": 21,
+   "pp": 119,
+   "-pp": 45,
+   "vox": 7,
+   "-vox": 19
+  },
+  "newAnomalies": []
  }
 ]
