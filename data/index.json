@@ -4701,5 +4701,23 @@
     "note": "wallet first active 13 h ago, staked $8,067 against PP"
    }
   ]
+ },
+ {
+  "id": "2026-11-28T10Z",
+  "ts": 1795860060,
+  "prices": {
+   "psoe": 0.285,
+   "pp": 0.715,
+   "vox": 0.0045
+  },
+  "wallets": {
+   "psoe": 87,
+   "-psoe": 45,
+   "pp": 141,
+   "-pp": 54,
+   "vox": 8,
+   "-vox": 28
+  },
+  "newAnomalies": []
  }
 ]
