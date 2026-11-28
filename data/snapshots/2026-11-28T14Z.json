@@ -1,8 +1,8 @@
 {
  "v": 2,
  "id": "2026-11-28T14Z",
- "ts": 1795874460,
- "at": "2026-11-28T14:01:00.000Z",
+ "ts": 1795874572,
+ "at": "2026-11-28T14:02:52.000Z",
  "final": false,
  "event": {
   "slug": "spain-general-election-winner",
@@ -40,14 +40,6 @@
   "vox": 0.0045
  },
  "priceHistory": [
-  [
-   498830,
-   {
-    "psoe": 0.255,
-    "pp": 0.745,
-    "vox": 0.0035
-   }
-  ],
   [
    498831,
    {
@@ -243,19 +235,19 @@
  ],
  "totals": {
   "psoe": {
-   "wallets": 86,
-   "usd": 43546.77,
-   "trades": 149
+   "wallets": 87,
+   "usd": 43556.73,
+   "trades": 150
   },
   "-psoe": {
    "wallets": 58,
-   "usd": 8809.96,
-   "trades": 145
+   "usd": 8811.61,
+   "trades": 148
   },
   "pp": {
-   "wallets": 164,
-   "usd": 51816.31,
-   "trades": 215
+   "wallets": 165,
+   "usd": 51826.31,
+   "trades": 216
   },
   "-pp": {
    "wallets": 57,
@@ -4832,6 +4824,41 @@
    10,
    "psoe",
    "0x0928ccf3ea49ef6ea5faf7db8794d9aaef8fb3798fa3fe693cf39dc182573076"
+  ],
+  [
+   1795874548,
+   "0x6597b6c72d82b0b88d04e8a32912983998efd8bd",
+   10,
+   "pp",
+   "0x9b19ffcb194babf96e5593a20f2f407ffc71d6f4c5acf82823ca2250394f9979"
+  ],
+  [
+   1795874549,
+   "0x63da4c4c0e904e14b5a6dfe78ae6ae90d6dd586b",
+   0.03,
+   "-psoe",
+   "0xf520065243ce45a8abcb6f906b53c6cac16335fc223963d4446eafb07f3d3385"
+  ],
+  [
+   1795874549,
+   "0x95556ca484e0f50211d4ce7b956f55fe1d6912da",
+   0.01,
+   "-psoe",
+   "0x7f82985eef4b863a3d4d38c4bd2cdc2bad2cabc3c604519bb94b2574cb047251"
+  ],
+  [
+   1795874549,
+   "0xffa067c5a5ae8f4451f00c06aaed0e7be98ccd4a",
+   9.96,
+   "psoe",
+   "0xd675e69b219814323e59360cda456b1593d91887d718039041d771bd5e8b7518"
+  ],
+  [
+   1795874558,
+   "0x08138ca9a2bc63efd2549820a4bfce6e2d9e908f",
+   1.61,
+   "-psoe",
+   "0x568a775b08e6a176cb861dd00670845a7cf5f3d37dad9657a83d4eefc9189788"
   ]
  ]
 }
