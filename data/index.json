@@ -4755,5 +4755,30 @@
    "-vox": 28
   },
   "newAnomalies": []
+ },
+ {
+  "id": "2026-11-28T13Z",
+  "ts": 1795870860,
+  "prices": {
+   "psoe": 0.285,
+   "pp": 0.715,
+   "vox": 0.0045
+  },
+  "wallets": {
+   "psoe": 86,
+   "-psoe": 53,
+   "pp": 166,
+   "-pp": 58,
+   "vox": 8,
+   "-vox": 27
+  },
+  "newAnomalies": [
+   {
+    "kind": "fresh",
+    "wallet": "0x63159c95640a916c976a999ada40c7ab82a0c59b",
+    "usd": 1229.71,
+    "note": "wallet first active 0 h ago, staked $1,230 on PP"
+   }
+  ]
  }
 ]
