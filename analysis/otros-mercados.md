@@ -1,18 +1,18 @@
 # Cash Out · España: otros mercados
 
-Actualizado el 28 nov, 15:02 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
+Actualizado el 28 nov, 15:04 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
 
 **Apuestas «ultra»** = apuestas a que PP y Vox suman mayoría absoluta, a que suman el 50% de los votos, a que Vox supera el 20% de los votos, a que Vox saca 66 escaños o más, a que Vox gana alguna circunscripción, o a que Santiago Abascal será presidente del Gobierno o recibirá el primer encargo para formarlo.
 
 ## Next Prime Minister of Spain?
 
-US$ 2.682.157 apostados por 3716 billeteras en 24331 apuestas, desde el 26 jun, 23:15.
+US$ 2.682.187 apostados por 3717 billeteras en 24334 apuestas, desde el 26 jun, 23:15.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| Alberto Núñez Feijóo | 88% | US$ 667.680 | US$ 298.758 |
-| Pedro Sánchez | 12,2% | US$ 254.670 | US$ 607.827 |
-| Santiago Abascal (ultra) | 0,6% | US$ 29.267 | US$ 359.194 |
+| Alberto Núñez Feijóo | 87,5% | US$ 667.692 | US$ 298.758 |
+| Pedro Sánchez | 12,3% | US$ 254.670 | US$ 607.836 |
+| Santiago Abascal (ultra) | 0,6% | US$ 29.267 | US$ 359.204 |
 | Carlos Cuerpo | 0,1% | US$ 12.052 | US$ 175.392 |
 | Isabel Díaz Ayuso | 0,1% | US$ 14.815 | US$ 123.182 |
 | Yolanda Díaz | 0,1% | US$ 12.017 | US$ 35.298 |
@@ -131,10 +131,10 @@ US$ 16.898 apostados por 191 billeteras en 800 apuestas, desde el 22 oct, 10:34.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| <56 | 36,3% | US$ 2.984 | US$ 3.424 |
-| 56-60 | 28,5% | US$ 1.158 | US$ 2.129 |
-| 61-65 | 22% | US$ 361 | US$ 1.739 |
-| 66-70 (ultra) | 8% | US$ 456 | US$ 1.519 |
+| <56 | 36,5% | US$ 2.984 | US$ 3.424 |
+| 56-60 | 29% | US$ 1.158 | US$ 2.129 |
+| 61-65 | 21,5% | US$ 361 | US$ 1.739 |
+| 66-70 (ultra) | 8,5% | US$ 456 | US$ 1.519 |
 | 71-75 (ultra) | 4,7% | US$ 145 | US$ 1.365 |
 | 76+ (ultra) | 5,5% | US$ 186 | US$ 1.434 |
 
@@ -156,7 +156,7 @@ US$ 32.353 apostados por 264 billeteras en 1113 apuestas, desde el 22 oct, 02:27
 | <16% | 19,4% | US$ 569 | US$ 3.212 |
 | 16-18% | 44,5% | US$ 3.125 | US$ 1.853 |
 | 18-20% | 28,5% | US$ 2.007 | US$ 1.483 |
-| 20-22% (ultra) | 3,9% | US$ 2.076 | US$ 4.313 |
+| 20-22% (ultra) | 4,1% | US$ 2.076 | US$ 4.313 |
 | 22%+ (ultra) | 1,3% | US$ 3.126 | US$ 10.588 |
 
 Las 5 billeteras más grandes ponen el 58,4% del dinero.
