@@ -1,6 +1,6 @@
 # Cash Out · España: otros mercados
 
-Actualizado el 28 nov, 03:02 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
+Actualizado el 28 nov, 03:03 (hora de Madrid). La imagen marmolada sigue el mercado de quién gana más escaños; aquí se analizan los mercados de Polymarket que apuestan específicamente sobre la fuerza de la extrema derecha. Ninguna dirección de billetera aparece aquí, y los grupos de menos de 3 billeteras se omiten.
 
 **Apuestas «ultra»** = apuestas a que PP y Vox suman mayoría absoluta, a que suman el 50% de los votos, a que Vox supera el 20% de los votos, a que Vox saca 66 escaños o más, a que Vox gana alguna circunscripción, o a que Santiago Abascal será presidente del Gobierno o recibirá el primer encargo para formarlo.
 
@@ -11,7 +11,7 @@ US$ 2.616.673 apostados por 3538 billeteras en 23547 apuestas, desde el 26 jun, 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
 | Alberto Núñez Feijóo | 88,5% | US$ 658.037 | US$ 290.657 |
-| Pedro Sánchez | 11,6% | US$ 246.871 | US$ 595.892 |
+| Pedro Sánchez | 11,3% | US$ 246.871 | US$ 595.892 |
 | Santiago Abascal (ultra) | 0,2% | US$ 25.324 | US$ 340.462 |
 | Carlos Cuerpo | 0,2% | US$ 12.010 | US$ 170.124 |
 | Isabel Díaz Ayuso | 0,1% | US$ 14.803 | US$ 123.182 |
@@ -131,7 +131,7 @@ US$ 16.689 apostados por 189 billeteras en 785 apuestas, desde el 22 oct, 10:34.
 
 | Resultado | Probabilidad ahora | A favor | En contra |
 |---|---:|---:|---:|
-| <56 | 32,8% | US$ 2.948 | US$ 3.388 |
+| <56 | 33% | US$ 2.948 | US$ 3.388 |
 | 56-60 | 23% | US$ 1.075 | US$ 2.111 |
 | 61-65 | 22,5% | US$ 356 | US$ 1.739 |
 | 66-70 (ultra) | 12% | US$ 452 | US$ 1.519 |
